@@ -1,0 +1,1134 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        
+<!-- LIBGERAL - INICIO ----------------------------------------------------- -->
+<!-- DWR -->
+<script type="text/javascript" src="/atendimento/ruxitagentjs_ICA7NVfghqrux_10317250630095842.js" data-dtconfig="app=a3603e41522ebf2c|cuc=sa0zjhf5|owasp=1|mel=100000|featureHash=ICA7NVfghqrux|dpvc=1|md=mdcc1=abody ^rb div:nth-child(1) ^rb div.empresa ^rb div.info ^rb h1,mdcc3=a.info ^rb h1:nth-child(2),mdcc4=a#UnidadeNova|lastModification=1752609465934|srsr=30000|tp=500,50,0|rdnt=1|uxrgce=1|agentUri=/atendimento/ruxitagentjs_ICA7NVfghqrux_10317250630095842.js|reportUrl=/atendimento/rb_bf26099sov|rid=RID_-933134477|rpid=-21537445|domain=dasa.com.br"></script><script type='text/javascript' src='/atendimento/dwr/engine.js'></script>
+<script type='text/javascript' src='/atendimento/dwr/util.js'></script> 
+<script type='text/javascript' src='/atendimento/dwr/interface/usuarioDLO.js'></script>
+<!-- ----------------------------------------------------------------------- -->
+<!-- JQuery -->
+<script type="text/javascript" src="/atendimento/scripts/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="/atendimento/scripts/jquery.meio.mask-1.1.5.js"></script>
+<script type="text/javascript" src="/atendimento/scripts/jquery.ui.datepicker-pt-BR.js"></script>
+<script type="text/javascript" src="/atendimento/scripts/jquery-ui.js"></script>
+<script type="text/javascript" src="/atendimento/scripts/util.js"></script>
+<script type="text/javascript" src="/atendimento/scripts/jquery.cookie.js"></script>
+<!-- ----------------------------------------------------------------------- -->
+<!-- Folhas de Estilo -->
+<link type="text/css" href="/atendimento/css/marcas.css" rel="stylesheet"/>
+<link type="text/css" href="/atendimento/css/estilos.css" rel="stylesheet"/>
+<link type="text/css" href="/atendimento/css/buttons.css" rel="stylesheet"/>
+<link type="text/css" href="/atendimento/css/jquery-ui.css" rel="stylesheet" />
+<!-- ----------------------------------------------------------------------- -->
+<script type="text/javascript">
+    jQuery.noConflict();
+
+    //04/04/2017 - Inclusao de código por solicitacao da equipe de arquitetura
+    history.pushState(null, null, document.URL);
+    window.addEventListener('popstate', function () {
+        
+        history.pushState(null, null, document.URL);
+    });
+
+    jQuery.curCSS = function(element, prop, val) {
+        return jQuery(element).css(prop, val);
+    };
+
+</script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w,d,s,l,i)
+    {   w[l]=w[l]||[];
+        w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl = l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+    })(window, document, 'script', 'dataLayer','GTM-PFC7HTW4');
+</script>
+<!-- Fim Google Tag Manager -->
+<!-- LIBGERAL - FIM -------------------------------------------------------- -->
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="/atendimento/css/login/geralLogin.css">
+        <link rel="stylesheet" type="text/css" href="/atendimento/css/login/glieseLogin.css"/>
+        <link rel="stylesheet" type="text/css" href="/atendimento/css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="/atendimento/css/geral.css"/>
+        <link rel="stylesheet" type="text/css" href="/atendimento/css/strengthForcer.css"/>
+
+        <meta http-equiv=pragma content=no-cache>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <!--<script type='text/javascript' src="Admissao/scripts/Consulta.js"></script>-->
+        <script type='text/javascript' src='/atendimento/dwr/interface/utilDLO.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/interface/usuarioDLO.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/interface/empresaDAO.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/interface/pcDLO.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/interface/labHospitalDLO.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/engine.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/util.js'></script>
+        <script type='text/javascript' src='/atendimento/dwr/interface/rAjax.js'></script>
+        <script type="text/javascript" src="/atendimento/scripts/lsfUtil.js"></script>
+        <script type="text/javascript" src="/atendimento/scripts/index.js"></script>
+        <script type="text/javascript" src="/atendimento/scripts/trocaSenha.js"></script>
+        <script type="text/javascript" src="/atendimento/scripts/trocaEmpresaUnidade.js"></script>
+        <script type="text/javascript" src="/atendimento/scripts/autoRedimensionar.js"></script>
+        <script type="text/javascript" src="/atendimento/dwr/interface/unidadeAtendimentoDAO.js"></script>
+        <script type="text/javascript" src="/atendimento/scripts/jquery.tinyscrollbar.min.js"></script>
+        <script type="text/javascript" src="/atendimento/scripts/trocaSenhaStrengthForcer.js"></script>
+
+        <script type="text/javascript">
+            //var sessao = "63D989E143673B1A0F4370F97FD45EAA.instance01";
+
+            /* USUARIO */
+            usuarioSession = new Object();
+
+            usuarioSession.identificacao = "F177474357";
+            usuarioSession.nome = "Daniel";
+            usuarioSession.setor = "RECE";
+            usuarioSession.mnemonicoPc = "192";
+            usuarioSession.empresaInterna = "16";
+            usuarioSession.codLabDal = "null";
+            usuarioSession.setormodal = "";
+            usuarioSession.atividademodal = "";
+            usuarioSession.funcao = "RCP";
+
+
+            /*POSTO DE COLETA DO USUARIO */
+            pcSession = new Object();
+            pcSession.afinidade = "1";
+            pcSession.atendeLaboratorio = "0";
+            pcSession.bairro = "Guadalupe";
+            pcSession.bloqueiaImpressora = "N";
+            pcSession.cep = "21670000";
+            pcSession.cgc = "null";
+            pcSession.codigoCnes = "7834675";
+            pcSession.codigoEtiquetaPosto = "0";
+            pcSession.codigoFoccus = "null";
+            pcSession.complemento = "Loja 103";
+            pcSession.controleEstacao = "null";
+            pcSession.ddd = "21";
+            pcSession.enderecoLaudo = "@";
+            pcSession.estado = "RJ";
+            pcSession.fax = "@";
+            pcSession.fonteProtocolo = "1";
+            pcSession.grupoAdmissao = "04";
+            pcSession.horarioEntregaFim = "130000";
+            pcSession.horarioEntregaInicio = "070000";
+            pcSession.horarioSabadoFim = "130000";
+            pcSession.horarioSabadoInicio = "070000";
+            pcSession.hospitalAreaTecnica = "null";
+            pcSession.impCarteiroAdm = "0";
+            pcSession.impressoraCartao = "@";
+            pcSession.imprimeCartaoCip = "0";
+            pcSession.imprimeNotaFiscal = "0";
+            pcSession.imprimeRps = "1";
+            pcSession.informatizado = "1";
+            pcSession.inscricaoEstadual = "null";
+            pcSession.internet = "null";
+            pcSession.laudoHtml = "0";
+            pcSession.liberacaoAutomatica = "null";
+            pcSession.listaMeioEnvio = "null";
+            pcSession.locPosto = "@";
+            pcSession.logradouro = "Av. Brasil";
+            pcSession.maquinaImagem = "null";
+            pcSession.megaStore = "null";
+            pcSession.meioResDefault = "null";
+            pcSession.mnemonico = "192";
+            pcSession.municipio = "Rio de Janeiro";
+            pcSession.nome = "Bronstein - Guadalupe";
+            pcSession.nomeLaudo = "null";
+            pcSession.numero = "22155";
+            pcSession.possuiMaquinaSul = "0";
+            pcSession.propaganda = "@";
+            pcSession.protocoloPreImpressao = "1";
+            pcSession.razaoSocial = "null";
+            pcSession.recebeDisquete = "";
+            pcSession.recebeLaudo = "N";
+            pcSession.regiao = "9";
+            pcSession.responsavel = "Natalia Pereira dos Santos";
+            pcSession.servidorPrincipal = "lsfps11";
+            pcSession.solicitaGrafico = "0";
+            pcSession.telefone = "@";
+            pcSession.telefoneLaudo = "(21) 22278080";
+            pcSession.tipoPosto = "P";
+            pcSession.tipoUnidade = "1";
+            pcSession.unidadeRealizacaoExame = "MRJ";
+            pcSession.empresa = "16";
+            pcSession.usaTotem = "null";
+            pcSession.solToken = false;
+            pcSession.numeroMunicipioFiscal = "136";
+            pcSession.timeZone =  null;
+            /*fmb31082009 - Laboratorio de usuario DAL*/
+
+            lbSession = new Object();
+            
+            lbSession.convenio = "";
+            lbSession.codLaboratorio = "";
+            lbSession.logradouro = "";
+            lbSession.cep = "";
+            lbSession.numero = "";
+            lbSession.complemento = "";
+            lbSession.bairro = "";
+            lbSession.municipio = "";
+            lbSession.estado = "";
+            lbSession.ddd = "";
+            lbSession.email = "";
+            lbSession.fax = "";
+
+            
+
+            var contextPath = '/atendimento';
+
+            //SuckerTree Horizontal Menu (Sept 14th, 06)
+            //By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+            var menuids = ["menuPrincipal"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+            function buildsubmenus_horizontal() {
+                for (var i = 0; i < menuids.length; i++) {
+                    try {
+                        var ultags = document.getElementById(menuids[i]).getElementsByTagName("ul")
+                        for (var t = 0; t < ultags.length; t++) {
+                            if (ultags[t].parentNode.parentNode.id == menuids[i]) { //if this is a first level submenu
+                                ultags[t].style.top = ultags[t].parentNode.offsetHeight + "px" //dynamically position first level submenus to be height of main menu item
+                                ultags[t].parentNode.getElementsByTagName("a")[0].className = "mainfoldericon"
+                            } else { //else if this is a sub level menu (ul)
+                                ultags[t].style.left = ultags[t - 1].getElementsByTagName("a")[0].offsetWidth + "px" //position menu to the right of menu item that activated it
+                                ultags[t].parentNode.getElementsByTagName("a")[0].className = "subfoldericon"
+                            }
+                            ultags[t].parentNode.onmouseover = function () {
+                                this.getElementsByTagName("ul")[0].style.visibility = "visible"
+                            }
+                            ultags[t].parentNode.onmouseout = function () {
+                                this.getElementsByTagName("ul")[0].style.visibility = "hidden"
+                            }
+                        }
+                    } catch (e) {
+
+                    }
+                }
+            }
+
+            if (window.addEventListener) {
+                //window.addEventListener("load", buildsubmenus_horizontal, false)
+            } else if (window.attachEvent)
+                window.attachEvent("onload", buildsubmenus_horizontal)
+
+            function MostraOpcao(titulo) {
+                document.getElementById("spanTituloOpcao").innerHTML = titulo;
+                document.title = titulo;
+            }
+            function centralizaEtiqueta() {
+                var etiqueta = jQuery('#divEtiqueta');
+                etiqueta.css({top: '50%', left: '50%', margin: '-' + ($('#myDiv').height() / 2) + 'px 0 0 -' + ($('#myDiv').width() / 2) + 'px'});
+            }
+            var selecionado;
+            function selecionaMenu(obj, ref) {
+                try {
+                    //$(selecionado).style.backgroundColor = "#FFF";
+                    //$(selecionado).style.color = "#000";
+                    jQuery(selecionado).removeClass();
+                    jQuery(selecionado).toggleClass("menu");
+                } catch (e) {
+                }
+                jQuery(obj).removeClass("selecionado");
+                jQuery(obj).toggleClass("selecionado");
+                selecionado = obj;
+
+            }
+        </script>
+        <meta charset="iso-8859-1" />
+        <title>Sistema de Atendimento</title>
+    </head>
+    
+
+    <body onload="iniciarIndexPrincipal();redimensionarIframes();passwordStrengthForcer();" style="overflow-y: scroll">
+
+        <!--center-->
+        <div class="cabecalho">
+            <!--header class="cabecalho"-->
+            <div class="menuTopo">
+                <ul>
+                    <li>
+                        <a  class="icone sair" href="/atendimento/logout">Sair </a>
+                    </li>
+                    <li>
+                        <a  class="icone trocarSenha" href="#" onclick="mostraTrocarSenha()">Trocar senha</a>
+                    </li>
+                    <li>
+                        <a  class="icone novaPagina" target="_blank" href='http://atende.dasa.com.br/atendimento/'
+                            title="Clique para abrir uma nova janela. Use CTRL+click para abrir em nova aba.">Nova pagina</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="version.jsp">
+                            <span>Version: 25.05.28_174.b769</span>
+                            <span>Build: 2025-05-27 20:41</span>
+                            <span>Host: 21 IP: 105</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="empresa">
+                <div class="info">
+                    <span>
+                        
+                        Boa noite!
+                    </span>
+                    <h1>F177474357 - Daniel</h1>
+                    <p id="spanTituloOpcao"></p>
+                    <div id="divTituloOpcao" style="margin-top: 10px">&nbsp;
+
+                    </div>
+                    <!--p>Admissao - Online</p-->
+                </div>
+                <div class="dataTopo">
+                    <span>
+                        Data:24/07/2025
+                    </span> -
+                    <span id="data">
+
+                    </span>
+                    <!--div id="horaE">
+
+                    </div-->
+                    <!--input type="text" id="horaE" style="width:60px" readonly><br-->
+                    <input type="hidden" id="hora" value="21:51:24" >
+                </div>
+                 <div id="metricas" class="metricas" style="visibility : hidden;">
+                    <table>
+
+                        <tr>
+                            <th></th>
+                            <th>Ontem</th>
+                            <th></th>
+                            <th>Meta diaria</th>
+                            <th>|</th>
+                            <th>Até ontem</th>
+                            <th> </th>
+                            <th>Meta mensal</th>
+                        </tr>
+                        <tr  style="text-align: center">
+                            <td> <a>Check-in</a></td>
+                            <td> <a id ="metaOntem"></a></td>
+                            <td><a> X </a></td>
+                            <td><a id ="metaMetaDiaria"></a></td>
+                            <td><a> | </a></td>
+                            <td><a id ="metaAteOntem"></a></td>
+                            <td><a> X </a></td>
+                            <td><a id ="metaMensal"></a></td>
+
+                         </tr>
+                          <tr  style="text-align: center">
+                            <td> <a>T2</a></td>
+                            <td> <a id ="metaOntemT2"></a></td>
+                            <td><a> X </a></td>
+                            <td><a id ="metaMetaDiariaT2"></a></td>
+                            <td><a> | </a></td>
+                            <td><a id ="metaAteOntemT2"></a></td>
+                            <td><a> X </a></td>
+                            <td><a id ="metaMensalT2"></a></td>
+
+                         </tr>
+                    </table>
+                </div>
+                <div class="unidade">
+                        <ul>
+                            <li>
+                                <span>
+                                    <a href="javascript:void(0)"
+                                       onclick="trocaEmpresaController.exibe()"
+                                       class="linkTrocaSenha" title="Trocar a Unidade de Atendimento">Unidade:</a>
+                                    <a href="javascript:void(0)" id="UnidadeNova" onclick="trocaEmpresaController.exibe()"></a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a  style="text-decoration: none;" title="Código CNES">CNES:</a>
+                                    <a id="CnesNova"></a>
+                                </span>
+                            </li>
+                        </ul>
+                    <!--<p>Unidade Original: SED</p>-->
+                </div>
+            </div>
+        </div>
+        <!--/header-->
+        <div align="center" class="cabecalho">
+            <table border="0" style="width: 1000px; height: 640px" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="100%" align="right" bgcolor="#009999">
+                        <div style="position:absolute;height: 0px">
+                            <center>
+                                <span id="urlSistema">
+                                </span>
+                            </center>
+                            <!--div id="divTituloOpcao" style="margin-top: 10px">&nbsp;
+                                <span id="spanTituloOpcao">Teste</span>
+                            </div-->
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div id="menuPrncpl" class="mPrincipal">
+                            <ul class="menu" id="idMenu">
+                                <li>
+<a href='#' id="linkTriagem">Triagem</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="triagem-inclus&atilde;o" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Triagem - Inclusao");selecionaMenu($("linkTriagem"),this);'  href='Admissao/index_triagem.jsp?usu=F177474357&opcaoAdmissao=mnuTriInc&tituloOpcao=Triagem - Inclusao' id='mnuTriInc'>Inclus&atilde;o</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkAdmissao">Admiss&atilde;o</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-on_line" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - On Line");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/index.jsp?usu=F177474357&opcaoAdmissao=mnuAtdAdm&tituloOpcao=Admissao - On Line' id='mnuAtdAdm'>On Line</a>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-off_line" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Off-Line");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/index.jsp?usu=F177474357&opcaoAdmissao=mnuAtdAdf&tituloOpcao=Admissao - Off-Line' id='mnuAtdAdf'>Off-Line</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Estatísticas&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-estatísticas-atendimento_por_período" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Estatística de atendimento por período");selecionaMenu($("linkAdmissao"),this);'  href='Estatisticas/atendimentoPeriodo.jsp?usu=F177474357&opcaoAdmissao=estatendimentoperiodo&tituloOpcao=Admissao - Estatística de atendimento por período' id='estatendimentoperiodo'>Atendimento Por Período</a>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-estatísticas-atendimento_geral" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Estatística de atendimento geral");selecionaMenu($("linkAdmissao"),this);'  href='Estatisticas/atendimentoExameSetorConvenio.jsp?usu=F177474357&opcaoAdmissao=estatisticaAtendimentoGeral&tituloOpcao=Admissao - Estatística de atendimento geral' id='estatisticaAtendimentoGeral'>Atendimento Geral</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Pre-Admissao&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-pre_admissao-on_line" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Pre-Admissao On Line");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/index.jsp?usu=F177474357&opcaoAdmissao=mnuAtdPraOnl&tituloOpcao=Admissao - Pre-Admissao On Line' id='mnuAtdPraOnl'>On Line</a>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-pre_admissao-off_line" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Pre-Admissao Off Line");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/index.jsp?usu=F177474357&opcaoAdmissao=mnuAtdPraOff&tituloOpcao=Admissao - Pre-Admissao Off Line' id='mnuAtdPraOff'>Off Line</a>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-pre_admissao-ativa_pre_admissão" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Ativa Pre-admissão");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/preAdmissao.jsp?usu=F177474357&opcaoAdmissao=mnuAtdPraAtiv&tituloOpcao=Admissao - Ativa Pre-admissão' id='mnuAtdPraAtiv'>Ativa Pre-admissão</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatórios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-pre_admissao-relatórios-por_posto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Pré-admissão por Posto");selecionaMenu($("linkAdmissao"),this);'  href='Relatorios/Atendimento/preAdmitidosPorPosto.jsp?usu=F177474357&opcaoAdmissao=relPreAdmPorPosto&tituloOpcao=Admissao - Pré-admissão por Posto' id='relPreAdmPorPosto'>Por Posto</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-agendamentos_/_check_in" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Agendamentos / Check-in");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/agendamentoOnline.jsp?usu=F177474357&opcaoAdmissao=mnuAgOnline&tituloOpcao=Admissao - Agendamentos / Check-in' id='mnuAgOnline'>Agendamentos / Check-in</a>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-tratativa_de_agendamentos" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Tratativa de Agendamentos T2=0");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/tratativaAgendamentos.jsp?usu=F177474357&opcaoAdmissao=mnmTratativaAgendamentos&tituloOpcao=Admissao - Tratativa de Agendamentos T2=0' id='mnmTratativaAgendamentos'>Tratativa de Agendamentos</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Hospitais&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-hospitais-hosp_online" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Hosp. Online");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/index.jsp?usu=F177474357&opcaoAdmissao=mnuHospitalOnline&tituloOpcao=Admissao - Hosp. Online' id='mnuHospitalOnline'>Hosp. Online</a>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-hospitais-hosp_offline" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Hosp. Offline");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/index.jsp?usu=F177474357&opcaoAdmissao=mnuHospOff&tituloOpcao=Admissao - Hosp. Offline' id='mnuHospOff'>Hosp. Offline</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-pré_atendimento" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Pré Atendimento");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/preAtendimento.jsp?usu=F177474357&opcaoAdmissao=mnuAtdPre&tituloOpcao=Admissao - Pré Atendimento' id='mnuAtdPre'>Pré Atendimento</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatórios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-relatórios-novo_fechamento_de_caixa" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Novo Fechamento de Caixa");selecionaMenu($("linkAdmissao"),this);'  href='Relatorios/Atendimento/Fechamento_Caixa_Des.jsp?usu=F177474357&opcaoAdmissao=mnuNovoFechamentoCaixa&tituloOpcao=Admissao - Novo Fechamento de Caixa' id='mnuNovoFechamentoCaixa'>Novo Fechamento de Caixa</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="admiss&atilde;o-or&ccedil;amento" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Admissao - Orcamento do Canal do Consultor");selecionaMenu($("linkAdmissao"),this);'  href='Admissao/orcamentos.jsp?usu=F177474357&opcaoAdmissao=mnuOrc3&tituloOpcao=Admissao - Orcamento do Canal do Consultor' id='mnuOrc3'>Or&ccedil;amento</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkBloqueio">Bloqueio/Desbloqueio</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="bloqueio/desbloqueio-bloquear" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Bloqueio - Bloquear");selecionaMenu($("linkBloqueio"),this);'  href='Bloqueio/index_bloqueio.jsp?usu=F177474357&opcaoAdmissao=mnuBlqBlq&tituloOpcao=Bloqueio - Bloquear' id='mnuBlqBlq'>Bloquear</a>
+</li>
+<li>
+<a target='miolo' data-item-text="bloqueio/desbloqueio-desbloquear" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Bloqueio - Desbloquear");selecionaMenu($("linkBloqueio"),this);'  href='Bloqueio/index_desbloqueio.jsp?usu=F177474357&opcaoAdmissao=mnuBlqDblq&tituloOpcao=Bloqueio - Desbloquear' id='mnuBlqDblq'>Desbloquear</a>
+</li>
+<li>
+<a target='miolo' data-item-text="bloqueio/desbloqueio-protocolo_de_bloqueio" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Bloqueio - Reimpress&atilde;o de protocolo");selecionaMenu($("linkBloqueio"),this);'  href='Relatorios/Atendimento/protocolo_bloqueio.jsp?usu=F177474357&opcaoAdmissao=mnuBlqProt&tituloOpcao=Bloqueio - Reimpress&atilde;o de protocolo' id='mnuBlqProt'>Protocolo de Bloqueio</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatórios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="bloqueio/desbloqueio-relatórios-bloqueados_por_posto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Bloqueio - Relatorio de Bloqueados por Posto");selecionaMenu($("linkBloqueio"),this);'  href='Relatorios/Atendimento/bloqueados_por_Posto.jsp?usu=F177474357&opcaoAdmissao=mnuBlqRel&tituloOpcao=Bloqueio - Relatorio de Bloqueados por Posto' id='mnuBlqRel'>Bloqueados por Posto</a>
+</li>
+<li>
+<a target='miolo' data-item-text="bloqueio/desbloqueio-relatórios-desbloqueados_por_posto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Bloqueio - Desbloqueados Por Posto");selecionaMenu($("linkBloqueio"),this);'  href='Relatorios/Atendimento/desbloqueados_por_posto.jsp?usu=F177474357&opcaoAdmissao=dblqposto&tituloOpcao=Bloqueio - Desbloqueados Por Posto' id='dblqposto'>Desbloqueados Por Posto</a>
+</li>
+<li>
+<a target='miolo' data-item-text="bloqueio/desbloqueio-relatórios-bloqueados_expirados" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Bloqueio - Bloqueados Expirados por Posto");selecionaMenu($("linkBloqueio"),this);'  href='Relatorios/Atendimento/bloqueados_expirados.jsp?usu=F177474357&opcaoAdmissao=mnuRelBQLEXP&tituloOpcao=Bloqueio - Bloqueados Expirados por Posto' id='mnuRelBQLEXP'>Bloqueados Expirados</a>
+</li>
+</ul>
+</li>
+</ul>
+<li>
+<a href='#' id="linkColeta">Coleta</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="coleta-fila_de_coleta" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Coleta - Fila de Coleta");selecionaMenu($("linkColeta"),this);'  href='Admissao/filaColeta.jsp?usu=F177474357&opcaoAdmissao=mnuColFila&tituloOpcao=Coleta - Fila de Coleta' id='mnuColFila'>Fila de Coleta</a>
+</li>
+<li>
+<a target='miolo' data-item-text="coleta-confirmação_coleta_labet" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Coleta - Confirmação Labet");selecionaMenu($("linkColeta"),this);'  href='labet/index_formularioLabet.jsp?usu=F177474357&opcaoAdmissao=mnuColLabet&tituloOpcao=Coleta - Confirmação Labet' id='mnuColLabet'>Confirmação Coleta Labet</a>
+</li>
+<li>
+<a target='miolo' data-item-text="coleta-fila_de_coleta_por_atividade" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Coleta - Fila de Coleto por Atividade");selecionaMenu($("linkColeta"),this);'  href='Admissao/filaColetaAtividade.jsp?vImg=N?usu=F177474357&opcaoAdmissao=filaColAtivi&tituloOpcao=Coleta - Fila de Coleto por Atividade' id='filaColAtivi'>Fila de Coleta por Atividade</a>
+</li>
+<li>
+<a target='miolo' data-item-text="coleta-validação_beira_leito" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Coleta - Validação Atendimento Beira Leito");selecionaMenu($("linkColeta"),this);'  href='Coleta/beiraleitoValidar.jsp?usu=F177474357&opcaoAdmissao=mnuColBeiraLeitoValidar&tituloOpcao=Coleta - Validação Atendimento Beira Leito' id='mnuColBeiraLeitoValidar'>Validação Beira Leito</a>
+</li>
+<li>
+<a target='miolo' data-item-text="coleta-fila_por_centro_de_origem" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Coleta - Fila de Coleta por Centro de Origem");selecionaMenu($("linkColeta"),this);'  href='Admissao/filaColetaAtividade.jsp?vImg=N&hospital=1?usu=F177474357&opcaoAdmissao=filaColCentroOrigem&tituloOpcao=Coleta - Fila de Coleta por Centro de Origem' id='filaColCentroOrigem'>Fila por Centro de Origem</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkCadastros">Cadastros</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="cadastros-m&eacute;dico" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Medico");selecionaMenu($("linkCadastros"),this);'  href='Cadastros/cadcrmgrp_R1.jsp?consprofMedico=CRM?usu=F177474357&opcaoAdmissao=mnuCabMed&tituloOpcao=Cadastros - Medico' id='mnuCabMed'>M&eacute;dico</a>
+</li>
+<li>
+<a target='miolo' data-item-text="cadastros-paciente" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Paciente");selecionaMenu($("linkCadastros"),this);'  href='Cadastros/cadpac_R1.jsp?usu=F177474357&opcaoAdmissao=mnuCabPacCon&tituloOpcao=Cadastros - Paciente' id='mnuCabPacCon'>Paciente</a>
+</li>
+<li>
+<a target='miolo' data-item-text="cadastros-respostas/frases" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Cadastro e Associações de Respostas");selecionaMenu($("linkCadastros"),this);'  href='Cadastros/cadRespostaPadrao.jsp?usu=F177474357&opcaoAdmissao=mnmCadRspPad&tituloOpcao=Cadastros - Cadastro e Associações de Respostas' id='mnmCadRspPad'>Respostas/Frases</a>
+</li>
+<li>
+<a target='miolo' data-item-text="cadastros-justificativa_contraste" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Cadastro de Justificativa de Contraste");selecionaMenu($("linkCadastros"),this);'  href='Cadastros/cadJustContraste.jsp?usu=F177474357&opcaoAdmissao=mnmCadJustCont&tituloOpcao=Cadastros - Cadastro de Justificativa de Contraste' id='mnmCadJustCont'>Justificativa Contraste</a>
+</li>
+<li>
+<a target='miolo' data-item-text="cadastros-atrelamento_de_cip" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Atrelamento de Cip");selecionaMenu($("linkCadastros"),this);'  href='Cadastros/atrelaCip.jsp?usu=F177474357&opcaoAdmissao=mnuCabAtrCon&tituloOpcao=Cadastros - Atrelamento de Cip' id='mnuCabAtrCon'>Atrelamento de CIP</a>
+</li>
+<li>
+<a target='miolo' data-item-text="cadastros-desatrelamento_de_cip" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Desatrelamento de CIP");selecionaMenu($("linkCadastros"),this);'  href='Cadastros/desatrelaCip.jsp?usu=F177474357&opcaoAdmissao=mnuCabDatr&tituloOpcao=Cadastros - Desatrelamento de CIP' id='mnuCabDatr'>Desatrelamento de CIP</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkRelatorios">Relat&oacute;rios</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-admitidos_por_conv&ecirc;nio" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos por Convenio");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/adimitidos_por_Convenio.jsp?usu=F177474357&opcaoAdmissao=mnuRelRAC&tituloOpcao=Relatorios - Admitidos por Convenio' id='mnuRelRAC'>Admitidos por Conv&ecirc;nio</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-admitidos_por_posto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos por posto");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/admitidos_por_Posto.jsp?usu=F177474357&opcaoAdmissao=mnuRelRAPP&tituloOpcao=Relatorios - Admitidos por posto' id='mnuRelRAPP'>Admitidos por Posto</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-admitidos_por_exame" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos por Exame");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/admitidos_por_Exame.jsp?usu=F177474357&opcaoAdmissao=mnuRelRAPE&tituloOpcao=Relatorios - Admitidos por Exame' id='mnuRelRAPE'>Admitidos por Exame</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-admitidos_por_usuário" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos por Usuário");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/admitidos_por_Usuario.jsp?usu=F177474357&opcaoAdmissao=mnuAdmUsu&tituloOpcao=Relatorios - Admitidos por Usuário' id='mnuAdmUsu'>Admitidos Por Usuário</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-mapa_de_dados_gerais" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Mapa Dados Gerais");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/mapaDadosGerais.jsp?usu=F177474357&opcaoAdmissao=mnuRelRMDG&tituloOpcao=Relatorios - Mapa Dados Gerais' id='mnuRelRMDG'>Mapa de Dados Gerais</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-reimpress&atilde;o_de_etiqueta" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Reimpressao Etq");selecionaMenu($("linkRelatorios"),this);'  href='Admissao/impressao_etiqueta.jsp?usu=F177474357&opcaoAdmissao=mneRelEtqRpr&tituloOpcao=Relatorios - Reimpressao Etq' id='mneRelEtqRpr'>Reimpress&atilde;o de Etiqueta</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-etiqueta_por_recipiente" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Reimpressão de Etiqueta por Recipiente");selecionaMenu($("linkRelatorios"),this);'  href='Admissao/impressao_etiqueta_recipiente.jsp?usu=F177474357&opcaoAdmissao=mnuRelEtqRecipiente&tituloOpcao=Relatorios - Reimpressão de Etiqueta por Recipiente' id='mnuRelEtqRecipiente'>Etiqueta por Recipiente</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-recip_sem_cip" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Recipientes sem CIP");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/recipientes_sem_Cip.jsp?usu=F177474357&opcaoAdmissao=mnuRelRRSC&tituloOpcao=Relatorios - Recipientes sem CIP' id='mnuRelRRSC'>Recip. sem CIP</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-guia_tiss" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Guia TISS");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/guia_TISS.jsp?usu=F177474357&opcaoAdmissao=mnuRelTISS&tituloOpcao=Relatorios - Guia TISS' id='mnuRelTISS'>Guia TISS</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-recibo_balc&atilde;o" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Recibo Balcão");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/recibo_Balcao.jsp?usu=F177474357&opcaoAdmissao=mnuRelRECBAL&tituloOpcao=Relatorios - Recibo Balcão' id='mnuRelRECBAL'>Recibo Balc&atilde;o</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-adm_exames_digitados" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Adm. com Exames Digitados");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/admitidos_com_Coagulograma.jsp?usu=F177474357&opcaoAdmissao=mnuRelRACG&tituloOpcao=Relatorios - Adm. com Exames Digitados' id='mnuRelRACG'>Adm. Exames Digitados</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-protocolo_de_imagem" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Protocolo de Imagem");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/Protocolo_imagem.jsp?usu=F177474357&opcaoAdmissao=mnuProtImg&tituloOpcao=Relatorios - Protocolo de Imagem' id='mnuProtImg'>Protocolo de Imagem</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-protocolo_etiqueta" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Protocolo Etiqueta");selecionaMenu($("linkRelatorios"),this);'  href='Admissao/impressao_etiqueta_protocolo.jsp?usu=F177474357&opcaoAdmissao=mneRelEtqPrt&tituloOpcao=Relatorios - Protocolo Etiqueta' id='mneRelEtqPrt'>Protocolo Etiqueta</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-mapa_coleta_hospitalar" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Mapa de Coleta Hospitalar");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/Mapa_hospitalar.jsp?usu=F177474357&opcaoAdmissao=mnuMapColHosp&tituloOpcao=Relatorios - Mapa de Coleta Hospitalar' id='mnuMapColHosp'>Mapa Coleta Hospitalar</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-cancelados_por_unidade" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Visitas canceladas");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/cancelados_por_unidade.jsp?usu=F177474357&opcaoAdmissao=mnuAtdCancelados&tituloOpcao=Relatorios - Visitas canceladas' id='mnuAtdCancelados'>Cancelados por Unidade</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-caixa_por_usuário" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Fechamento de Caixa");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/Caixa_Diario.jsp?usu=F177474357&opcaoAdmissao=mnuCaixaDiario&tituloOpcao=Relatorios - Fechamento de Caixa' id='mnuCaixaDiario'>Caixa por Usuário</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-descontos_cortesias" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos com desconto");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/Descontos_Cortesia.jsp?usu=F177474357&opcaoAdmissao=mnuDescoCort&tituloOpcao=Relatorios - Admitidos com desconto' id='mnuDescoCort'>Descontos Cortesias</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-guia_outras_despesas" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Guia Outras Despesas");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/guia_OutrasDespesas.jsp?usu=F177474357&opcaoAdmissao=mnuGuiaOutrasDespesas&tituloOpcao=Relatorios - Guia Outras Despesas' id='mnuGuiaOutrasDespesas'>Guia Outras Despesas</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-admitidos___email_cadastrado" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos - Email Cadastrado");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/Pacientes_Admitidos_sem_Email.jsp?usu=F177474357&opcaoAdmissao=mnuEmailCad&tituloOpcao=Relatorios - Admitidos - Email Cadastrado' id='mnuEmailCad'>Admitidos - Email Cadastrado</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-atendimento_sem_doc_scan" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Atendimento Sem documentos Scaneados");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/conAtendDocScan.jsp?usu=F177474357&opcaoAdmissao=mnuRelRANDS&tituloOpcao=Relatorios - Atendimento Sem documentos Scaneados' id='mnuRelRANDS'>Atendimento Sem Doc. Scan</a>
+</li>
+<li>
+<a target='miolo' data-item-text="relat&oacute;rios-admitidos_por_procedência" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Relatorios - Admitidos por Procedência");selecionaMenu($("linkRelatorios"),this);'  href='Relatorios/Atendimento/adm_Procedencia.jsp?usu=F177474357&opcaoAdmissao=mnuRelRAPC&tituloOpcao=Relatorios - Admitidos por Procedência' id='mnuRelRAPC'>Admitidos por Procedência</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkTransito">Transito</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="transito-inclus&atilde;o_online" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Transito - Inclus&atilde;o Transito");selecionaMenu($("linkTransito"),this);'  href='Tecnica/index_transito.jsp?usu=F177474357&opcaoAdmissao=mnuTraInc&tituloOpcao=Transito - Inclus&atilde;o Transito' id='mnuTraInc'>Inclus&atilde;o Online</a>
+</li>
+<li>
+<a target='miolo' data-item-text="transito-inclusão_offline" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Transito - Inclusão Transito - Offline");selecionaMenu($("linkTransito"),this);'  href='Tecnica/index_transitoOffline.jsp?usu=F177474357&opcaoAdmissao=mnuTraIncOff&tituloOpcao=Transito - Inclusão Transito - Offline' id='mnuTraIncOff'>Inclusão Offline</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatorios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="transito-relatorios-recip_sem_pistolagem" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Transito - Recipientes sem Pistolagem");selecionaMenu($("linkTransito"),this);'  href='Relatorios/Atendimento/recipientes_sem_Pistolagem.jsp?usu=F177474357&opcaoAdmissao=mnuRelRRSPNP&tituloOpcao=Transito - Recipientes sem Pistolagem' id='mnuRelRRSPNP'>Recip. sem Pistolagem</a>
+</li>
+</ul>
+</li>
+</ul>
+<li>
+<a href='#' id="linkContainer">Container</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="container-entrada" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Container - Entrada de Container");selecionaMenu($("linkContainer"),this);'  href='Tecnica/index_entradaContainer.jsp?usu=F177474357&opcaoAdmissao=mneENtradaContainer&tituloOpcao=Container - Entrada de Container' id='mneENtradaContainer'>Entrada</a>
+</li>
+<li>
+<a target='miolo' data-item-text="container-saida" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Container - Saida de Container");selecionaMenu($("linkContainer"),this);'  href='Tecnica/index_saidaContainer.jsp?usu=F177474357&opcaoAdmissao=mnuSaidaContainer2&tituloOpcao=Container - Saida de Container' id='mnuSaidaContainer2'>Saida</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatorios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="container-relatorios-recip_sem_container" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Container - Recip. sem Container");selecionaMenu($("linkContainer"),this);'  href='Relatorios/Atendimento/recipientes_sem_Container.jsp?usu=F177474357&opcaoAdmissao=mnuRelRRSCNP&tituloOpcao=Container - Recip. sem Container' id='mnuRelRRSCNP'>Recip. sem Container</a>
+</li>
+<li>
+<a target='miolo' data-item-text="container-relatorios-reimpressão_de_manifesto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Container - Reimpressão de Manifesto");selecionaMenu($("linkContainer"),this);'  href='Tecnica/index_reimpressaoManifesto.jsp?usu=F177474357&opcaoAdmissao=reimpManifesto2&tituloOpcao=Container - Reimpressão de Manifesto' id='reimpManifesto2'>Reimpressão de Manifesto</a>
+</li>
+<li>
+<a target='miolo' data-item-text="container-relatorios-recip_alocados" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Container - Recip. Alocados");selecionaMenu($("linkContainer"),this);'  href='Relatorios/Atendimento/recipientes_Alocados.jsp?usu=F177474357&opcaoAdmissao=mnuRelRepAlo&tituloOpcao=Container - Recip. Alocados' id='mnuRelRepAlo'>Recip. Alocados</a>
+</li>
+</ul>
+</li>
+</ul>
+<li>
+<a href='#' id="linkConsultas">Consultas</a>
+<ul>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Atendimento&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="consultas-atendimento-tempo_de_atendimento" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Tempo de Atendimento");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conTempoFrame.jsp?usu=F177474357&opcaoAdmissao=mnuConAteTmp&tituloOpcao=Consultas - Tempo de Atendimento' id='mnuConAteTmp'>Tempo de Atendimento</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-atendimento-conferencia" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Conferencia");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conInfoPacF2.jsp?usu=F177474357&opcaoAdmissao=mnuConUniF2&tituloOpcao=Consultas - Conferencia' id='mnuConUniF2'>Conferencia</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-atendimento-tempo_analítico" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Tempo de Atendimento Analítico");selecionaMenu($("linkConsultas"),this);'  href='Relatorios/Atendimento/conTempoAtendimento.jsp?usu=F177474357&opcaoAdmissao=mneTempAn&tituloOpcao=Consultas - Tempo de Atendimento Analítico' id='mneTempAn'>Tempo Analítico</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-atendimento-tma_/_tme" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - TMA / TME");selecionaMenu($("linkConsultas"),this);'  href='Relatorios/Atendimento/conTmaTme.jsp?usu=F177474357&opcaoAdmissao=mneTmaTme&tituloOpcao=Consultas - TMA / TME' id='mneTmaTme'>TMA / TME</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Histórico&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="consultas-histórico-paciente" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta de Histórico de Paciente");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conPacHist.jsp?usu=F177474357&opcaoAdmissao=mnuHistPac&tituloOpcao=Consultas - Consulta de Histórico de Paciente' id='mnuHistPac'>Paciente</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-bom_dia_atendimento" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta Bom dia Atendimento");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conCeBom.jsp?usu=F177474357&opcaoAdmissao=mnuConCeBom&tituloOpcao=Consultas - Consulta Bom dia Atendimento' id='mnuConCeBom'>Bom dia Atendimento</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-paciente_vip" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta Paciente VIP");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conPacVip.jsp?usu=F177474357&opcaoAdmissao=mnuConPacVip&tituloOpcao=Consultas - Consulta Paciente VIP' id='mnuConPacVip'>Paciente VIP</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-preparo_exame" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta Preparo Exame");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conPreparoExame.jsp?usu=F177474357&opcaoAdmissao=mnuConPrepEx&tituloOpcao=Consultas - Consulta Preparo Exame' id='mnuConPrepEx'>Preparo Exame</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-consulta_médico" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta Informações do Médico");selecionaMenu($("linkConsultas"),this);'  href='Consultas/conInfMedico.jsp?usu=F177474357&opcaoAdmissao=mnuConInfMed&tituloOpcao=Consultas - Consulta Informações do Médico' id='mnuConInfMed'>Consulta Médico</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-admitido_por_médico/exame" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta Admitidos por Médico/Exame");selecionaMenu($("linkConsultas"),this);'  href='Consultas/consPacAdmitidoMedico.jsp?usu=F177474357&opcaoAdmissao=mnuConPacMedExame&tituloOpcao=Consultas - Consulta Admitidos por Médico/Exame' id='mnuConPacMedExame'>Admitido Por Médico/Exame</a>
+</li>
+<li>
+<a target='miolo' data-item-text="consultas-movimentação_progress" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Consultas - Consulta Movimentação Progress");selecionaMenu($("linkConsultas"),this);'  href='Relatorios/Atendimento/agendamentosProgress.jsp?usu=F177474357&opcaoAdmissao=atdprogrltcomple&tituloOpcao=Consultas - Consulta Movimentação Progress' id='atdprogrltcomple'>Movimentação Progress</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkMenu de Serviços">Servicos</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="servicos-declaração_comparecimento" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Menu de Serviços - Declaração de Comparecimento");selecionaMenu($("linkMenu de Serviços"),this);'  href='Servicos/declaracaoComparecimento.jsp?usu=F177474357&opcaoAdmissao=dclrComparecimento&tituloOpcao=Menu de Serviços - Declaração de Comparecimento' id='dclrComparecimento'>Declaração Comparecimento</a>
+</li>
+<li>
+<a target='miolo' data-item-text="servicos-consulta_declaração" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Menu de Serviços - Consulta de Declaração de Comparecimento");selecionaMenu($("linkMenu de Serviços"),this);'  href='Servicos/consultaDeclaracaoComparecimento.jsp?usu=F177474357&opcaoAdmissao=conDeclaracao&tituloOpcao=Menu de Serviços - Consulta de Declaração de Comparecimento' id='conDeclaracao'>Consulta Declaração</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkTecnica">Tecnica</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="tecnica-fila_imagem" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Tecnica - Fila de exames de Imagem");selecionaMenu($("linkTecnica"),this);'  href='Admissao/filaColeta.jsp?vImg=S?usu=F177474357&opcaoAdmissao=mnmFilaImg&tituloOpcao=Tecnica - Fila de exames de Imagem' id='mnmFilaImg'>Fila Imagem</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Passagem de Resultado&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="tecnica-passagem_de_resultado-imagem" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Tecnica - Passagem de laudo por Imagem");selecionaMenu($("linkTecnica"),this);'  href='Tecnica/index_resImagem.jsp?usu=F177474357&opcaoAdmissao=mnuTecImg&tituloOpcao=Tecnica - Passagem de laudo por Imagem' id='mnuTecImg'>Imagem</a>
+</li>
+<li>
+<a target='miolo' data-item-text="tecnica-passagem_de_resultado-no_posto_de_coleta" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Tecnica - Passagem de Resultado no Posto");selecionaMenu($("linkTecnica"),this);'  href='Tecnica/index_resPosto.jsp?usu=F177474357&opcaoAdmissao=mnuTecPosto&tituloOpcao=Tecnica - Passagem de Resultado no Posto' id='mnuTecPosto'>No Posto de Coleta</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="tecnica-fila_imagem_por_modalidade" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Tecnica - Fila de Exames de Imagem por Modalidade");selecionaMenu($("linkTecnica"),this);'  href='Admissao/filaColetaModalidade.jsp?vImg=S?usu=F177474357&opcaoAdmissao=mnmFilaImgMod&tituloOpcao=Tecnica - Fila de Exames de Imagem por Modalidade' id='mnmFilaImgMod'>Fila Imagem por Modalidade</a>
+</li>
+<li>
+<a target='miolo' data-item-text="tecnica-etiqueta_a_mais" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Tecnica - Etiqueta a mais na admissão");selecionaMenu($("linkTecnica"),this);'  href='Admissao/etiquetaMais.jsp?usu=F177474357&opcaoAdmissao=mnmEtqMais&tituloOpcao=Tecnica - Etiqueta a mais na admissão' id='mnmEtqMais'>Etiqueta a Mais</a>
+</li>
+<li>
+<a target='miolo' data-item-text="tecnica-fila_espaco_x_sala" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Tecnica - Fila Espaco X Sala");selecionaMenu($("linkTecnica"),this);'  href='Admissao/filaColetaEspacoSala.jsp?usu=F177474357&opcaoAdmissao=mnuFilaEspacoSala&tituloOpcao=Tecnica - Fila Espaco X Sala' id='mnuFilaEspacoSala'>Fila Espaco X Sala</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkCadastros">Cadastro</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="cadastro-grupo_de_exames" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Cadastros - Cadastro de exames em grupo");selecionaMenu($("linkCadastros"),this);'  href='Tecnica/index_grupoExame.jsp?usu=F177474357&opcaoAdmissao=MnCex&tituloOpcao=Cadastros - Cadastro de exames em grupo' id='MnCex'>Grupo de exames</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkResultado">Resultado</a>
+<ul>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Impressão de Laudo&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="resultado-impressão_de_laudo-por_cip" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Resultado - Por Cip");selecionaMenu($("linkResultado"),this);'  href='Resultado/index_impressaoResultado.jsp?usu=F177474357&opcaoAdmissao=mnuResIlfCip&tituloOpcao=Resultado - Por Cip' id='mnuResIlfCip'>Por Cip</a>
+</li>
+<li>
+<a target='miolo' data-item-text="resultado-impressão_de_laudo-parte_pronta" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Resultado - Impressão da parte pronta");selecionaMenu($("linkResultado"),this);'  href='Resultado/index_impressaoResultado.jsp?opcao=partePronta?usu=F177474357&opcaoAdmissao=ppronMnu&tituloOpcao=Resultado - Impressão da parte pronta' id='ppronMnu'>Parte Pronta</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="resultado-relatório_de_resultados" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Resultado - Relatorio de entrega de resultados");selecionaMenu($("linkResultado"),this);'  href='Resultado/entregaResultado.jsp?usu=F177474357&opcaoAdmissao=mnuEntregaResultado&tituloOpcao=Resultado - Relatorio de entrega de resultados' id='mnuEntregaResultado'>Relatório de Resultados</a>
+</li>
+<li>
+<a target='miolo' data-item-text="resultado-consulta" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Resultado - Consulta Resultado");selecionaMenu($("linkResultado"),this);'  href='Consultas/conRes.jsp?usu=F177474357&opcaoAdmissao=mnuConRes&tituloOpcao=Resultado - Consulta Resultado' id='mnuConRes'>Consulta</a>
+</li>
+<li>
+<a target='miolo' data-item-text="resultado-controle_entrega" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Resultado - Controle Entrega de Resultado");selecionaMenu($("linkResultado"),this);'  href='Resultado/controleEntrega.jsp?usu=F177474357&opcaoAdmissao=mnuContrEntregaResult&tituloOpcao=Resultado - Controle Entrega de Resultado' id='mnuContrEntregaResult'>Controle Entrega</a>
+</li>
+<li>
+<a target='miolo' data-item-text="resultado-protocolo_entrega" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Resultado - Protocolo Entrega Resultados A4");selecionaMenu($("linkResultado"),this);'  href='Resultado/protocoloEntregaResultadosA4.jsp?usu=F177474357&opcaoAdmissao=mnuProtocoloEntregaA4&tituloOpcao=Resultado - Protocolo Entrega Resultados A4' id='mnuProtocoloEntregaA4'>Protocolo Entrega</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkFaturamento">Pré-Faturamento</a>
+<ul>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatórios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-capa_de_lote_analítico" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Impressão da Capa de Lote Analítico");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Faturamento/pacientesLoteGerado.jsp?usu=F177474357&opcaoAdmissao=relPacFaturado&tituloOpcao=Faturamento - Impressão da Capa de Lote Analítico' id='relPacFaturado'>Capa de Lote Analítico</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-acomp_de_pendências" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Acomp. de Pendências");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Faturamento/AcompanhamentoPend.jsp?usu=F177474357&opcaoAdmissao=relAcompPendencia&tituloOpcao=Faturamento - Acomp. de Pendências' id='relAcompPendencia'>Acomp. de Pendências</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-capa_lote_sintético" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Impressão da Capa de Lote Sintético");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Faturamento/capaLoteSintetico.jsp?usu=F177474357&opcaoAdmissao=capaLoteSintetico&tituloOpcao=Faturamento - Impressão da Capa de Lote Sintético' id='capaLoteSintetico'>Capa Lote Sintético</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-rejeitados_ems" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Relatório de Rejeitados pela EMS");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Faturamento/rejeitadosEMS.jsp?usu=F177474357&opcaoAdmissao=rejeitadosEMS&tituloOpcao=Faturamento - Relatório de Rejeitados pela EMS' id='rejeitadosEMS'>Rejeitados EMS</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-pacientes_por_status" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Listagem de Pacientes por Status de Fat");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Faturamento/PacStatusFaturamento.jsp?usu=F177474357&opcaoAdmissao=relPacStatus&tituloOpcao=Faturamento - Listagem de Pacientes por Status de Fat' id='relPacStatus'>Pacientes por Status</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-justificativas_de_token_amil" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Justificativas de Token Amil");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Atendimento/jus_token_rel.jsp?usu=F177474357&opcaoAdmissao=jostokenrel&tituloOpcao=Faturamento - Justificativas de Token Amil' id='jostokenrel'>Justificativas de Token Amil</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-tokens_pendentes" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Tokens Pendentes");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Atendimento/fila_token_rel.jsp?usu=F177474357&opcaoAdmissao=filatokenrel&tituloOpcao=Faturamento - Tokens Pendentes' id='filatokenrel'>Tokens Pendentes</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-relatórios-fech_conta_hospitalar" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - RelatÃ³rio de Fechamento Conta Hospital");selecionaMenu($("linkFaturamento"),this);'  href='Relatorios/Faturamento/FechamentoContaHospital.jsp?usu=F177474357&opcaoAdmissao=relFechContaHospitalar&tituloOpcao=Faturamento - RelatÃ³rio de Fechamento Conta Hospital' id='relFechContaHospitalar'>Fech. Conta Hospitalar</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-mobilização_de_guia" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Mobilização de Guia");selecionaMenu($("linkFaturamento"),this);'  href='PreFaturamento/preFaturamento.jsp?usu=F177474357&opcaoAdmissao=mnuPrefaturamento&tituloOpcao=Faturamento - Mobilização de Guia' id='mnuPrefaturamento'>Mobilização de Guia</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-token_pendente" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Justificar Token");selecionaMenu($("linkFaturamento"),this);'  href='tokenAmil/justificarTokenAmil.jsp?usu=F177474357&opcaoAdmissao=jsuToken&tituloOpcao=Faturamento - Justificar Token' id='jsuToken'>Token Pendente</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-inserir_mat_/_med" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Inserir Mat / Med");selecionaMenu($("linkFaturamento"),this);'  href='Faturamento/MatMed/index_cadmatmed.jsp?usu=F177474357&opcaoAdmissao=mnuFatMatMedInserir&tituloOpcao=Faturamento - Inserir Mat / Med' id='mnuFatMatMedInserir'>Inserir Mat / Med</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-carta_justificativa" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Carta Justificativa");selecionaMenu($("linkFaturamento"),this);'  href='Faturamento/MatMed/carta_justificativa.jsp?usu=F177474357&opcaoAdmissao=mnuCartaMatMed&tituloOpcao=Faturamento - Carta Justificativa' id='mnuCartaMatMed'>Carta Justificativa</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-valida_paciente" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Valida Paciente");selecionaMenu($("linkFaturamento"),this);'  href='Admissao/index_validaAutorizador.jsp?usu=F177474357&opcaoAdmissao=mnmValAut&tituloOpcao=Faturamento - Valida Paciente' id='mnmValAut'>Valida Paciente</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-cancela_guia" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Cancelar Guia");selecionaMenu($("linkFaturamento"),this);'  href='Admissao/index_cancelaGuia.jsp?usu=F177474357&opcaoAdmissao=menuCancelaGuiaUnimed1&tituloOpcao=Faturamento - Cancelar Guia' id='menuCancelaGuiaUnimed1'>Cancela Guia</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-troca_guia" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Troca de Guia de Exames");selecionaMenu($("linkFaturamento"),this);'  href='Admissao/trocaGuia.jsp?usu=F177474357&opcaoAdmissao=mnmMenuTrocaGuia&tituloOpcao=Faturamento - Troca de Guia de Exames' id='mnmMenuTrocaGuia'>Troca Guia</a>
+</li>
+<li>
+<a target='miolo' data-item-text="pré_faturamento-locks" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Faturamento - Gerenciamento de Locks");selecionaMenu($("linkFaturamento"),this);'  href='PreFaturamento/locks.jsp?usu=F177474357&opcaoAdmissao=mnuLocks&tituloOpcao=Faturamento - Gerenciamento de Locks' id='mnuLocks'>Locks</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkSolicitação de Material">Sol. Material</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="sol_material-solicitação" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Solicitação de Material - Solicitar Material");selecionaMenu($("linkSolicitação de Material"),this);'  href='Tecnica/index_solMaterial.jsp?usu=F177474357&opcaoAdmissao=mnmSolMaterialSolicitar&tituloOpcao=Solicitação de Material - Solicitar Material' id='mnmSolMaterialSolicitar'>Solicitação</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatório&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="sol_material-relatório-por_cip/visita" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Solicitação de Material - Solicitação de Material Por Posto");selecionaMenu($("linkSolicitação de Material"),this);'  href='Relatorios/Atendimento/solicitacao_material_cip.jsp?usu=F177474357&opcaoAdmissao=mnuSmaRltCip&tituloOpcao=Solicitação de Material - Solicitação de Material Por Posto' id='mnuSmaRltCip'>Por CIP/Visita</a>
+</li>
+<li>
+<a target='miolo' data-item-text="sol_material-relatório-por_posto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Solicitação de Material - Solicitação de Material por Posto");selecionaMenu($("linkSolicitação de Material"),this);'  href='Relatorios/Atendimento/sol_material_posto.jsp?usu=F177474357&opcaoAdmissao=mnuSmaRltPosto&tituloOpcao=Solicitação de Material - Solicitação de Material por Posto' id='mnuSmaRltPosto'>Por Posto</a>
+</li>
+</ul>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Consulta&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="sol_material-consulta-sol_material" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Solicitação de Material - Consulta Solicitação Material");selecionaMenu($("linkSolicitação de Material"),this);'  href='Consultas/conSolMat.jsp?usu=F177474357&opcaoAdmissao=mnuConSolMat&tituloOpcao=Solicitação de Material - Consulta Solicitação Material' id='mnuConSolMat'>Sol Material</a>
+</li>
+</ul>
+</li>
+</ul>
+<li>
+<a href='#' id="linkRecebimento de Material">Rec. Material</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="rec_material-recebimento" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Recebimento de Material - Recebimento de Material");selecionaMenu($("linkRecebimento de Material"),this);'  href='Tecnica/index_recMaterial.jsp?usu=F177474357&opcaoAdmissao=mnuRmaRma&tituloOpcao=Recebimento de Material - Recebimento de Material' id='mnuRmaRma'>Recebimento</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkGerenciador">Gerenciador</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="gerenciador-cancela_guia" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Gerenciador - Cancelar Guia");selecionaMenu($("linkGerenciador"),this);'  href='Admissao/index_cancelaGuia.jsp?usu=F177474357&opcaoAdmissao=menuCancelaGuiaUnimed&tituloOpcao=Gerenciador - Cancelar Guia' id='menuCancelaGuiaUnimed'>Cancela Guia</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkRPS/NF">RPS/NF</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="rps/nf-impressão_rps" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("RPS/NF - Impressão RPS");selecionaMenu($("linkRPS/NF"),this);'  href='Relatorios/Atendimento/rps.jsp?usu=F177474357&opcaoAdmissao=mnuRps2&tituloOpcao=RPS/NF - Impressão RPS' id='mnuRps2'>Impressão RPS</a>
+</li>
+<li>
+<a target='miolo' data-item-text="rps/nf-cancelamento_rps" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("RPS/NF - Cancelamento RPS");selecionaMenu($("linkRPS/NF"),this);'  href='Servicos/index_cancelaRPS.jsp?usu=F177474357&opcaoAdmissao=mnuCanRPS&tituloOpcao=RPS/NF - Cancelamento RPS' id='mnuCanRPS'>Cancelamento RPS</a>
+</li>
+<li>
+<a target='miolo' onclick='' style="cursor:pointer" >
+Relatorios&nbsp; >></a><ul>
+<li>
+<a target='miolo' data-item-text="rps/nf-relatorios-por_posto" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("RPS/NF - RPS Por Posto");selecionaMenu($("linkRPS/NF"),this);'  href='Relatorios/Atendimento/rps_por_posto.jsp?usu=F177474357&opcaoAdmissao=mnuporpostoran&tituloOpcao=RPS/NF - RPS Por Posto' id='mnuporpostoran'>Por Posto</a>
+</li>
+</ul>
+</li>
+</ul>
+<li>
+<a href='#' id="linkteste">Labet</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="labet-formulário_labet" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("teste - Formulário Labet");selecionaMenu($("linkteste"),this);'  href='labet/index_formularioLabet.jsp?usu=F177474357&opcaoAdmissao=formLabet&tituloOpcao=teste - Formulário Labet' id='formLabet'>Formulário Labet</a>
+</li>
+</ul>
+<li>
+<a href='#' id="linkAutorizador">Autorizador</a>
+<ul>
+<li>
+<a target='miolo' data-item-text="autorizador-admitidos_pelo_gliese" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Autorizador - Admitidos pelo Gliese");selecionaMenu($("linkAutorizador"),this);'  href='Autorizador/autorizadorGrafico.jsp?usu=F177474357&opcaoAdmissao=adas&tituloOpcao=Autorizador - Admitidos pelo Gliese' id='adas'>Admitidos pelo Gliese</a>
+</li>
+<li>
+<a target='miolo' data-item-text="autorizador-admitidos_outras_marcas" data-item-position="header" onclick='limpaContextoAdmissao(); MostraOpcao("Autorizador - Admitidos Outras Marcas");selecionaMenu($("linkAutorizador"),this);'  href='Autorizador/autorizadorGraficoMultiMarca.jsp?usu=F177474357&opcaoAdmissao=autorizadoroutrosistema&tituloOpcao=Autorizador - Admitidos Outras Marcas' id='autorizadoroutrosistema'>Admitidos Outras Marcas</a>
+</li>
+</ul>
+</li>
+
+
+                                <script>
+                                    //Acertando altura do menu
+                                    var alturaDiv = jQuery("#menuPrncpl").height();
+                                    var alturaMenu = jQuery("#idMenu").height();
+                                    jQuery("#menuPrncpl").height(alturaMenu);
+                                    //alert(alturaDiv + " | " + alturaMenu);
+                                </script>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" height="99%">
+
+                        <div class="paginaAbertura">
+
+                            <iframe id="iframeAdmissao" scrolling="auto" name="miolo" style="width: 100%; height: 500px; margin:0;" frameborder="0" style="overflow: auto">
+                            </iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divMensagemRAjax" class="promptModal" style="height: 150px;">
+            <div id="divConteinerMsgRAjax" style="position: relative">
+                <em>
+                    Mensagem Informática
+                </em>
+                <span id="spanMensagemRAjax">
+
+                </span>
+                <br>
+                <input id="botaoMensagemRAjax" type="button" value="OK"/>
+            </div>
+        </div>
+        
+        <div id="fundoTransparenteDiv"></div>
+        <div id="fundoOpaco"></div>
+        
+
+
+<!--20091016-0955-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="load" class="loading"><img src="/atendimento/imagens/loading_img.gif"></div>
+        <script>
+            jQuery('#load').hide();
+        </script>
+        
+        <div class="grid">
+    <div id="conteinerPrincipalTrocaEmpresa" class="suffix_80 col_780 prefix_80" style="position: absolute">
+        <div class="box">
+            <h1 class="hdr1">UNIDADE
+                    <span style="margin-top:10px;margin-left: 322px;visibility: hidden" id="botaoFecharTrocaUnidade">
+                <a href="javascript:void(0)" onclick="trocaEmpresaController.esconde()">
+                    <img src="/atendimento/imagens/x.png" alt="fechar" />
+                </a></span>
+                </h1>
+                
+        <!--Coluna esquerda-->
+        <div class="coluna_308" id="divInformaEmpresa">
+            <h2 id="labelInformaEmpresa">Selecione a empresa</h2>
+            <div id="scrollbar1">
+                <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+                    <div class="viewport">
+                         <div class="overview">
+                            <ul id="ulListaEmpresas">
+<!--                            	<li><a class="lista-bronstein" href="#"></a></li>
+                                <li><a class="lista-lamina" href="#"></a></li>
+                                <li><a class="lista-sergio-franco" href="#"></a></li>
+                                <li><a class="lista-alta" href="#"></a></li>
+                                <li><a class="lista-cdpi" href="#"></a></li>-->
+                            </ul>                
+                        </div>
+                    </div>
+                </div>	
+            </div>   <!--Fim Coluna esquerda--> 
+            
+            <!--Coluna direita-->
+            <div class="coluna_308" id="labelInformaUnidade">
+            	<h2>Informe a unidade que irá atuar</h2>
+                <h2 id="imagemUnidadeAtuacao"></h2>
+                <div class="col_220">
+                <form id="recipienteSelectEmpresa">
+                    <div class="col_220">
+                        <a class="btLogin" href="javascript:void(0)">Escolher</a>
+                    </div>
+                </form>    
+                </div>    
+             </div>
+             <!--fim coluna direita-->   
+             <div class="clear"></div>    
+             <div class="footerLogin">
+             	<img src="/atendimento/imagens/login/logo-dasa.png" alt="Dasa" title="Dasa"/>
+             </div>    
+        </div>                       
+    </div> 
+ </div>
+
+        <div id="divModalTrocaSenha" style='display:none; position: absolute; width: 400%;top:10px'>
+            <script type="text/javascript" src="/atendimento/scripts/js/jquery.passwordStrengthForcer.js"></script>
+<script type="text/javascript" src="/atendimento/scripts/trocaSenhaStrengthForcer.js"></script>
+
+<div class="boxLogin grid" style="text-align:left">
+    <div class="data">
+
+    </div>
+    <div class="box">
+        <h1 class="hdr1">TROCA DE SENHA
+            <span style="margin-top:10px;margin-left: 210px">
+                <a href="javascript:void(0)" onclick="escondeDivTrocaSenha()">
+                    <img src="/atendimento/imagens/x.png" alt="fechar" />
+                </a></span>
+        </h1>
+
+        <div class="coluna_380">
+            <h2>Preencha os dados abaixo</h2>
+            <form>
+                <div class="col_300">
+                    <label style="display:none" class="labelIE">Usuário</label>
+                    <input class="loginUsuario" id="nomeUsuario" type="text" 
+                           value="" size="10" onfocus="limpaErroTrocaSenha()" disabled='true'
+                           onblur="this.value = this.value.toUpperCase()"/> 
+                </div>
+                <div class="clear"></div>
+                <div class="col_300">
+                    <label style="display:none" class="labelIE">Senha Atual</label>
+                    <input class="loginSenha campoTrocaSenha" placeholder="Senha Atual" type="password" 
+                           size="10" maxlength="13" onfocus="limpaErroTrocaSenha()"
+                           id='senhaUsuario'/> 
+                </div>
+                <div class="clear"></div>
+                <div class="col_300">
+                    <label style="display:none" class="labelIE">Senha Nova</label>
+                    <input class="loginSenha campoTrocaSenha" placeholder="Senha Nova" type="password" 
+                           size="10" maxlength="13"  onfocus="limpaErroTrocaSenha()" id="senhaNova"
+                           onchange="this.value = this.value.toUpperCase()"/>
+                </div>
+                <div class="clear"></div>
+                <div class="col_300">
+                    <label style="display:none" class="labelIE">Confirmação Senha</label>
+                    <input class="loginSenha campoTrocaSenha" placeholder="Confirmação Senha" type="password" 
+                           size="10" maxlength="13"  onfocus="limpaErroTrocaSenha()" id="confirmaSenhaNova"
+                           onchange="this.value = this.value.toUpperCase()"/>
+                </div>
+                <div class="clear"></div>
+                <div class="col_300">
+                    <label style="display:none" class="labelIE">CPF</label>
+                    <input class="loginUsuario campoTrocaSenha cpf" placeholder="CPF" id="campoCPF" type="text" 
+                            onfocus="limpaErroTrocaSenha()" size="10"/> 
+                </div>
+                <div class="col_300">
+                    <a id="aTrocaSenha" class="btLogin" onclick='realizaTrocaSenha()' href="javascript:void(0)">OK</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="coluna_220">
+            <h2 class="logo_gliese"></h2>
+
+            <div class="clear"></div>
+
+            <!--<div class="col_140"><a href="javascript:void(0)" rel="Inova Dasa">www.inova.dasa.com.br</a></div>-->
+        </div>
+        <div class="clear"></div>
+
+        <div class="footerLogin">
+            <img src="/atendimento/imagens/login/logo-dasa.png" alt="Dasa" title="Dasa"/>
+        </div>   
+
+    </div>    
+
+    <div class="col_620">
+
+<!--        <div class="mensagem_login_alerta">Mensagem<a href="javascript:void(0)" onclick="submitForm()">Prossiga aqui!</a></div>        -->
+        <div class="mensagem_login_erro" id="mensagemErroTrocaSenha" style='display:none'>Mensagem</div>
+        
+        <div class="mensagem_login_sucesso" 
+             id="mensagemSucessoTrocaSenha" 
+             style="display:none">Sucesso - Senha alterada. <a 
+                onclick="escondeDivTrocaSenha()" href="javascript:void(0)">Prosseguir</a></div>
+
+    </div>
+
+</div>
+        </div>
+        
+        <div id="fundoTransparenteDiv"></div>
+        <div id="fundoTransparenteDivUnid"></div>
+        <div id="divOcultaSistema" style="position: absolute;top:0; bottom:0; right:0;left:0;overflow:hidden;background-color:#555;z-index:1"></div>
+        <a name="#1"></a>
+        <div id="divEtiqueta" class="etiqueta" style="position: absolute;  left: 50%;  top: 60px;  transform: translate(-50%, -50%); width: 48%;  height: 59%;"></div>
+        
+        
+        <script>
+            window.addEventListener("message", (event) => {
+
+                if (event.data && event.data.toString().includes("canalAtendente")) {
+
+                    window.open("/atendimento/Admissao/index.jsp?" + event.data, "miolo");
+                }
+            });
+        </script>
+        
+    </body>
+</html>
