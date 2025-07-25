@@ -1,0 +1,66 @@
+:root {
+    /*Shade - cores de fontes*/
+    --Shade-01: #FFFFFF;
+    --Shade-03: #F5F5F5;
+    --Shade-04: #D4D4D4;
+    --Shade-05: #B0B0B0;
+    --Shade-06: #919191;
+    --Shade-07: #737373;
+    --Shade-08: #595959;
+    --Shade-09: #404040;
+    --Shade-10: #292929;
+    --Shade-11: #D9D9D9;
+
+    /*Shadow - Sombras*/
+    --Shadow-01: 0px 2px 2px 0px rgba(22, 22, 22, 0.04), 0px 4px 8px 0px rgba(22, 22, 22, 0.08);
+    --Shadow-02: 0px 4px 4px 0px rgba(22, 22, 22, 0.04), 0px 8px 24px 0px rgba(22, 22, 22, 0.08);
+    --Shadow-03: 0px 8px 8px 0px rgba(22, 22, 22, 0.04), 0px 16px 40px 0px rgba(22, 22, 22, 0.08);
+
+    /**/
+    --Dataviz-Positive-Text: #22723A;
+    --Dataviz-Negative-Text: #BC293A;
+    --Dataviz-Inverse-Warning-Text: #EB7005;
+    --Dataviz-Warning-Text: #A04C03;
+    --Dataviz-Positive-Shape-01: #2D954C;
+    --Dataviz-Positive-Shape-03: #E8F8EC;
+    --Dataviz-Warning-Shape-01: #D26404;
+    --Dataviz-Warning-Shape-02: #FEF1E6;
+    --Dataviz-Info-Shape-02: #D9E5FC;
+
+    /**/
+    --Neutral-Inverse-00: #161616;
+    --Typeface-Pure: #363636;
+    --Base-02: #F5F5F5;
+    --Base-03: #E6E6E6;
+}
+
+@font-face {
+    font-family:'Dasa Sans';
+    src:url('DasaSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Dasa Sans';
+    src:url('DasaSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Dasa Sans';
+    src:url('DasaSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Dasa Sans';
+    src:url('DasaSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Dasa Sans';
+    src:url('DasaSans-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+

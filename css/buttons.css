@@ -1,0 +1,44 @@
+.navcontainer{
+    display:inline;
+    background-color:#fff;
+    width:100%
+}
+.navcontainer ul{
+    padding-left:0;
+    margin-left:0;
+    color:#fff;
+    float:left;
+    width:100%;
+    font-family:arial,helvetica,sans-serif;
+    font-weight:700
+}
+.navcontainer ul li{
+    display:inline
+}
+.navcontainer ul li a{
+    padding:.2em 1em;
+    color:#fff;
+    text-decoration:none;
+    float:left;
+    border-right:1px solid #fff
+}
+.navcontainer ul li a:hover{
+    color:#fff
+}
+.navcontainer ul li a:focus{
+    color:#fff
+}
+.botaoNavFocus{
+    color:#fff
+}
+
+.botaoTop30{
+    color: rgb(0, 128, 0);
+    background-color: rgb(213, 250, 225);
+    font-size: 1.2em;
+    margin: 2px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: inline;
+    border-radius: 5px;
+}

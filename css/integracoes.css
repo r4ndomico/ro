@@ -1,0 +1,47 @@
+#divIntegracoes, #divConsultarDadosGuia {
+    display: none;
+    overflow: auto;
+}
+
+#divFormIntegracao .itemObrigatorio:after {
+    color: red;
+    font-weight: bold;
+    content: " *";
+}
+
+input#numCarteirinhaIntegracao {
+    background-color: #eee;
+    border: 1px solid #777;
+}
+
+#integradorMsgRetorno{
+    display: none;
+    font-weight: bold;
+    color:red;
+}
+
+#divBotoesIntegracao, #divBotoesRetorno{
+    text-align: right;
+}
+
+#tabelaGuiaExames{
+    display: none;
+    overflow: auto;
+    border: #EEE solid 1px;
+}
+
+.custom-modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+.barra-rolagem-retorno {
+    max-height: 450px;
+    overflow: auto;
+}

@@ -1,0 +1,1907 @@
+#areaAdmissao {
+    border-top:		0px;
+    border-right:	0px;
+    border-bottom:	0px;
+    border-left:	0px;
+    width:		100%;
+    margin:		0px;
+    padding:		0px;
+}
+/* ----- Sergio Franco ----- */
+.lista-10{ background:url(../imagens/marcas/marca_10_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_10,
+.areaAdmissao_10 thead tr th,
+.areaAdmissao_10 li,
+.areaAdmissao_10 ul{ background-color:	#007a61;}
+.areaAdmissao_10 tr.even{ background-color:	#BFFCF3;}
+.areaAdmissao_10 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_10 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_10 .totalContainer{background:#007a61;}
+.areaAdmissao_10 #report th { background:#007a61;}
+.areaAdmissao_10 .caixaTextoTomClaro {background-color:#007a61; color:#ffffff;}
+.areaAdmissao_10 a.btForm {background:#007a61; color:#ffffff;}
+.areaAdmissao_10 .menuConteudo{background-color:#007a61;border-bottom:1px solid #004f3f;}
+.areaAdmissao_10 .promptModal em {background-color:#007a61; color:#ffffff;}
+.marca_10 .empresa{background-image:url(../imagens/marcas/marca_10_topo.jpg); background-repeat: no-repeat; background-color: #007a61; background-position: center;}
+.marca_10 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_10 .empresa .unidade{color:#007a61;}
+.marca_10 .empresa .unidade a{color:#007a61;}
+.marca_10 .unidade a:hover{background:#007a61;}
+.marca_10 .unidade a:hover{color:#FFF;}
+.marca_10 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_10 .etiqueta{background-image:url(../imagens/marcas/marca_10_etiqueta.png);}
+.marca_10 .menu li a:hover{background:#007a61;}
+.marca_10 .menu .selecionado{background:#007a61; color:#FFF;}
+.marca_10 a.button:hover{background:#007a61; color:#FFFFFF; border:1px solid #014b3c;}
+.marca_10 a.btMenuConteudo:hover {background:#007a61; color:#ffffff; border: 1px solid #014b3c; border-radius: 3px; float:left; display:block;}
+.marca_10 .totalContainer{background:#007a61;}
+.marca_10 #report th { background:#007a61;}
+.marca_10 a.btMenuForm:hover {background:#007a61; color:#ffffff; border: 1px solid #025645; border-radius: 3px; float:left; display:block;}
+/* ----- Cendilab ----- */
+.lista-11{ background:url(../imagens/marcas/marca_11_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_11,
+.areaAdmissao_11 thead tr th,
+.areaAdmissao_11 li,
+.areaAdmissao_11 ul{background-color:	#007659;}
+.areaAdmissao_11 tr.even{background-color:	#96D3A9;}
+.areaAdmissao_11  .promptModal em {background-color:#007659; color:#ffffff;}
+.marca_11 .empresa{background-image:url(../imagens/marcas/marca_11_topo.jpg);background-repeat: no-repeat; background-color: #007659; background-position: center;}
+.marca_11 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_11 .empresa .unidade{color:#FFF;}
+.marca_11 .empresa .unidade a{color:#FFF;}
+.marca_11 .unidade a:hover{background:#378f53;}
+.marca_11 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_11 .etiqueta{background-image:url(../imagens/marcas/marca_11_etiqueta.png);}
+.marca_11 .menu li a:hover{background:#007659;}
+.marca_11 .menu .selecionado{background:#007659; color:#FFF;}
+.marca_11 a.button:hover{background:#007659; color:#FFFFFF; border:1px solid #025b45;}
+.marca_11 a.btMenuForm:hover {background:#007659; color:#FFFFFF; border:1px solid #025b45; border-radius: 3px; float:left; display:block;}
+.marca_11 a.btMenuConteudo:hover {background:#007659; color:#ffffff; border: 1px solid #005742; border-radius: 3px; float:left; display:block;}
+.marca_11 .totalContainer{background:#007659;}
+.marca_11 #report th { background:#007659;}
+/* ----- ProEcho ----- */
+.lista-12{ background:url(../imagens/marcas/marca_12_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_12,
+.areaAdmissao_12 thead tr th,
+.areaAdmissao_12 li,
+.areaAdmissao_12 ul{background-color:	#0180b7;}
+.areaAdmissao_12 tr.even{background-color:	#DEF;}
+.areaAdmissao_12 .caixaTextoTomClaro {background-color:#0180b7; color:#ffffff;}
+.areaAdmissao_12 .promptModal em {background-color:#0180b7; color:#ffffff;}
+.marca_12 .empresa{background-image:url(../imagens/marcas/marca_12_topo.jpg); background-repeat: no-repeat; background-color: #0180b7; background-position: center;}
+.marca_12 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_12 .empresa .unidade{color:#FFF;}
+.marca_12 .empresa .unidade a{color:#FFF;}
+.marca_12 .unidade a:hover{background:#40ade5;}
+.marca_12 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_12 .etiqueta{background-image:url(../imagens/marcas/marca_12_etiqueta.png);}
+.marca_12 .menu li a:hover{background:#207fb1;}
+.marca_12 .menu .selecionado{background:#207fb1; color:#FFF;}
+.marca_12 a.button:hover{background:#207fb1; color:#FFFFFF; border:1px solid #207fb1;}
+.marca_12 a.btMenuForm:hover {background:#207fb1; color:#FFFFFF; border:1px solid #207fb1; border-radius: 3px; float:left; display:block;}
+.marca_12 a.btMenuConteudo:hover {background:#207fb1; color:#ffffff; border: 1px solid #207fb1; border-radius: 3px; float:left; display:block;}
+.marca_12 .totalContainer{background:#207fb1;}
+.marca_12 #report th { background:#207fb1;}
+/* ----- Foccus ----- */
+.lista-13{ background:url(../imagens/marcas/marca_13_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_13,
+.areaAdmissao_13 thead tr th,
+.areaAdmissao_13 li,
+.areaAdmissao_13 ul{background-color:	#303172;}
+.areaAdmissao_13 tr.even{background-color:	#303172;}
+.areaAdmissao_13 .caixaTextoTomClaro {background-color:#303172; color:#ffffff;}
+.areaAdmissao_13 .promptModal em {background-color:#303172; color:#ffffff;}
+.marca_13 .empresa{background-image:url(../imagens/marcas/marca_13_topo.jpg);background-repeat: no-repeat; background-color: #303172; background-position: center;}
+.marca_13 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_13 .empresa .unidade{color:#FFF;}
+.marca_13 .empresa .unidade a{color:#FFF;}
+.marca_13 .unidade a:hover{background:#5faae6;}
+.marca_13 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_13 .etiqueta{background-image:url(../imagens/marcas/marca_13_etiqueta.png);}
+.marca_13 .menu li a:hover{background:#303172;}
+.marca_13 .menu .selecionado{background:#303172; color:#FFF;}
+.marca_13 a.button:hover{background:#303172; color:#FFFFFF; border:1px solid #1f2051;}
+.marca_13 a.btMenuForm:hover {background:#303172; color:#FFFFFF; border:1px solid #1f2051; border-radius: 3px; float:left; display:block;}
+.marca_13 a.btMenuConteudo:hover {background:#303172; color:#ffffff; border: 1px solid #151645; border-radius: 3px; float:left; display:block;}
+.marca_13 .totalContainer{background:#303172;}
+.marca_13 #report th { background:#303172;}
+/* ----- Total Lab ----- */
+.lista-14{ background:url(../imagens/marcas/marca_14_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_14,
+.areaAdmissao_14 thead tr th,
+.areaAdmissao_14 li,
+.areaAdmissao_14 ul{background-color:	#df4f1e;}
+.areaAdmissao_14 tr.even{background-color:	#df4f1e;}
+.areaAdmissao_14 .promptModal em {background-color:#df4f1e; color:#ffffff;}
+.marca_14 .empresa{background-image:url(../imagens/marcas/marca_14_topo.jpg);background-repeat: no-repeat; background-color: #df4f1e; background-position: center;}
+.marca_14 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-laranja.png);}
+.marca_14 .empresa .unidade{color:#FFF;}
+.marca_14 .empresa .unidade a{color:#FFF;}
+.marca_14 .unidade a:hover{background:#f58864;}
+.marca_14 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-laranja.png);}
+.marca_14 .etiqueta{background-image:url(../imagens/marcas/marca_14_etiqueta.png);}
+.marca_14 .menu li a:hover{background:#df4f1e;}
+.marca_14 .menu .selecionado{background:#df4f1e; color:#FFF;}
+.marca_14 a.button:hover{background:#df4f1e; color:#FFFFFF; border:1px solid #c14317;}
+.marca_14 a.btMenuForm:hover {background:#df4f1e; color:#FFFFFF; border:1px solid #c14317; border-radius: 3px; float:left; display:block;}
+.marca_14 a.btMenuConteudo:hover {background:#df4f1e; color:#ffffff; border: 1px solid #151645; border-radius: 3px; float:left; display:block;}
+.marca_14 .totalContainer{background:#df4f1e;}
+.marca_14 #report th { background:#df4f1e;}
+/* ----- Bronstein ----- */
+.lista-16{ background:url(../imagens/marcas/marca_16_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_16,
+.areaAdmissao_16 thead tr,
+.areaAdmissao_16 li,
+.areaAdmissao_16 ul{background-color:	#2b5283;}
+.areaAdmissao_16 tr.even{background-color:	#DEF;}
+.areaAdmissao_16 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_16 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_16 .totalContainer{background:#2b5283;}
+.areaAdmissao_16 #report th { background:#2b5283;}
+.areaAdmissao_16 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_16 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_16 .empresa{background-image:url(../imagens/marcas/marca_16_topo.jpg);background-repeat: no-repeat; background-color: #2b5283; background-position: center;}
+.marca_16 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_16 .empresa .unidade{color:#FFF;}
+.marca_16 .empresa .unidade a{color:#FFF;}
+.marca_16 .unidade a:hover{background:#40ade5;}
+.marca_16 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_16 .etiqueta{background-image:url(../imagens/marcas/marca_16_etiqueta.png);}
+.marca_16 .menu li a:hover{background:#2b5283;}
+.marca_16 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_16 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_16 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_16 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_16 .totalContainer{background:#2b5283;}
+.marca_16 #report th { background:#2b5283;}
+/* ----- Lamina RJ ----- */
+.lista-17{ background:url(../imagens/marcas/marca_17_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_17,
+.areaAdmissao_17 thead tr th,
+.areaAdmissao_17 li,
+.areaAdmissao_17 ul{background-color:	#cf902f !important;}
+.areaAdmissao_17 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_17 .menuConteudo a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_17 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_17 .totalContainer{background:#d2a059;}
+.areaAdmissao_17 #report th { background:#d2a059;}
+.areaAdmissao_17 .caixaTextoTomClaro {background-color:#d2a059; color:#ffffff;}
+.areaAdmissao_17 .promptModal em {background-color:#d2a059; color:#ffffff;}
+.marca_17 .empresa{background-image:url(../imagens/marcas/marca_17_topo.jpg); background-repeat: no-repeat; background-color: #d2a059; background-position: center;}
+.marca_17 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_17 .empresa .unidade{color:#FFF;}
+.marca_17 .empresa .unidade a{color:#FFF;}
+.marca_17 .unidade a:hover{background:#7b582c;}
+.marca_17 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_17 .etiqueta{background-image:url(../imagens/marcas/marca_17_etiqueta.png);}
+.marca_17 .menu li a:hover{background:#d2a059;}
+.marca_17 a.button:hover{background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_17 a.btMenuForm:hover {background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_17 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_17 .totalContainer{background:#d2a059;}
+.marca_17 #report th { background:#d2a059;}
+/* ----- CientificaLab ----- */
+.lista-18{ background:url(../imagens/marcas/marca_18_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_18,
+.areaAdmissao_18 thead tr th,
+.areaAdmissao_18 li,
+.areaAdmissao_18 ul{background-color:	#CD6600;}
+.areaAdmissao_18 tr.even{background-color:	#DEF;}
+.areaAdmissao_18 .menuConteudo a.btMenuConteudo:hover {background:#CD6600; color:#ffffff; border: 1px solid #0f5579; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_18 a.btMenuConteudo:hover {background:#CD6600; color:#ffffff; border: 1px solid #0f5579; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_18 .totalContainer{background:#CD6600;}
+.areaAdmissao_18 #report th { background:#CD6600;}
+.areaAdmissao_18 .caixaTextoTomClaro {background-color:#CD6600; color:#ffffff;}
+.areaAdmissao_18 .promptModal em {background-color:#CD6600; color:#ffffff;}
+.marca_18 .empresa{background-image:url(../imagens/marcas/marca_18_topo.png);background-repeat: no-repeat; background-color: #CD6600; background-position: center;}
+.marca_18 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-laranja.png);}
+.marca_18 .empresa .unidade{color:#FFF;}
+.marca_18 .empresa .unidade a{color:#FFF;}
+.marca_18 .unidade a:hover{background:#2b5283;}
+.marca_18 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-laranja.png);}
+.marca_18 .etiqueta{background-image:url(../imagens/marcas/marca_18_etiqueta.png);}
+.marca_18 .menu li a:hover{background:#CD6600;}
+.marca_18 .menu .selecionado{background:#CD6600; color:#FFF;}
+.marca_18 a.button:hover{background:#CD6600; color:#FFFFFF; border:1px solid #147bb0;}
+.marca_18 a.btMenuForm:hover {background:#CD6600; color:#FFFFFF; border:1px solid #147bb0; border-radius: 3px; float:left; display:block;}
+.marca_18 a.btMenuConteudo:hover {background:#CD6600; color:#ffffff; border: 1px solid #0f5579; border-radius: 3px; float:left; display:block;}
+.marca_18 .totalContainer{background:#CD6600;}
+.marca_18 #report th { background:#CD6600;}
+/* ----- DASA ----- */
+.lista-19{ background:url(../imagens/marcas/marca_19_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_19,
+.areaAdmissao_19 thead tr th,
+.areaAdmissao_19 li,
+.areaAdmissao_19 ul{background-color:	#c91e37;}
+.areaAdmissao_19 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_19 .caixaTextoTomClaro {background-color:#c91e37; color:#ffffff;}
+.areaAdmissao_19 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_19 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_19 .promptModal em {background-color:#c91e37; color:#ffffff;}
+.marca_19 .empresa{background-image:url(../imagens/marcas/marca_19_topo.jpg);background-repeat: no-repeat; background-color: #c91e37; background-position: center;}
+.marca_19 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_19 .empresa .unidade{color:#FFF;}
+.marca_19 .empresa .unidade a{color:#FFF;}
+.marca_19 .unidade a:hover{background:#f07486;}
+.marca_19 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_19 .etiqueta{background-image:url(../imagens/marcas/marca_19_etiqueta.png);}
+.marca_19 .menu li a:hover{background:#c91e37;}
+.marca_19 .menu .selecionado{background:#c91e37; color:#FFF;}
+.marca_19 a.button:hover{background:#c91e37; color:#FFFFFF; border:1px solid #940d21;}
+.marca_19 a.btMenuForm:hover {background:#c91e37; color:#FFFFFF; border:1px solid #940d21; border-radius: 3px; float:left; display:block;}
+.marca_19 a.btMenuConteudo:hover {background:#c91e37; color:#ffffff; border: 1px solid #940d21; border-radius: 3px; float:left; display:block;}
+.marca_19 .totalContainer{background:#c91e37;}
+.marca_19 #report th { background:#c91e37;}
+/* ----- Club DA ----- */
+.lista-22{ background:url(../imagens/marcas/marca_22_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_22,
+.areaAdmissao_22 thead tr,
+.areaAdmissao_22 li,
+.areaAdmissao_22 ul{background-color:	#a7062e;}
+.areaAdmissao_22 tr.even{background-color:	#DEF;}
+.areaAdmissao_22 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#a7062e; border-radius: 3px;}
+.areaAdmissao_22 a.btMenuConteudo:hover {background:#FFF; color:#a7062e; border-radius: 3px;}
+.areaAdmissao_22 .totalContainer{background:#a7062e;}
+.areaAdmissao_22 #report th { background:#a7062e;}
+.areaAdmissao_22 .caixaTextoTomClaro {background-color:#a7062e; color:#ffffff;}
+.areaAdmissao_22 .promptModal em {background-color:#a7062e; color:#ffffff;}
+.marca_22 .empresa{background-image:url(../imagens/marcas/marca_22_topo.jpg); background-repeat: no-repeat; background-color: #FFF; background-position: center;}
+.marca_22 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_22 .empresa .unidade{color:#FFF;}
+.marca_22 .empresa .unidade a{color:#FFF;}
+.marca_22 .unidade a:hover{background:#a7062e;}
+.marca_22 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_22 .etiqueta{background-image:url(../imagens/marcas/marca_22_etiqueta.png);}
+.marca_22 .menu li a:hover{background:#a7062e;}
+.marca_22 .menu .selecionado{background:#a7062e; color:#FFF;}
+.marca_22 a.button:hover{background:#a7062e; color:#FFFFFF; border:1px solid #013d77;}
+.marca_22 a.btMenuForm:hover {background:#a7062e; color:#FFFFFF; border:1px solid #a7062e; border-radius: 3px; float:left; display:block;}
+.marca_22 a.btMenuConteudo:hover {background:#a7062e; color:#ffffff; border: 1px solid #e2062e; border-radius: 3px; float:left; display:block;}
+.marca_22 .totalContainer{background:#a7062e;}
+.marca_22 #report th { background:#a7062e;}
+/* ----- Alta ----- */
+.lista-23{ background:url(../imagens/marcas/marca_23_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_23,
+.areaAdmissao_23 thead tr th,
+.areaAdmissao_23 li,
+.areaAdmissao_23 ul{background-color:	#23a3ba;}
+.areaAdmissao_23 tr.even{background-color:	#B8F0F9;}
+.areaAdmissao_23 .caixaTextoTomClaro {background-color:#23a3ba; color:#ffffff;}
+.areaAdmissao_23 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_23 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_23 .promptModal em {background-color:#23a3ba; color:#ffffff;}
+.marca_23 .empresa{background-image:url(../imagens/marcas/marca_23_topo.jpg); background-repeat: no-repeat; background-color: #23a3ba; background-position: center;}
+.marca_23 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-florescente.png);}
+.marca_23 .empresa .unidade{color:#FFF;}
+.marca_23 .empresa .unidade a{color:#FFF;}
+.marca_23 .unidade a:hover{background:#35d6f3;}
+.marca_23 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-florescente.png);}
+.marca_23 .etiqueta{background-image:url(../imagens/marcas/marca_23_etiqueta.png);}
+.marca_23 .menu li a:hover{background:#23a3ba;}
+.marca_23 .menu .selecionado{background:#23a3ba; color:#FFF;}
+.marca_23 a.button:hover{background:#23a3ba; color:#FFFFFF; border:1px solid #0f7284;}
+.marca_23 a.btMenuForm:hover {background:#23a3ba; color:#FFFFFF; border:1px solid #0f7284; border-radius: 3px; float:left; display:block;}
+.marca_23 a.btMenuConteudo:hover {background:#23a3ba; color:#ffffff; border: 1px solid #0f7284; border-radius: 3px; float:left; display:block;}
+.marca_23 .totalContainer{background:#23a3ba;}
+.marca_23 #report th { background:#23a3ba;}
+/* ----- Medimagem ----- */
+.lista-25{ background:url(../imagens/marcas/marca_25_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_25,
+.areaAdmissao_25 thead tr th,
+.areaAdmissao_25 li,
+.areaAdmissao_25 ul{background-color:	#2b5384;}
+.areaAdmissao_25 tr.even{background-color:	#DEF;}
+.areaAdmissao_25 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_25 .empresa{background-image:url(../imagens/marcas/marca_25_topo.jpg); background-repeat: no-repeat; background-color: #2b5384; background-position: center;}
+.marca_25 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_25 .empresa .unidade{color:#FFF;}
+.marca_25 .empresa .unidade a{color:#FFF;}
+.marca_25 .unidade a:hover{background:#53a1d6;}
+.marca_25 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_25 .etiqueta{background-image:url(../imagens/marcas/marca_25_etiqueta.png);}
+.marca_25 .menu li a:hover{background:#2b5384;}
+.marca_25 .menu .selecionado{background:#2b5384; color:#FFF;}
+.marca_25 a.button:hover{background:#2b5384; color:#FFFFFF; border:1px solid #1a3b63;}
+.marca_25 a.btMenuForm:hover {background:#2b5384; color:#FFFFFF; border:1px solid #1a3b63; border-radius: 3px; float:left; display:block;}
+.marca_25 a.btMenuConteudo:hover {background:#2b5384; color:#ffffff; border: 1px solid #1a3b63; border-radius: 3px; float:left; display:block;}
+.marca_25 .totalContainer{background:#2b5384;}
+.marca_25 #report th { background:#2b5384;}
+/* ----- Cedilab ----- */
+.lista-26{ background:url(../imagens/marcas/marca_26_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_26,
+.areaAdmissao_26 thead tr th,
+.areaAdmissao_26 li,
+.areaAdmissao_26 ul{background-color:	#10602a;}
+.areaAdmissao_26 tr.even{background-color:	#96D3A9;}
+.areaAdmissao_26 .caixaTextoTomClaro {background-color:#10602a; color:#ffffff;}
+.areaAdmissao_26 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_26 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_26 .promptModal em {background-color:#10602a; color:#ffffff;}
+.marca_26 .empresa{background-image:url(../imagens/marcas/marca_26_topo.jpg); background-repeat: no-repeat; background-color: #08b09a; background-position: center;}
+.marca_26 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_26 .empresa .unidade{color:#FFF;}
+.marca_26 .empresa .unidade a{color:#FFF;}
+.marca_26 .unidade a:hover{background:#378f53;}
+.marca_26 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_26 .etiqueta{background-image:url(../imagens/marcas/marca_26_etiqueta.png);}
+.marca_26 .menu li a:hover{background:#10602a;}
+.marca_26 .menu .selecionado{background:#10602a; color:#FFF;}
+.marca_26 a.button:hover{background:#10602a; color:#FFFFFF; border:1px solid #053b17;}
+.marca_26 a.btMenuForm:hover {background:#10602a; color:#FFFFFF; border:1px solid #053b17; border-radius: 3px; float:left; display:block;}
+.marca_26 a.btMenuConteudo:hover {background:#10602a; color:#ffffff; border: 1px solid #053b17; border-radius: 3px; float:left; display:block;}
+.marca_26 .totalContainer{background:#10602a;}
+.marca_26 #report th { background:#10602a;}
+/* ----- Alvaro ----- */
+.lista-27{ background:url(../imagens/marcas/marca_27_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_27,
+.areaAdmissao_27 thead tr th,
+.areaAdmissao_27 li,
+.areaAdmissao_27 ul{background-color:	#9d1934;}
+.areaAdmissao_27 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_27 .promptModal em {background-color:#9d1934; color:#ffffff;}
+.marca_27 .empresa{background-image:url(../imagens/marcas/marca_27_topo.jpg); background-repeat: no-repeat; background-color: #9d1934; background-position: center;}
+.marca_27 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_27 .empresa .unidade{color:#FFF;}
+.marca_27 .empresa .unidade a{color:#FFF;}
+.marca_27 .unidade a:hover{background:#5c0413;}
+.marca_27 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_27 .etiqueta{background-image:url(../imagens/marcas/marca_27_etiqueta.png);}
+.marca_27 .menu li a:hover{background:#9d1934;}
+.marca_27 .menu .selecionado{background:#9d1934; color:#FFF;}
+.marca_27 a.button:hover{background:#9d1934; color:#FFFFFF; border:1px solid #861028;}
+.marca_27 a.btMenuForm:hover {background:#9d1934; color:#FFFFFF; border:1px solid #861028; border-radius: 3px; float:left; display:block;}
+.marca_27 a.btMenuConteudo:hover {background:#9d1934; color:#ffffff; border: 1px solid #660c1f; border-radius: 3px; float:left; display:block;}
+.marca_27 .totalContainer{background:#9d1934;}
+.marca_27 #report th { background:#9d1934;}
+/* ----- Lamina SC ----- */
+.lista-28{ background:url(../imagens/marcas/marca_28_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_28,
+.areaAdmissao_28 thead tr th,
+.areaAdmissao_28 li,
+.areaAdmissao_28 ul{background-color:	#2b5283 !important;}
+.areaAdmissao_28 tr.even{background-color:	#DEF;}
+.areaAdmissao_28 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_28 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_28 .totalContainer{background:#2b5283;}
+.areaAdmissao_28 #report th { background:#2b5283;}
+.areaAdmissao_28 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_28 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_28 .empresa{background-image:url(../imagens/marcas/marca_28_topo.jpg); background-repeat: no-repeat; background-color: #2b5283; background-position: center;}
+.marca_28 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_28 .empresa .unidade{color:#FFF;}
+.marca_28 .empresa .unidade a{color:#FFF;}
+.marca_28 .unidade a:hover{background:#5faae6;}
+.marca_28 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_28 .etiqueta{background-image:url(../imagens/marcas/marca_28_etiqueta.png);}
+.marca_28 .menu li a:hover{background:#2b5283;}
+.marca_28 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_28 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #143660;}
+.marca_28 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #143660; border-radius: 3px; float:left; display:block;}
+.marca_28 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #143660; border-radius: 3px; float:left; display:block;}
+.marca_28 .totalContainer{background:#2b5283;}
+.marca_28 #report th { background:#2b5283;}
+/* ----- Gaveacor ----- */
+.lista-30{ background:url(../imagens/marcas/marca_19_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_30,
+.areaAdmissao_30 thead tr th,
+.areaAdmissao_30 li,
+.areaAdmissao_30 ul{background-color:	#60ae9f;}
+.areaAdmissao_30 tr.even{background-color:	#BBF9ED;}
+.areaAdmissao_30 .promptModal em {background-color:#60ae9f; color:#ffffff;}
+.marca_30 .empresa{background-image:url(../imagens/marcas/marca_30_topo.jpg); background-repeat: no-repeat; background-color: #FFF; background-position: center;}
+.marca_30 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-escuro.png);}
+.marca_30 .empresa .unidade{color:#FFF;}
+.marca_30 .empresa .unidade a{color:#FFF;}
+.marca_30 .unidade a:hover{background:#2b5283;}
+.marca_30 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-escuro.png);}
+.marca_30 .etiqueta{background-image:url(../imagens/marcas/marca_30_etiqueta.png);}
+.marca_30 .menu li a:hover{background:#60ae9f;}
+.marca_30 .menu .selecionado{background:#60ae9f; color:#FFF;}
+.marca_30 a.button:hover{background:#60ae9f; color:#FFFFFF; border:1px solid #3a907f;}
+.marca_30 a.btMenuForm:hover {background:#60ae9f; color:#FFFFFF; border:1px solid #3a907f; border-radius: 3px; float:left; display:block;}
+.marca_30 a.btMenuConteudo:hover {background:#60ae9f; color:#ffffff; border: 1px solid #295c52; border-radius: 3px; float:left; display:block;}
+.marca_30 .totalContainer{background:#60ae9f;}
+.marca_30 #report th { background:#60ae9f;}
+/* ----- Delboni ----- */
+.lista-31{background:url(../imagens/marcas/marca_31_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_31,
+.areaAdmissao_31 thead tr th,
+.areaAdmissao_31 li,
+.areaAdmissao_31 ul{background-color:	#9b0b38;}
+.areaAdmissao_31 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_31 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_31 .promptModal em {background-color:#9b0b38; color:#ffffff;}
+.marca_31 .empresa{background-image:url(../imagens/marcas/marca_31_topo.jpg); background-repeat: no-repeat; background-color: #941c30; background-position: center;}
+.marca_31 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_31 .empresa .unidade{color:#FFF;}
+.marca_31 .empresa .unidade a{color:#FFF;}
+.marca_31 .unidade a:hover{background:#5c0413;}
+.marca_31 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_31 .etiqueta{background-image:url(../imagens/marcas/marca_31_etiqueta.png);}
+.marca_31 .menu li a:hover{background:#941c30;}
+.marca_31 .menu .selecionado{background:#941c30; color:#FFF;}
+.marca_31 a.button:hover{background:#941c30; color:#FFFFFF; border:1px solid #730f20;}
+.marca_31 a.btMenuForm:hover {background:#941c30; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_31 a.btMenuConteudo:hover {background:#941c30; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_31 .totalContainer{background:#941c30;}
+.marca_31 #report th { background:#941c30;}
+/* ----- Lavoisier ----- */
+.lista-32{background:url(../imagens/marcas/marca_32_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_32,
+.areaAdmissao_32 thead tr th,
+.areaAdmissao_32 li,
+.areaAdmissao_32 ul{background-color:	#008bd2;}
+.areaAdmissao_32 tr.even{background-color:	#DEF;}
+.areaAdmissao_32 .promptModal em {background-color:#008bd2; color:#ffffff;}
+.marca_32 .empresa{background-image:url(../imagens/marcas/marca_32_topo.jpg); background-repeat: no-repeat; background-color: #008bd2; background-position: center;}
+.marca_32 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_32 .empresa .unidade{color:#FFF;}
+.marca_32 .empresa .unidade a{color:#FFF;}
+.marca_32 .unidade a:hover{background:#008bd2;}
+.marca_32 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_32 .etiqueta{background-image:url(../imagens/marcas/marca_32_etiqueta.png);}
+.marca_32 .menu li a:hover{background:#008bd2;}
+.marca_32 .menu .selecionado{background:#008bd2; color:#FFF;}
+.marca_32 a.button:hover{background:#008bd2; color:#FFFFFF; border:1px solid #013d77;}
+.marca_32 a.btMenuForm:hover {background:#008bd2; color:#FFFFFF; border:1px solid #013d77; border-radius: 3px; float:left; display:block;}
+.marca_32 a.btMenuConteudo:hover {background:#008bd2; color:#ffffff; border: 1px solid #01315e; border-radius: 3px; float:left; display:block;}
+.marca_32 .totalContainer{background:#008bd2;}
+.marca_32 #report th { background:#008bd2;}
+/* ----- Lafe ----- */
+.lista-39{background:url(../imagens/marcas/marca_39_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_39,
+.areaAdmissao_39 thead tr th,
+.areaAdmissao_39 li,
+.areaAdmissao_39 ul{background-color:	#008bd2;}
+.areaAdmissao_39 tr.even{background-color:	#DEF;}
+.areaAdmissao_39 .promptModal em {background-color:#008bd2; color:#ffffff;}
+.marca_39 .empresa{background-image:url(../imagens/marcas/marca_39_topo.jpg); background-repeat: no-repeat; background-color: #CD2033; background-position: center;}
+.marca_39 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_39 .empresa .unidade{color:#FFF;}
+.marca_39 .empresa .unidade a{color:#FFF;}
+.marca_39 .unidade a:hover{background:#008bd2;}
+.marca_39 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_39 .etiqueta{background-image:url(../imagens/marcas/marca_39_etiqueta.png);}
+.marca_39 .menu li a:hover{background:#008bd2;}
+.marca_39 .menu .selecionado{background:#008bd2; color:#FFF;}
+.marca_39 a.button:hover{background:#008bd2; color:#FFFFFF; border:1px solid #013d77;}
+.marca_39 a.btMenuForm:hover {background:#008bd2; color:#FFFFFF; border:1px solid #013d77; border-radius: 3px; float:left; display:block;}
+.marca_39 a.btMenuConteudo:hover {background:#008bd2; color:#ffffff; border: 1px solid #01315e; border-radius: 3px; float:left; display:block;}
+.marca_39 .totalContainer{background:#008bd2;}
+.marca_39 #report th { background:#008bd2;}
+/* ----- Previlab ----- */
+.lista-43{ background:url(../imagens/marcas/marca_43_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_43,
+.areaAdmissao_43 thead tr th,
+.areaAdmissao_43 li,
+.areaAdmissao_43 ul{ background-color:	#AAA;}
+.areaAdmissao_43 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_43 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_43 a.btMenuConteudo:hover {background:#FFF; color:#c91e37; border-radius: 3px;}
+.areaAdmissao_43 .totalContainer{background:#AAA;}
+.areaAdmissao_43 #report th { background:#AAA;}
+.areaAdmissao_43 .caixaTextoTomClaro {background-color:#AAA; color:#ffffff;}
+.areaAdmissao_43 a.btForm {background:#AAA; color:#ffffff;}
+.areaAdmissao_43 .menuConteudo{background-color:#AAA;border-bottom:1px solid #004f3f;}
+.areaAdmissao_43 .promptModal em {background-color:#AAA; color:#ffffff;}
+.marca_43 .empresa{background-image:url(../imagens/marcas/marca_43_topo.jpg); background-repeat: no-repeat; background-color: #AAA; background-position: center;}
+.marca_43 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_43 .empresa .unidade{color:#FFF;}
+.marca_43 .empresa .unidade a{color:#606060;}
+.marca_43 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_43 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_43 .etiqueta{background-image:url(../imagens/marcas/marca_43_etiqueta.png);}
+.marca_43 .menu li a:hover{background:#AAA;}
+.marca_43 .menu .selecionado{background:#AAA; color:#FFF;}
+.marca_43 a.button:hover{background:#AAA; color:#FFFFFF; border:1px solid #940d21;}
+.marca_43 .info {color:#606060}
+/* ----- Unimagem ----- */
+.lista-44{ background:url(../imagens/marcas/marca_44_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_44,
+.areaAdmissao_44 thead tr th,
+.areaAdmissao_44 li,
+.areaAdmissao_44 ul{ background-color:	#941c30;}
+.areaAdmissao_44 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_44 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#ffffff; border-radius: 3px;}
+.areaAdmissao_44 a.btMenuConteudo:hover {background:#FFF; color:#c91e37; border-radius: 3px;}
+.areaAdmissao_44 .totalContainer{background:#941c30;}
+.areaAdmissao_44 #report th { background:#941c30;}
+.areaAdmissao_44 .caixaTextoTomClaro {background-color:#941c30; color:#ffffff;}
+.areaAdmissao_44 a.btForm {background:#941c30; color:#ffffff;}
+.areaAdmissao_44 .menuConteudo{background-color:#941c30;border-bottom:1px solid #004f3f;}
+.areaAdmissao_44 .promptModal em {background-color:#941c30; color:#ffffff;}
+.marca_44 .empresa{background-image:url(../imagens/marcas/marca_44_topo.jpg); background-repeat: no-repeat; background-color: #941c30; background-position: center;}
+.marca_44 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_44 .empresa .unidade{color:#FFF;}
+.marca_44 .empresa .unidade a{color:#FFF;}
+.marca_44 .unidade a:hover{background:#5c0413;}
+.marca_44 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_44 .etiqueta{background-image:url(../imagens/marcas/marca_44_etiqueta.png);}
+.marca_44 .menu li a:hover{background:#941c30;}
+.marca_44 .menu .selecionado{background:#941c30; color:#FFF;}
+.marca_44 a.button:hover{background:#941c30; color:#FFFFFF; border:1px solid #730f20;}
+.marca_44 a.btMenuForm:hover {background:#941c30; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_44 a.btMenuConteudo:hover {background:#941c30; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_44 .totalContainer{background:#941c30;}
+.marca_44 #report th { background:#941c30;}
+/* ----- Labsim SP ----- */
+.lista-45{ background:url(../imagens/marcas/marca_45_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_45,
+.areaAdmissao_ thead tr th,
+.areaAdmissao_45 li,
+.areaAdmissao_45 ul{background-color:	#1e8987;}
+.areaAdmissao_45 tr.even{background-color:	#C5F9F8;}
+.areaAdmissao_45 .caixaTextoTomClaro {background-color:#1e8987; color:#ffffff;}
+.areaAdmissao_45 .promptModal em {background-color:#1e8987; color:#ffffff;}
+.marca_45 .empresa{background-image:url(../imagens/marcas/marca_45_topo.jpg); background-repeat: no-repeat; background-color: #1e8987; background-position: center;}
+.marca_45 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-amarelo.png);}
+.marca_45 .empresa .unidade{color:#FFF;}
+.marca_45 .empresa .unidade a{color:#FFF;}
+.marca_45 .unidade a:hover{background:#ecb254;}
+.marca_45 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-amarelo.png);}
+.marca_45 .etiqueta{background-image:url(../imagens/marcas/marca_45_etiqueta.png);}
+.marca_45 .menu li a:hover{background:#1e8987;}
+.marca_45 .menu .selecionado{background:#1e8987; color:#FFF;}
+.marca_45 a.button:hover{background:#1e8987; color:#FFFFFF; border:1px solid #0f7472;}
+.marca_45 a.btMenuForm:hover {background:#1e8987; color:#FFFFFF; border:1px solid #0f7472; border-radius: 3px; float:left; display:block;}
+.marca_45 a.btMenuConteudo:hover {background:#1e8987; color:#ffffff; border: 1px solid #0f7472; border-radius: 3px; float:left; display:block;}
+.marca_45 .totalContainer{background:#1e8987;}
+.marca_45 #report th { background:#1e8987;}
+/* ----- Alvaro Foz ----- */
+.lista-46{ background:url(../imagens/marcas/marca_46_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_46,
+.areaAdmissao_46 thead tr th,
+.areaAdmissao_46 li,
+.areaAdmissao_46 ul{ background-color:	#941c30;}
+.areaAdmissao_46 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_46 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#ffffff; border-radius: 3px;}
+.areaAdmissao_46 a.btMenuConteudo:hover {background:#FFF; color:#c91e37; border-radius: 3px;}
+.areaAdmissao_46 .totalContainer{background:#941c30;}
+.areaAdmissao_46 #report th { background:#941c30;}
+.areaAdmissao_46 .caixaTextoTomClaro {background-color:#941c30; color:#ffffff;}
+.areaAdmissao_46 a.btForm {background:#941c30; color:#ffffff;}
+.areaAdmissao_46 .menuConteudo{background-color:#941c30;border-bottom:1px solid #004f3f;}
+.areaAdmissao_46 .promptModal em {background-color:#941c30; color:#ffffff;}
+.marca_46 .empresa{background-image:url(../imagens/marcas/marca_46_topo.png); background-repeat: no-repeat; background-color: #9d1934; background-position: center;}
+.marca_46 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_46 .empresa .unidade{color:#FFF;}
+.marca_46 .empresa .unidade a{color:#FFF;}
+.marca_46 .unidade a:hover{background:#5c0413;}
+.marca_46 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_46 .etiqueta{background-image:url(../imagens/marcas/marca_46_etiqueta.png);}
+.marca_46 .menu li a:hover{background:#941c30;}
+.marca_46 .menu .selecionado{background:#941c30; color:#FFF;}
+.marca_46 a.button:hover{background:#941c30; color:#FFFFFF; border:1px solid #730f20;}
+.marca_46 a.btMenuForm:hover {background:#941c30; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_46 a.btMenuConteudo:hover {background:#941c30; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_46 .totalContainer{background:#941c30;}
+.marca_46 #report th { background:#941c30;}
+/* ----- Cedic ----- */
+.lista-47{ background:url(../imagens/marcas/marca_47_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_47,
+.areaAdmissao_47 thead tr th,
+.areaAdmissao_47 li,
+.areaAdmissao_47 ul{background-color:	#10602a;}
+.areaAdmissao_47 tr.even{background-color:	#96D3A9;}
+.areaAdmissao_47 .caixaTextoTomClaro {background-color:#10602a; color:#ffffff;}
+.areaAdmissao_47 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_47 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_47 .promptModal em {background-color:#10602a; color:#ffffff;}
+.marca_47 .empresa{background-image:url(../imagens/marcas/marca_47_topo.jpg); background-repeat: no-repeat; background-color: #08b09a; background-position: center;}
+.marca_47 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_47 .empresa .unidade{color:#FFF;}
+.marca_47 .empresa .unidade a{color:#606060;}
+.marca_47 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_47 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_47 .etiqueta{background-image:url(../imagens/marcas/marca_47_etiqueta.png);}
+.marca_47 .menu li a:hover{background:#10602a;}
+.marca_47 .menu .selecionado{background:#10602a; color:#FFF;}
+.marca_47 a.button:hover{background:#10602a; color:#FFFFFF; border:1px solid #053b17;}
+.marca_47 a.btMenuForm:hover {background:#10602a; color:#FFFFFF; border:1px solid #053b17; border-radius: 3px; float:left; display:block;}
+.marca_47 a.btMenuConteudo:hover {background:#10602a; color:#ffffff; border: 1px solid #053b17; border-radius: 3px; float:left; display:block;}
+.marca_47 .totalContainer{background:#10602a;}
+.marca_47 #report th { background:#10602a;}
+.marca_47 .info {color:#606060}
+/* ----- CliniJa ----- */
+.lista-48{ background:url(../imagens/marcas/marca_48_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_48,
+.areaAdmissao_48 thead tr th,
+.areaAdmissao_48 li,
+.areaAdmissao_48 ul{background-color:	#2b5283;}
+.areaAdmissao_48 tr.even{background-color:	#96D3A9;}
+.areaAdmissao_48 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_48 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_48 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_48 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_48 .empresa{background-image:url(../imagens/marcas/marca_48_topo.jpg); background-repeat: no-repeat; background-color: #EBEBEB; background-position: center;}
+.marca_48 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_48 .empresa .unidade{color:#FFF;}
+.marca_48 .empresa .unidade a{color:#606060;}
+.marca_48 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_48 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_48 .etiqueta{background-image:url(../imagens/marcas/marca_48_etiqueta.png);}
+.marca_48 .menu li a:hover{background:#2b5283;}
+.marca_48 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_48 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #940d21;}
+.marca_48 .info {color:#606060}
+/* ----- Frischmann ----- */
+.lista-51{ background:url(../imagens/marcas/marca_51_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_51,
+.areaAdmissao_51 thead tr,
+.areaAdmissao_51 li,
+.areaAdmissao_51 ul{background-color:	#056496;}
+.areaAdmissao_51 tr.even{background-color:	#DEF;}
+.areaAdmissao_51 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#056496; border-radius: 3px;}
+.areaAdmissao_51 a.btMenuConteudo:hover {background:#FFF; color:#056496; border-radius: 3px;}
+.areaAdmissao_51 .totalContainer{background:#056496;}
+.areaAdmissao_51 #report th { background:#056496;}
+.areaAdmissao_51 .caixaTextoTomClaro {background-color:#056496; color:#ffffff;}
+.areaAdmissao_51 .promptModal em {background-color:#056496; color:#ffffff;}
+.marca_51 .empresa{background-image:url(../imagens/marcas/marca_51_topo.jpg); background-repeat: no-repeat; background-color: #056496; background-position: center;}
+.marca_51 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_51 .empresa .unidade{color:#ffffff;}
+.marca_51 .empresa .unidade a{color:#ffffff;}
+.marca_51 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_51 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_51 .etiqueta{background-image:url(../imagens/marcas/marca_51_etiqueta.png);}
+.marca_51 .menu li a:hover{background:#056496;}
+.marca_51 .menu .selecionado{background:#056496; color:#FFF;}
+.marca_51 a.button:hover{background:#056496; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_51 a.btMenuForm:hover {background:#056496; color:#FFFFFF; border:1px solid #056496; border-radius: 3px; float:left; display:block;}
+.marca_51 a.btMenuConteudo:hover {background:#056496; color:#ffffff; border: 1px solid #056496; border-radius: 3px; float:left; display:block;}
+.marca_51 .totalContainer{background:#056496;}
+.marca_51 #report th { background:#056496;}
+.marca_51 .info {color:#ffffff;}
+/* ----- Atalaia ----- */
+.lista-52{ background:url(../imagens/marcas/marca_52_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_52,
+.areaAdmissao_52 thead tr th,
+.areaAdmissao_52 li,
+.areaAdmissao_52 ul{ background-color: #1192d5;}
+.areaAdmissao_52 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_52 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#1192d5; border-radius: 3px;}
+.areaAdmissao_52 a.btMenuConteudo:hover {background:#FFF; color:#1192d5; border-radius: 3px;}
+.areaAdmissao_52 .totalContainer{background:#1192d5;}
+.areaAdmissao_52 #report th { background:#1192d5;}
+.areaAdmissao_52 .caixaTextoTomClaro {background-color:#1192d5; color:#ffffff;}
+.areaAdmissao_52 a.btForm {background:#AAA; color:#ffffff;}
+.areaAdmissao_52 .menuConteudo{background-color:#AAA;border-bottom:1px solid #1192d5;}
+.areaAdmissao_52 .promptModal em {background-color:#1192d5; color:#ffffff;}
+.marca_52 .empresa{background-image:url(../imagens/marcas/marca_52_topo.jpg); background-repeat: no-repeat; background-color: #1192d5; background-position: center;}
+.marca_52 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_52 .empresa .unidade{color:#ffffff;}
+.marca_52 .empresa .unidade a{color:#ffffff;}
+.marca_52 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_52 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_52 .etiqueta{background-image:url(../imagens/marcas/marca_52_etiqueta.png);}
+.marca_52 .menu li a:hover{background:#1192d5;}
+.marca_52 .menu .selecionado{background:#1192d5; color:#FFF;}
+.marca_52 a.button:hover{background:#1192d5; color:#FFFFFF; border:1px solid #1192d5;}
+.marca_52 a.btMenuForm:hover {background:#1192d5; color:#FFFFFF; border:1px solid #1192d5; border-radius: 3px; float:left; display:block;}
+.marca_52 a.btMenuConteudo:hover {background:#1192d5; color:#ffffff; border: 1px solid #1192d5; border-radius: 3px; float:left; display:block;}
+.marca_52 .totalContainer{background:#1192d5;}
+.marca_52 #report th { background:#1192d5;}
+.marca_52 .info {color:#ffffff;}
+/* ----- Cytolab ----- */
+.lista-53{ background:url(../imagens/marcas/marca_53_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_53,
+.areaAdmissao_53 thead tr th,
+.areaAdmissao_53 li,
+.areaAdmissao_53 ul{ background-color:	#003082;}
+.areaAdmissao_53 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_53 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#003082; border-radius: 3px;}
+.areaAdmissao_53 a.btMenuConteudo:hover {background:#FFF; color:#c91e37; border-radius: 3px;}
+.areaAdmissao_53 .totalContainer{background:#003082;}
+.areaAdmissao_53 #report th { background:#003082;}
+.areaAdmissao_53 .caixaTextoTomClaro {background-color:#003082; color:#ffffff;}
+.areaAdmissao_53 a.btForm {background:#AAA; color:#ffffff;}
+.areaAdmissao_53 .menuConteudo{background-color:#AAA;border-bottom:1px solid #003082;}
+.areaAdmissao_53 .promptModal em {background-color:#003082; color:#ffffff;}
+.marca_53 .empresa{background-image:url(../imagens/marcas/marca_53_topo.jpg); background-repeat: no-repeat; background-color: #44adaa; background-position: center;}
+.marca_53 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_53 .empresa .unidade{color:#ffffff;}
+.marca_53 .empresa .unidade a{color:#ffffff;}
+.marca_53 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_53 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_53 .etiqueta{background-image:url(../imagens/marcas/marca_53_etiqueta.png);}
+.marca_53 .menu li a:hover{background:#003082;}
+.marca_53 .menu .selecionado{background:#003082; color:#FFF;}
+.marca_53 a.button:hover{background:#003082; color:#FFFFFF; border:1px solid #003082;}
+.marca_53 a.btMenuForm:hover {background:#003082; color:#FFFFFF; border:1px solid #003082; border-radius: 3px; float:left; display:block;}
+.marca_53 a.btMenuConteudo:hover {background:#003082; color:#ffffff; border: 1px solid #003082; border-radius: 3px; float:left; display:block;}
+.marca_53 .totalContainer{background:#003082;}
+.marca_53 #report th { background:#003082;}
+.marca_53 .info {color:#ffffff;}
+/* ----- Image Memorial ----- */
+.lista-54{ background:url(../imagens/marcas/marca_54_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_54,
+.areaAdmissao_54 thead tr th,
+.areaAdmissao_54 li,
+.areaAdmissao_54 ul{ background-color:	#00416b;}
+.areaAdmissao_54 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_54 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_54 a.btMenuConteudo:hover {background:#FFF; color:#c91e37; border-radius: 3px;}
+.areaAdmissao_54 .totalContainer{background:#00416b;}
+.areaAdmissao_54 #report th { background:#00416b;}
+.areaAdmissao_54 .caixaTextoTomClaro {background-color:#00416b; color:#ffffff;}
+.areaAdmissao_54 a.btForm {background:#00416b; color:#ffffff;}
+.areaAdmissao_54 .menuConteudo{background-color:#00416b;border-bottom:1px solid #004f3f;}
+.areaAdmissao_54 .promptModal em {background-color:#00416b; color:#ffffff;}
+.marca_54 .empresa{background-image:url(../imagens/marcas/marca_54_topo.jpg); background-repeat: no-repeat; background-color: #2b5283; background-position: center;}
+.marca_54 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_54 .empresa .unidade{color:#FFF;}
+.marca_54 .empresa .unidade a{color:#FFF;}
+.marca_54 .unidade a:hover{background:#606060; color:#FFF;}
+.marca_54 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_54 .etiqueta{background-image:url(../imagens/marcas/marca_54_etiqueta.png);}
+.marca_54 .menu li a:hover{background:#2b5283;}
+.marca_54 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_54 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_54 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_54 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_54 .totalContainer{background:#2b5283;}
+.marca_54 #report th { background:#2b5283;}
+.marca_54 .info {color:#FFF}
+/* ----- Exame ----- */
+.lista-55{ background:url(../imagens/marcas/marca_55_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_55,
+.areaAdmissao_55 thead tr th,
+.areaAdmissao_55 li,
+.areaAdmissao_55 ul{background-color:	#861F41;}
+.areaAdmissao_55 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_55 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_55 .promptModal em {background-color:#721b46; color:#ffffff;}
+.areaAdmissao_55 tr.even{ background-color:	#F99FAB;}
+.areaAdmissao_55 .menuConteudo a.btMenuConteudo:hover {background:#861F41; color:#ffffff; border-radius: 3px;}
+.areaAdmissao_55 a.btMenuConteudo:hover {background:#FFF; color:#861F41; border-radius: 3px;}
+.areaAdmissao_55 .totalContainer{background:#861F41;}
+.areaAdmissao_55 #report th { background:#861F41;}
+.areaAdmissao_55 a.btForm {background:#861F41; color:#ffffff;}
+.marca_55 .empresa{background-image:url(../imagens/marcas/marca_55_topo.jpg); background-repeat: no-repeat; background-color: #faf7f9; background-position: center;}
+.marca_55 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vinho.png);}
+.marca_55 .empresa .unidade{color:#868686;}
+.marca_55 .empresa .unidade a{color:#868686;}
+.marca_55 .unidade a:hover{background:#861F41;}
+.marca_55 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vinho.png);}
+.marca_55 .etiqueta{background-image:url(../imagens/marcas/marca_55_etiqueta.png);}
+.marca_55 .menu li a:hover{background:#861F41;}
+.marca_55 .menu .selecionado{background:#861F41; color:#FFF;}
+.marca_55 a.button:hover{background:#861F41; color:#868686; border:1px solid #ad004f;}
+.marca_55 a.btMenuForm:hover {background:#861F41; color:#868686; border:1px solid #ad004f; border-radius: 3px; float:left; display:block;}
+.marca_55 a.btMenuConteudo:hover {background:#861F41; color:#868686; border: 1px solid #ad004f; border-radius: 3px; float:left; display:block;}
+.marca_55 .totalContainer{background:#861F41;}
+.marca_55 #report th { background:#861F41;}
+.marca_55 .info {color: #868686;}
+/* ----- Labpasteur ----- */
+.lista-56{ background:url(../imagens/marcas/marca_56_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_56,
+.areaAdmissao_56 thead tr,
+.areaAdmissao_56 li,
+.areaAdmissao_56 ul{background-color:	#007dc2;}
+.areaAdmissao_56 tr.even{background-color:	#DEF;}
+.areaAdmissao_56 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007dc2; border-radius: 3px;}
+.areaAdmissao_56 a.btMenuConteudo:hover {background:#FFF; color:#007dc2; border-radius: 3px;}
+.areaAdmissao_56 .totalContainer{background:#007dc2;}
+.areaAdmissao_56 #report th { background:#007dc2;}
+.areaAdmissao_56 .caixaTextoTomClaro {background-color:#007dc2; color:#ffffff;}
+.areaAdmissao_56 .promptModal em {background-color:#007dc2; color:#ffffff;}
+.marca_56 .empresa{background-image:url(../imagens/marcas/marca_56_topo.jpg); background-repeat: no-repeat; background-color: #007dc2; background-position: center;}
+.marca_56 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_56 .empresa .unidade a{color:#FFF;}
+.marca_56 .unidade a:hover{background:#007dc2;}
+.marca_56 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png); }
+.marca_56 .etiqueta{background-image:url(../imagens/marcas/marca_56_etiqueta.png);}
+.marca_56 .menu li a:hover{background:#007dc2;}
+.marca_56 .menu .selecionado{background:#007dc2; color:#FFF;}
+.marca_56 a.button:hover{background:#007dc2; color:#FFFFFF; border:1px solid #006399;}
+.marca_56 a.btMenuForm:hover {background:#007dc2; color:#FFFFFF; border:1px solid #006399; border-radius: 3px; float:left; display:block;}
+.marca_56 a.btMenuConteudo:hover {background:#007dc2; color:#ffffff; border: 1px solid #006399; border-radius: 3px; float:left; display:block;}
+.marca_56 .totalContainer{background:#007dc2;}
+.marca_56 #report th { background:#007dc2;}
+/* ----- Cerpe ----- */
+.lista-57{ background:url(../imagens/marcas/marca_57_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_57,
+.areaAdmissao_57 thead tr th,
+.areaAdmissao_57 li,
+.areaAdmissao_57 ul{background-color:	#c91e37;}
+.areaAdmissao_57 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_57 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_57 .promptModal em {background-color:#c91e37; color:#ffffff;}
+.marca_57 .empresa{background-image:url(../imagens/marcas/marca_57_topo.jpg); background-repeat: no-repeat; background-color: #c91e37; background-position: center;}
+.marca_57 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_57 .empresa .unidade{color:#FFF;}
+.marca_57 .empresa .unidade a{color:#FFF;}
+.marca_57 .unidade a:hover{background:#5c0413;}
+.marca_57 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_57 .etiqueta{background-image:url(../imagens/marcas/marca_57_etiqueta.png);}
+.marca_57 .menu li a:hover{background:#c91e37;}
+.marca_57 .menu .selecionado{background:#c91e37; color:#FFF;}
+.marca_57 a.button:hover{background:#c91e37; color:#FFFFFF; border:1px solid #940d21;}
+.marca_57 a.btMenuForm:hover {background:#c91e37; color:#FFFFFF; border:1px solid #940d21; border-radius: 3px; float:left; display:block;}
+.marca_57 a.btMenuConteudo:hover {background:#c91e37; color:#ffffff; border: 1px solid #940d21; border-radius: 3px; float:left; display:block;}
+.marca_57 .totalContainer{background:#c91e37;}
+.marca_57 #report th { background:#c91e37;}
+/* ----- Delboni Prime ----- */
+.lista-58{background:url(../imagens/marcas/marca_58_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_58,
+.areaAdmissao_58 thead tr th,
+.areaAdmissao_58 li,
+.areaAdmissao_58 ul{background-color:	#9b0b38;}
+.areaAdmissao_58 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_58 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_58 .promptModal em {background-color:#9b0b38; color:#ffffff;}
+.marca_58 .empresa{background-image:url(../imagens/marcas/marca_58_topo.jpg); background-repeat: no-repeat; background-color: #941c30; background-position: center;}
+.marca_58 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_58 .empresa .unidade{color:#FFF;}
+.marca_58 .empresa .unidade a{color:#FFF;}
+.marca_58 .unidade a:hover{background:#5c0413;}
+.marca_58 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_58 .etiqueta{background-image:url(../imagens/marcas/marca_58_etiqueta.png);}
+.marca_58 .menu li a:hover{background:#941c30;}
+.marca_58 .menu .selecionado{background:#941c30; color:#FFF;}
+.marca_58 a.button:hover{background:#941c30; color:#FFFFFF; border:1px solid #730f20;}
+.marca_58 a.btMenuForm:hover {background:#941c30; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_58 a.btMenuConteudo:hover {background:#941c30; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_58 .totalContainer{background:#941c30;}
+.marca_58 #report th { background:#941c30;}
+/* ----- Oswaldo Cruz ----- */
+.lista-59{ background:url(../imagens/marcas/marca_59_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_59,
+.areaAdmissao_59 thead tr th,
+.areaAdmissao_59 li,
+.areaAdmissao_59 ul{background-color:	#cf902f !important;}
+.areaAdmissao_59 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_59 .menuConteudo a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_59 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_59 .totalContainer{background:#d2a059;}
+.areaAdmissao_59 #report th { background:#d2a059;}
+.areaAdmissao_59 .caixaTextoTomClaro {background-color:#d2a059; color:#ffffff;}
+.areaAdmissao_59 .promptModal em {background-color:#d2a059; color:#ffffff;}
+.marca_59 .empresa{background-image:url(../imagens/marcas/marca_59_topo.jpg); background-repeat: no-repeat; background-color: #512A23; background-position: center;}
+.marca_59 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_59 .empresa .unidade{color:#FFF;}
+.marca_59 .empresa .unidade a{color:#FFF;}
+.marca_59 .unidade a:hover{background:#7b582c;}
+.marca_59 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_59 .etiqueta{background-image:url(../imagens/marcas/marca_59_etiqueta.png);}
+.marca_59 .menu li a:hover{background:#d2a059;}
+.marca_59 a.button:hover{background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_59 a.btMenuForm:hover {background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_59 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_59 .totalContainer{background:#d2a059;}
+.marca_59 #report th { background:#d2a059;}
+/* ----- Pro Video ----- */
+.lista-60{ background:url(../imagens/marcas/marca_19_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_60,
+.areaAdmissao_60 thead tr th,
+.areaAdmissao_60 li,
+.areaAdmissao_60 ul{background-color:	#1a98a5;}
+.areaAdmissao_60 tr.even{background-color:	#8BD9E0;}
+.areaAdmissao_60 .promptModal em {background-color:#1a98a5; color:#ffffff;}
+.marca_60 .empresa{background-image:url(../imagens/marcas/marca_60_topo.jpg); background-repeat: no-repeat; background-color: #FFF; background-position: center;}
+.marca_60 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-escuro.png);}
+.marca_60 .empresa .unidade{color:#FFF;}
+.marca_60 .empresa .unidade a{color:#FFF;}
+.marca_60 .unidade a:hover{background:#2b5283;}
+.marca_60 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-escuro.png);}
+.marca_60 .etiqueta{background-image:url(../imagens/marcas/marca_60_etiqueta.png);}
+.marca_60 .menu li a:hover{background:#1a98a5;}
+.marca_60 .menu .selecionado{background:#1a98a5; color:#FFF;}
+.marca_60 a.button:hover{background:#1a98a5; color:#FFFFFF; border:1px solid #117b87;}
+.marca_60 a.btMenuForm:hover {background:#1a98a5; color:#FFFFFF; border:1px solid #117b87; border-radius: 3px; float:left; display:block;}
+.marca_60 a.btMenuConteudo:hover {background:#1a98a5; color:#ffffff; border: 1px solid #0d5c64; border-radius: 3px; float:left; display:block;}
+.marca_60 .totalContainer{background:#1a98a5;}
+.marca_60 #report th { background:#1a98a5;}
+/* ----- Leme ----- */
+.lista-61{ background:url(../imagens/marcas/marca_61_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_61,
+.areaAdmissao_61 thead tr th,
+.areaAdmissao_61 li,
+.areaAdmissao_61 ul{background-color:	#2b5283;}
+.areaAdmissao_61 tr.even{background-color:	#DEF;}
+.areaAdmissao_61 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_61 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_61 .empresa{background-image:url(../imagens/marcas/marca_61_topo.png); background-repeat: no-repeat; background-color: #2b5283; background-position: center;}
+.marca_61 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_61 .empresa .unidade{color:#FFF;}
+.marca_61 .empresa .unidade a{color:#FFF;}
+.marca_61 .unidade a:hover{background:#40ade5;}
+.marca_61 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_61 .etiqueta{background-image:url(../imagens/marcas/marca_61_etiqueta.png);}
+.marca_61 .menu li a:hover{background:#2b5283;}
+.marca_61 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_61 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_61 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_61 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_61 .totalContainer{background:#2b5283;}
+.marca_61 #report th { background:#2b5283;}
+/* ----- Gilson Cidrim ----- */
+.lista-62{ background:url(../imagens/marcas/marca_62_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_62,
+.areaAdmissao_62 thead tr th,
+.areaAdmissao_62 li,
+.areaAdmissao_62 ul{background-color:	#10602a;}
+.areaAdmissao_62 tr.even{background-color:	#96D3A9;}
+.areaAdmissao_62 .caixaTextoTomClaro {background-color:#10602a; color:#ffffff;}
+.areaAdmissao_62 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_62 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_62 .promptModal em {background-color:#10602a; color:#ffffff;}
+.marca_62 .empresa{background-image:url(../imagens/marcas/marca_62_topo.jpg); background-repeat: no-repeat; background-color: #10602a; background-position: center;}
+.marca_62 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_62 .empresa .unidade{color:#FFF;}
+.marca_62 .empresa .unidade a{color:#FFF;}
+.marca_62 .unidade a:hover{background:#5c0413;}
+.marca_62 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_62 .etiqueta{background-image:url(../imagens/marcas/marca_62_etiqueta.png);}
+.marca_62 .menu li a:hover{background:#10602a;}
+.marca_62 .menu .selecionado{background:#10602a; color:#FFF;}
+.marca_62 a.button:hover{background:#10602a; color:#FFFFFF; border:1px solid #053b17;}
+.marca_62 a.btMenuForm:hover {background:#10602a; color:#FFFFFF; border:1px solid #053b17; border-radius: 3px; float:left; display:block;}
+.marca_62 a.btMenuConteudo:hover {background:#10602a; color:#ffffff; border: 1px solid #053b17; border-radius: 3px; float:left; display:block;}
+.marca_62 .totalContainer{background:#10602a;}
+.marca_62 #report th { background:#10602a;}
+/* ----- Gaspar ----- */
+.lista-63{ background:url(../imagens/marcas/marca_63_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_63,
+.areaAdmissao_63 thead tr th,
+.areaAdmissao_63 li,
+.areaAdmissao_63 ul{background-color:	#BEBEBE;}
+.areaAdmissao_63 tr.even{background-color:	#8c8b8b;}
+.areaAdmissao_63 .caixaTextoTomClaro {background-color:#BEBEBE; color:#696969;}
+.areaAdmissao_63 .menuConteudo a.btMenuConteudo:hover {background:#696969; color:#007a61; border-radius: 3px;}
+.areaAdmissao_63 a.btMenuConteudo:hover {background:#696969; color:#007a61; border-radius: 3px;}
+.areaAdmissao_63 .promptModal em {background-color:#BEBEBE; color:#696969;}
+.marca_63 .empresa{background-image:url(../imagens/marcas/marca_63_topo.png); background-repeat: no-repeat; background-color: #BEBEBE; background-position: center;}
+.marca_63 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-cinza.png);}
+.marca_63 .empresa .unidade{color:#696969;}
+.marca_63 .empresa .unidade a{color:#696969;}
+.marca_63 .unidade a:hover{background:#5c0413;}
+.marca_63 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-cinza.png);}
+.marca_63 .etiqueta{background-image:url(../imagens/marcas/marca_63_etiqueta.png);}
+.marca_63 .menu li a:hover{background:#BEBEBE;}
+.marca_63 .menu .selecionado{background:#BEBEBE; color:#696969;}
+.marca_63 a.button:hover{background:#BEBEBE; color:#696969; border:1px solid #8f8888;}
+.marca_63 a.btMenuForm:hover {background:#BEBEBE; color:#696969; border:1px solid #8f8888; border-radius: 3px; float:left; display:block;}
+.marca_63 a.btMenuConteudo:hover {background:#BEBEBE; color:#696969; border: 1px solid #8f8888; border-radius: 3px; float:left; display:block;}
+.marca_63 .totalContainer{background:#BEBEBE;}
+.marca_63 #report th { background:#BEBEBE;}
+/* ----- CDPI 64 ----- */
+.lista-64{ background:url(../imagens/marcas/marca_64_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_64,
+.areaAdmissao_64 thead tr th,
+.areaAdmissao_64 li,
+.areaAdmissao_64 ul{background-color:	#2b5283;}
+.areaAdmissao_64 tr.even{background-color:	#DEF;}
+.areaAdmissao_64 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_64 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_64 .empresa{background-image:url(../imagens/marcas/marca_64_topo.jpg); background-repeat: no-repeat; background-color: #2b5283; background-position: center;}
+.marca_64 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_64 .empresa .unidade{color:#FFF;}
+.marca_64 .empresa .unidade a{color:#FFF;}
+.marca_64 .unidade a:hover{background:#40ade5;}
+.marca_64 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_64 .etiqueta{background-image:url(../imagens/marcas/marca_64_etiqueta.png);}
+.marca_64 .menu li a:hover{background:#2b5283;}
+.marca_64 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_64 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_64 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_64 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_64 .totalContainer{background:#2b5283;}
+.marca_64 #report th { background:#2b5283;}
+/* ----- CDPI 65 ----- */
+.lista-65{ background:url(../imagens/marcas/marca_65_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_65,
+.areaAdmissao_65 thead tr th,
+.areaAdmissao_65 li,
+.areaAdmissao_65 ul{background-color:	#2b5283;}
+.areaAdmissao_65 tr.even{background-color:	#DEF;}
+.areaAdmissao_65 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_65 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_65 .empresa{background-image:url(../imagens/marcas/marca_65_topo.jpg); background-repeat: no-repeat; background-color: #2b5283; background-position: center;}
+.marca_65 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_65 .empresa .unidade{color:#FFF;}
+.marca_65 .empresa .unidade a{color:#FFF;}
+.marca_65 .unidade a:hover{background:#40ade5;}
+.marca_65 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_65 .etiqueta{background-image:url(../imagens/marcas/marca_65_etiqueta.png);}
+.marca_65 .menu li a:hover{background:#2b5283;}
+.marca_65 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_65 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_65 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_65 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_65 .totalContainer{background:#2b5283;}
+.marca_65 #report th { background:#2b5283;}
+/* ----- CDPI Multimagem ----- */
+.lista-66{ background:url(../imagens/marcas/marca_66_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_66,
+.areaAdmissao_66 thead tr th,
+.areaAdmissao_66 li,
+.areaAdmissao_66 ul{background-color:	#2b5283;}
+.areaAdmissao_66 tr.even{background-color:	#DEF;}
+.areaAdmissao_66 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_66 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_66 .empresa{background-image:url(../imagens/marcas/marca_66_topo.jpg); background-repeat: no-repeat; background-color: #F6B416; background-position: center;}
+.marca_66 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_66 .empresa .unidade{color:#FFF;}
+.marca_66 .empresa .unidade a{color:#FFF;}
+.marca_66 .unidade a:hover{background:#40ade5;}
+.marca_66 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_66 .etiqueta{background-image:url(../imagens/marcas/marca_66_etiqueta.png);}
+.marca_66 .menu li a:hover{background:#2b5283;}
+.marca_66 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_66 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_66 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_66 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_66 .totalContainer{background:#2b5283;}
+.marca_66 #report th { background:#2b5283;}
+/* ----- SALOMAO ZOPPI ----- */
+.lista-67{ background:url(../imagens/marcas/marca_67_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_67,
+.areaAdmissao_67 thead tr th,
+.areaAdmissao_67 li,
+.areaAdmissao_67 ul{ background-color:	#007a61;}
+.areaAdmissao_67 tr.even{ background-color:	#BFFCF3;}
+.areaAdmissao_67 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_67 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_67 .totalContainer{background:#007a61;}
+.areaAdmissao_67 #report th { background:#007a61;}
+.areaAdmissao_67 .caixaTextoTomClaro {background-color:#007a61; color:#ffffff;}
+.areaAdmissao_67 a.btForm {background:#007a61; color:#ffffff;}
+.areaAdmissao_67 .menuConteudo{background-color:#007a61;border-bottom:1px solid #004f3f;}
+.areaAdmissao_67 .promptModal em {background-color:#007a61; color:#ffffff;}
+.marca_67 .empresa{background-image:url(../imagens/marcas/marca_67_topo.jpg); background-repeat: no-repeat; background-color: #00AE99; background-position: center;}
+.marca_67 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_67 .empresa .unidade{color:#FFF;}
+.marca_67 .empresa .unidade a{color:#FFF;}
+.marca_67 .unidade a:hover{background:#5c0413;}
+.marca_67 .unidade a:hover{color:#FFF;}
+.marca_67 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_67 .etiqueta{background-image:url(../imagens/marcas/marca_67_etiqueta.png);}
+.marca_67 .menu li a:hover{background:#007a61;}
+.marca_67 .menu .selecionado{background:#007a61; color:#FFF;}
+.marca_67 a.button:hover{background:#007a61; color:#FFFFFF; border:1px solid #014b3c;}
+.marca_67 a.btMenuConteudo:hover {background:#007a61; color:#ffffff; border: 1px solid #014b3c; border-radius: 3px; float:left; display:block;}
+.marca_67 .totalContainer{background:#007a61;}
+.marca_67 #report th { background:#007a61;}
+.marca_67 a.btMenuForm:hover {background:#007a61; color:#ffffff; border: 1px solid #025645; border-radius: 3px; float:left; display:block;}
+/* ----- VITAL ----- */
+.lista-68{ background:url(../imagens/marcas/marca_68_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_68,
+.areaAdmissao_68 thead tr,
+.areaAdmissao_68 li,
+.areaAdmissao_68 ul{background-color:	#2b5283;}
+.areaAdmissao_68 tr.even{background-color:	#DEF;}
+.areaAdmissao_68 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_68 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_68 .totalContainer{background:#2b5283;}
+.areaAdmissao_68 #report th { background:#2b5283;}
+.areaAdmissao_68 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_68 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_68 .empresa{background-image:url(../imagens/marcas/marca_68_topo.jpg); background-repeat: no-repeat; background-color: #292D8B; background-position: center;}
+.marca_68 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_68 .empresa .unidade{color:#FFF;}
+.marca_68 .empresa .unidade a{color:#FFF;}
+.marca_68 .unidade a:hover{background:#40ade5;}
+.marca_68 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_68 .etiqueta{background-image:url(../imagens/marcas/marca_68_etiqueta.png);}
+.marca_68 .menu li a:hover{background:#2b5283;}
+.marca_68 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_68 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_68 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_68 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_68 .totalContainer{background:#2b5283;}
+.marca_68 #report th { background:#2b5283;}
+/* ----- Ghanem ----- */
+.lista-69{ background:url(../imagens/marcas/marca_69_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_69,
+.areaAdmissao_69 thead tr th,
+.areaAdmissao_69 li,
+.areaAdmissao_69 ul{ background-color:	#007a61;}
+.areaAdmissao_69 tr.even{ background-color:	#BFFCF3;}
+.areaAdmissao_69 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_69 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_69 .totalContainer{background:#007a61;}
+.areaAdmissao_69 #report th { background:#007a61;}
+.areaAdmissao_69 .caixaTextoTomClaro {background-color:#007a61; color:#ffffff;}
+.areaAdmissao_69 a.btForm {background:#007a61; color:#ffffff;}
+.areaAdmissao_69 .menuConteudo{background-color:#007a61;border-bottom:1px solid #004f3f;}
+.areaAdmissao_69 .promptModal em {background-color:#007a61; color:#ffffff;}
+.marca_69 .empresa{background-image:url(../imagens/marcas/marca_69_topo.png); background-repeat: no-repeat; background-color: #6EB544; background-position: center;}
+.marca_69 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_69 .empresa .unidade{color:#007a61;}
+.marca_69 .empresa .unidade a{color:#007a61;}
+.marca_69 .unidade a:hover{background:#007a61;}
+.marca_69 .unidade a:hover{color:#FFF;}
+.marca_69 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_69 .etiqueta{background-image:url(../imagens/marcas/marca_69_etiqueta.png);}
+.marca_69 .menu li a:hover{background:#007a61;}
+.marca_69 .menu .selecionado{background:#007a61; color:#FFF;}
+.marca_69 a.button:hover{background:#007a61; color:#FFFFFF; border:1px solid #014b3c;}
+.marca_69 a.btMenuConteudo:hover {background:#007a61; color:#ffffff; border: 1px solid #014b3c; border-radius: 3px; float:left; display:block;}
+.marca_69 .totalContainer{background:#007a61;}
+.marca_69 #report th { background:#007a61;}
+.marca_69 a.btMenuForm:hover {background:#007a61; color:#ffffff; border: 1px solid #025645; border-radius: 3px; float:left; display:block;}
+/* ----- Sta.Luzia  ----- */
+.lista-71{ background:url(../imagens/marcas/marca_71_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_71,
+.areaAdmissao_71 thead tr th,
+.areaAdmissao_71 li,
+.areaAdmissao_71 ul{background-color:	#6B8E23 !important;}
+.areaAdmissao_71 tr.even{background-color:	#DEF;}
+.areaAdmissao_71 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#a2d43d; border-radius: 3px;}
+.areaAdmissao_71 a.btMenuConteudo:hover {background:#FFF; color:#a2d43d; border-radius: 3px;}
+.areaAdmissao_71 .totalContainer{background:#6B8E23;}
+.areaAdmissao_71 #report th { background:#6B8E23;}
+.areaAdmissao_71 .caixaTextoTomClaro {background-color:#6B8E23; color:#ffffff;}
+.areaAdmissao_71 .promptModal em {background-color:#6B8E23; color:#ffffff;}
+.marca_71 .empresa{background-image:url(../imagens/marcas/marca_71_topo.png); background-repeat: no-repeat; background-color: #AFC601; background-position: center;}
+.marca_71 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_71 .empresa .unidade{color:#FFF;}
+.marca_71 .empresa .unidade a{color:#FFF;}
+.marca_71 .unidade a:hover{background:#6B8E23;}
+.marca_71 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde-claro.png);}
+.marca_71 .etiqueta{background-image:url(../imagens/marcas/marca_71_etiqueta.png);}
+.marca_71 .menu li a:hover{background:#6B8E23;}
+.marca_71 .menu .selecionado{background:#6B8E23; color:#FFF;}
+.marca_71 a.button:hover{background:#6B8E23; color:#FFFFFF; border:1px solid #395401;}
+.marca_71 a.btMenuForm:hover {background:#6B8E23; color:#FFFFFF; border:1px solid #395401; border-radius: 3px; float:left; display:block;}
+.marca_71 a.btMenuConteudo:hover {background:#6B8E23; color:#ffffff; border: 1px solid #2f4501; border-radius: 3px; float:left; display:block;}
+.marca_71 .totalContainer{background:#6B8E23;}
+.marca_71 #report th { background:#6B8E23;}
+/* ----- DELIBERATO ----- */
+.lista-72{ background:url(../imagens/marcas/marca_72_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_72,
+.areaAdmissao_72 thead tr th,
+.areaAdmissao_72 li,
+.areaAdmissao_72 ul{background-color:	#008bd2 !important;}
+.areaAdmissao_72 tr.even{background-color:	#DEF;}
+.areaAdmissao_72 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_72 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_72 .totalContainer{background:#008bd2;}
+.areaAdmissao_72 #report th { background:#008bd2;}
+.areaAdmissao_72 .caixaTextoTomClaro {background-color:#008bd2; color:#ffffff;}
+.areaAdmissao_72 .promptModal em {background-color:#008bd2; color:#ffffff;}
+.marca_72 .empresa{background-image:url(../imagens/marcas/marca_72_topo.jpg); background-repeat: no-repeat; background-color: #099CC1; background-position: center;}
+.marca_72 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_72 .empresa .unidade{color:#FFF;}
+.marca_72 .empresa .unidade a{color:#FFF;}
+.marca_72 .unidade a:hover{background:#008bd2;}
+.marca_72 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_72 .etiqueta{background-image:url(../imagens/marcas/marca_72_etiqueta.png);}
+.marca_72 .menu li a:hover{background:#008bd2;}
+.marca_72 .menu .selecionado{background:#008bd2; color:#FFF;}
+.marca_72 a.button:hover{background:#008bd2; color:#FFFFFF; border:1px solid #013d77;}
+.marca_72 a.btMenuForm:hover {background:#008bd2; color:#FFFFFF; border:1px solid #013d77; border-radius: 3px; float:left; display:block;}
+.marca_72 a.btMenuConteudo:hover {background:#008bd2; color:#ffffff; border: 1px solid #01315e; border-radius: 3px; float:left; display:block;}
+.marca_72 .totalContainer{background:#008bd2;}
+.marca_72 #report th { background:#008bd2;}
+/* ----- DR. Atende ----- */
+.lista-73{ background:url(../imagens/marcas/marca_73_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_73,
+.areaAdmissao_73 thead tr,
+.areaAdmissao_73 li,
+.areaAdmissao_73 ul{background-color:	#2b5283;}
+.areaAdmissao_73 tr.even{background-color:	#DEF;}
+.areaAdmissao_73 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_73 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_73 .totalContainer{background:#2b5283;}
+.areaAdmissao_73 #report th { background:#2b5283;}
+.areaAdmissao_73 .caixaTextoTomClaro {background-color:#2b5283; color:#ffffff;}
+.areaAdmissao_73 .promptModal em {background-color:#2b5283; color:#ffffff;}
+.marca_73 .empresa{background-image:url(../imagens/marcas/marca_73_topo.jpg); background-repeat: no-repeat; background-color: #1974BA; background-position: center;}
+.marca_73 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_73 .empresa .unidade{color:#FFF;}
+.marca_73 .empresa .unidade a{color:#FFF;}
+.marca_73 .unidade a:hover{background:#40ade5;}
+.marca_73 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_73 .etiqueta{background-image:url(../imagens/marcas/marca_73_etiqueta.png);}
+.marca_73 .menu li a:hover{background:#2b5283;}
+.marca_73 .menu .selecionado{background:#2b5283; color:#FFF;}
+.marca_73 a.button:hover{background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65;}
+.marca_73 a.btMenuForm:hover {background:#2b5283; color:#FFFFFF; border:1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_73 a.btMenuConteudo:hover {background:#2b5283; color:#ffffff; border: 1px solid #1a3b65; border-radius: 3px; float:left; display:block;}
+.marca_73 .totalContainer{background:#2b5283;}
+.marca_73 #report th { background:#2b5283;}
+/* ----- VALECLIN ----- */
+.lista-74{ background:url(../imagens/marcas/marca_74_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_74,
+.areaAdmissao_74 thead tr th,
+.areaAdmissao_74 li,
+.areaAdmissao_74 ul{background-color:	#cf902f !important;}
+.areaAdmissao_74 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_74 .menuConteudo a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_74 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_74 .totalContainer{background:#d2a059;}
+.areaAdmissao_74 #report th { background:#d2a059;}
+.areaAdmissao_74 .caixaTextoTomClaro {background-color:#d2a059; color:#ffffff;}
+.areaAdmissao_74 .promptModal em {background-color:#d2a059; color:#ffffff;}
+.marca_74 .empresa{background-image:url(../imagens/marcas/marca_74_topo.jpg); background-repeat: no-repeat; background-color: #CCA139; background-position: center;}
+.marca_74 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_74 .empresa .unidade{color:#FFF;}
+.marca_74 .empresa .unidade a{color:#FFF;}
+.marca_74 .unidade a:hover{background:#7b582c;}
+.marca_74 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_74 .etiqueta{background-image:url(../imagens/marcas/marca_74_etiqueta.png);}
+.marca_74 .menu li a:hover{background:#d2a059;}
+.marca_74 a.button:hover{background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_74 a.btMenuForm:hover {background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_74 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_74 .totalContainer{background:#d2a059;}
+.marca_74 #report th { background:#d2a059;}
+/* ----- Padrao ----- */
+.lista-75{background:url(../imagens/marcas/marca_75_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_75,
+.areaAdmissao_75 thead tr th,
+.areaAdmissao_75 li,
+.areaAdmissao_75 ul{background-color:	#9b0b38;}
+.areaAdmissao_75 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_75 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_75 .promptModal em {background-color:#9b0b38; color:#ffffff;}
+.marca_75 .empresa{background-image:url(../imagens/marcas/marca_75_topo.png); background-repeat: no-repeat; background-color: #941c30; background-position: center;}
+.marca_75 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_75 .empresa .unidade{color:#FFF;}
+.marca_75 .empresa .unidade a{color:#FFF;}
+.marca_75 .unidade a:hover{background:#5c0413;}
+.marca_75 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_75 .etiqueta{background-image:url(../imagens/marcas/marca_75_etiqueta.png);}
+.marca_75 .menu li a:hover{background:#941c30;}
+.marca_75 .menu .selecionado{background:#941c30; color:#FFF;}
+.marca_75 a.button:hover{background:#941c30; color:#FFFFFF; border:1px solid #730f20;}
+.marca_75 a.btMenuForm:hover {background:#941c30; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_75 a.btMenuConteudo:hover {background:#941c30; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_75 .totalContainer{background:#941c30;}
+.marca_75 #report th { background:#941c30;}
+/* ----- ItuLab ----- */ 
+.lista-76{ background:url(../imagens/marcas/marca_76_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_76,
+.areaAdmissao_76 thead tr,
+.areaAdmissao_76 li,
+.areaAdmissao_76 ul{background-color:	#007dc2;}
+.areaAdmissao_76 tr.even{background-color:	#DEF;}
+.areaAdmissao_76 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007dc2; border-radius: 3px;}
+.areaAdmissao_76 a.btMenuConteudo:hover {background:#FFF; color:#007dc2; border-radius: 3px;}
+.areaAdmissao_76 .totalContainer{background:#007dc2;}
+.areaAdmissao_76 #report th { background:#007dc2;}
+.areaAdmissao_76 .caixaTextoTomClaro {background-color:#007dc2; color:#ffffff;}
+.areaAdmissao_76 .promptModal em {background-color:#007dc2; color:#ffffff;}
+.marca_76 .empresa{background-image:url(../imagens/marcas/marca_76_topo.png); background-repeat: no-repeat; background-color: #003398; background-position: center;}
+.marca_76 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_76 .empresa .unidade a{color:#FFF;}
+.marca_76 .unidade a:hover{background:#007dc2;}
+.marca_76 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png); }
+.marca_76 .etiqueta{background-image:url(../imagens/marcas/marca_76_etiqueta.png);}
+.marca_76 .menu li a:hover{background:#007dc2;}
+.marca_76 .menu .selecionado{background:#007dc2; color:#FFF;}
+.marca_76 a.button:hover{background:#007dc2; color:#FFFFFF; border:1px solid #006399;}
+.marca_76 a.btMenuForm:hover {background:#007dc2; color:#FFFFFF; border:1px solid #006399; border-radius: 3px; float:left; display:block;}
+.marca_76 a.btMenuConteudo:hover {background:#007dc2; color:#ffffff; border: 1px solid #006399; border-radius: 3px; float:left; display:block;}
+.marca_76 .totalContainer{background:#007dc2;}
+.marca_76 #report th { background:#007dc2;}
+/* ----- exameLaboratorio ----- */
+.lista-77{ background:url(../imagens/marcas/marca_77_listalogin.svg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_77,
+.areaAdmissao_77 thead tr,
+.areaAdmissao_77 li,
+.areaAdmissao_77 ul{background-color:	#ff0000;}
+.areaAdmissao_77 tr.even{background-color:	#DEF;}
+.areaAdmissao_77 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#ff0000; border-radius: 3px;}
+.areaAdmissao_77 a.btMenuConteudo:hover {background:#FFF; color:#ff0000; border-radius: 3px;}
+.areaAdmissao_77 .totalContainer{background:#ff0000;}
+.areaAdmissao_77 #report th { background:#ff0000;}
+.areaAdmissao_77 .caixaTextoTomClaro {background-color:#ff0000; color:#ffffff;}
+.areaAdmissao_77 .promptModal em {background-color:#ff0000; color:#ffffff;}
+.marca_77 .empresa{background-image:url(../imagens/marcas/marca_77_topo.png); background-repeat: no-repeat; background-color: #DE0000; background-position: center;}
+.marca_77 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-laranja.png);}
+.marca_77 .empresa .unidade a{color:#FFF;}
+.marca_77 .unidade a:hover{background:#ff0000;}
+.marca_77 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-laranja.png); }
+.marca_77 .etiqueta{background-image:url(../imagens/marcas/marca_77_etiqueta.svg);}
+.marca_77 .menu li a:hover{background:#ff0000;}
+.marca_77 .menu .selecionado{background:#ff0000; color:#FFF;}
+.marca_77 a.button:hover{background:#ff0000; color:#FFFFFF; border:1px solid #700101;}
+.marca_77 a.btMenuForm:hover {background:#ff0000; color:#FFFFFF; border:1px solid #700101; border-radius: 3px; float:left; display:block;}
+.marca_77 a.btMenuConteudo:hover {background:#ff0000; color:#ffffff; border: 1px solid #700101; border-radius: 3px; float:left; display:block;}
+.marca_77 .totalContainer{background:#ff0000;}
+.marca_77 #report th { background:#ff0000;}
+/* ----- Geneone ----- */
+.lista-78{background:url(../imagens/marcas/marca_78_listalogin.jpg); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_78,
+.areaAdmissao_78 thead tr th,
+.areaAdmissao_78 li,
+.areaAdmissao_78 ul{background-color:	#9b0b38;}
+.areaAdmissao_78 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_78 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_78 .promptModal em {background-color:#9b0b38; color:#ffffff;}
+.marca_78 .empresa{background-image:url(../imagens/marcas/marca_78_topo.png); background-repeat: no-repeat; background-color: #2C224E; background-position: center;}
+.marca_78 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_78 .empresa .unidade{color:#FFF;}
+.marca_78 .empresa .unidade a{color:#FFF;}
+.marca_78 .unidade a:hover{background:#5c0413;}
+.marca_78 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_78 .etiqueta{background-image:url(../imagens/marcas/marca_78_etiqueta.jpg);}
+.marca_78 .menu li a:hover{background:#941c30;}
+.marca_78 .menu .selecionado{background:#941c30; color:#FFF;}
+.marca_78 a.button:hover{background:#941c30; color:#FFFFFF; border:1px solid #730f20;}
+.marca_78 a.btMenuForm:hover {background:#941c30; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_78 a.btMenuConteudo:hover {background:#941c30; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_78 .totalContainer{background:#941c30;}
+.marca_78 #report th { background:#941c30;}
+/* ----- BioClinico ----- */
+.lista-79{background:url(../imagens/marcas/marca_79_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_79,
+.areaAdmissao_79 thead tr th,
+.areaAdmissao_79 li,
+.areaAdmissao_79 ul{background-color:	#00008B;}
+.areaAdmissao_79 tr.even{background-color:	#7777f2;}
+.areaAdmissao_79 .caixaTextoTomClaro {background-color:#00008B; color:#ffffff;}
+.areaAdmissao_79 .promptModal em {background-color:#0b0b5c; color:#ffffff;}
+.marca_79 .empresa{background-image:url(../imagens/marcas/marca_79_topo.png); background-repeat: no-repeat; background-color: #0F60A8; background-position: center;}
+.marca_79 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_79 .empresa .unidade{color:#FFF;}
+.marca_79 .empresa .unidade a{color:#FFF;}
+.marca_79 .unidade a:hover{background:#0b0b5c;}
+.marca_79 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_79 .etiqueta{background-image:url(../imagens/marcas/marca_79_etiqueta.png);}
+.marca_79 .menu li a:hover{background:#00008B;}
+.marca_79 .menu .selecionado{background:#00008B; color:#FFF;}
+.marca_79 a.button:hover{background:#00008B; color:#FFFFFF; border:1px solid #121280;}
+.marca_79 a.btMenuForm:hover {background:#00008B; color:#FFFFFF; border:1px solid #121280; border-radius: 3px; float:left; display:block;}
+.marca_79 a.btMenuConteudo:hover {background:#00008B; color:#ffffff; border: 1px solid #121280; border-radius: 3px; float:left; display:block;}
+.marca_79 .totalContainer{background:#00008B;}
+.marca_79 #report th { background:#00008B;}
+/* ----- Alta Menu clinico ----- */
+.lista-99{ background:url(../imagens/marcas/marca_23_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_99,
+.areaAdmissao_99 thead tr th,
+.areaAdmissao_99 li,
+.areaAdmissao_99 ul{background-color:	#23a3ba;}
+.areaAdmissao_99 tr.even{background-color:	#B8F0F9;}
+.areaAdmissao_99 .caixaTextoTomClaro {background-color:#23a3ba; color:#ffffff;}
+.areaAdmissao_99 .menuConteudo a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_99 a.btMenuConteudo:hover {background:#FFF; color:#007a61; border-radius: 3px;}
+.areaAdmissao_99 .promptModal em {background-color:#23a3ba; color:#ffffff;}
+.marca_99 .empresa{background-image:url(../imagens/marcas/marca_23_topo.jpg); background-repeat: no-repeat; background-color: #23a3ba; background-position: center;}
+.marca_99 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-florescente.png);}
+.marca_99 .empresa .unidade{color:#FFF;}
+.marca_99 .empresa .unidade a{color:#FFF;}
+.marca_99 .unidade a:hover{background:#35d6f3;}
+.marca_99 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-florescente.png);}
+.marca_99 .etiqueta{background-image:url(../imagens/marcas/marca_23_etiqueta.png);}
+.marca_99 .menu li a:hover{background:#23a3ba;}
+.marca_99 .menu .selecionado{background:#23a3ba; color:#FFF;}
+.marca_99 a.button:hover{background:#23a3ba; color:#FFFFFF; border:1px solid #0f7284;}
+.marca_99 a.btMenuForm:hover {background:#23a3ba; color:#FFFFFF; border:1px solid #0f7284; border-radius: 3px; float:left; display:block;}
+.marca_99 a.btMenuConteudo:hover {background:#23a3ba; color:#ffffff; border: 1px solid #0f7284; border-radius: 3px; float:left; display:block;}
+.marca_99 .totalContainer{background:#23a3ba;}
+.marca_99 #report th { background:#23a3ba;}
+/* ----- Multi-imagem ----- */
+.lista-82{ background:url(../imagens/marcas/marca_82_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_82,
+.areaAdmissao_82 thead tr th,
+.areaAdmissao_82 li,
+.areaAdmissao_82 ul{background-color:	#cf902f !important;}
+.areaAdmissao_82 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_82 .menuConteudo a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_82 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_82 .totalContainer{background:#d2a059;}
+.areaAdmissao_82 #report th { background:#d2a059;}
+.areaAdmissao_82 .caixaTextoTomClaro {background-color:#d2a059; color:#ffffff;}
+.areaAdmissao_82 .promptModal em {background-color:#d2a059; color:#ffffff;}
+.marca_82 .empresa{background-image:url(../imagens/marcas/marca_82_topo.png); background-repeat: no-repeat; background-color: #edac13; background-position: center;}
+.marca_82 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_82 .empresa .unidade{color:#FFF;}
+.marca_82 .empresa .unidade a{color:#FFF;}
+.marca_82 .unidade a:hover{background:#7b582c;}
+.marca_82 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_82 .etiqueta{background-image:url(../imagens/marcas/marca_82_etiqueta.png);}
+.marca_82 .menu li a:hover{background:#d2a059;}
+.marca_82 a.button:hover{background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_82 a.btMenuForm:hover {background:#d2a059; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_82 a.btMenuConteudo:hover {background:#d2a059; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_82 .totalContainer{background:#d2a059;}
+.marca_82 #report th { background:#d2a059;}
+/* ----- Sao Camilo ----- */
+.lista-81{ background:url(../imagens/marcas/marca_81_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_81,
+.areaAdmissao_81 thead tr th,
+.areaAdmissao_81 li,
+.areaAdmissao_81 ul{background-color:	#b45b19 !important;}
+.areaAdmissao_81 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_81 .menuConteudo a.btMenuConteudo:hover {background:#b46719; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_81 a.btMenuConteudo:hover {background:#b46719; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_81 .totalContainer{background:#b46719;}
+.areaAdmissao_81 #report th { background:#b46719;}
+.areaAdmissao_81 .caixaTextoTomClaro {background-color:#b46719; color:#ffffff;}
+.areaAdmissao_81 .promptModal em {background-color:#b46719; color:#ffffff;}
+.marca_81 .empresa{background-image:url(../imagens/marcas/marca_81_topo.png); background-repeat: no-repeat; background-color: #B95E1A; background-position: center;}
+.marca_81 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_81 .empresa .unidade{color:#FFF;}
+.marca_81 .empresa .unidade a{color:#FFF;}
+.marca_81 .unidade a:hover{background:#7b582c;}
+.marca_81 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_81 .etiqueta{background-image:url(../imagens/marcas/marca_81_etiqueta.png);}
+.marca_81 .menu li a:hover{background:#b46719;}
+.marca_81 a.button:hover{background:#b46719; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_81 a.btMenuForm:hover {background:#b46719; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_81 a.btMenuConteudo:hover {background:#b46719; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_81 .totalContainer{background:#b46719;}
+.marca_81 #report th { background:#b46719;}
+/* ----- Sao Camilo ----- */
+.lista-83{ background:url(../imagens/marcas/marca_83_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_83,
+.areaAdmissao_83 thead tr th,
+.areaAdmissao_83 li,
+.areaAdmissao_83 ul{background-color:	#8c2727 !important;}
+.areaAdmissao_83 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_83 .menuConteudo a.btMenuConteudo:hover {background:#8c3127; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_83 a.btMenuConteudo:hover {background:#8c3127; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_83 .totalContainer{background:#8c3127;}
+.areaAdmissao_83 #report th { background:#8c3127;}
+.areaAdmissao_83 .caixaTextoTomClaro {background-color:#8c3127; color:#ffffff;}
+.areaAdmissao_83 .promptModal em {background-color:#8c3127; color:#ffffff;}
+.marca_83 .empresa{background-image:url(../imagens/marcas/marca_83_topo.png); background-repeat: no-repeat; background-color: #872626; background-position: center;}
+.marca_83 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_83 .empresa .unidade{color:#FFF;}
+.marca_83 .empresa .unidade a{color:#FFF;}
+.marca_83 .unidade a:hover{background:#7b582c;}
+.marca_83 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_83 .etiqueta{background-image:url(../imagens/marcas/marca_83_etiqueta.png);}
+.marca_83 .menu li a:hover{background:#8c3127;}
+.marca_83 a.button:hover{background:#8c3127; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_83 a.btMenuForm:hover {background:#8c3127; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_83 a.btMenuConteudo:hover {background:#8c3127; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_83 .totalContainer{background:#8c3127;}
+.marca_83 #report th { background:#8c3127;}
+/* ----- Sao Camilo ----- */
+.lista-84{ background:url(../imagens/marcas/marca_84_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_84,
+.areaAdmissao_84 thead tr th,
+.areaAdmissao_84 li,
+.areaAdmissao_84 ul{background-color:	#642e90 !important;}
+.areaAdmissao_84 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_84 .menuConteudo a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_84 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_84 .totalContainer{background:#6a2e90;}
+.areaAdmissao_84 #report th { background:#6a2e90;}
+.areaAdmissao_84 .caixaTextoTomClaro {background-color:#6a2e90; color:#ffffff;}
+.areaAdmissao_84 .promptModal em {background-color:#6a2e90; color:#ffffff;}
+.marca_84 .empresa{background-image:url(../imagens/marcas/marca_84_topo.png); background-repeat: no-repeat; background-color: #6a2e90; background-position: center;}
+.marca_84 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_84 .empresa .unidade{color:#FFF;}
+.marca_84 .empresa .unidade a{color:#FFF;}
+.marca_84 .unidade a:hover{background:#7b582c;}
+.marca_84 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_84 .etiqueta{background-image:url(../imagens/marcas/marca_84_etiqueta.png);}
+.marca_84 .menu li a:hover{background:#6a2e90;}
+.marca_84 a.button:hover{background:#6a2e90; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_84 a.btMenuForm:hover {background:#6a2e90; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_84 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_84 .totalContainer{background:#6a2e90;}
+.marca_84 #report th { background:#6a2e90;}
+/* ----- Hemat ----- */
+.lista-85{ background:url(../imagens/marcas/marca_85_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_85,
+.areaAdmissao_85 thead tr th,
+.areaAdmissao_85 li,
+.areaAdmissao_85 ul{background-color:	#BEBEBE !important;}
+.areaAdmissao_85 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_85 .menuConteudo a.btMenuConteudo:hover {background:#BEBEBE; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_85 a.btMenuConteudo:hover {background:#BEBEBE; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_85 .totalContainer{background:#BEBEBE;}
+.areaAdmissao_85 #report th { background:#BEBEBE;}
+.areaAdmissao_85 .caixaTextoTomClaro {background-color:#BEBEBE; color:#ffffff;}
+.areaAdmissao_85 .promptModal em {background-color:#BEBEBE; color:#ffffff;}
+.marca_85 .empresa{background-image:url(../imagens/marcas/marca_85_topo.png); background-repeat: no-repeat; background-color: #87868a; background-position: center;}
+.marca_85 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_85 .empresa .unidade{color:#FFF;}
+.marca_85 .empresa .unidade a{color:#FFF;}
+.marca_85 .unidade a:hover{background:#7b582c;}
+.marca_85 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_85 .etiqueta{background-image:url(../imagens/marcas/marca_85_etiqueta.png);}
+.marca_85 .menu li a:hover{background:#BEBEBE;}
+.marca_85 a.button:hover{background:#BEBEBE; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_85 a.btMenuForm:hover {background:#BEBEBE; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_85 a.btMenuConteudo:hover {background:#BEBEBE; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_85 .totalContainer{background:#BEBEBE;}
+.marca_85 #report th { background:#BEBEBE;}
+/* ----- Boris ----- */
+.lista-87{ background:url(../imagens/marcas/marca_87_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_87,
+.areaAdmissao_87 thead tr th,
+.areaAdmissao_87 li,
+.areaAdmissao_87 ul{background-color:	#072350;}
+.areaAdmissao_87 tr.even{background-color:	#072350;}
+.areaAdmissao_87 .caixaTextoTomClaro {background-color:#072350; color:#ffffff;}
+.areaAdmissao_87 .promptModal em {background-color:#072350; color:#ffffff;}
+.marca_87 .empresa{background-image:url(../imagens/marcas/marca_87_topo.png); background-repeat: no-repeat; background-color: #072350; background-position: center;}
+.marca_87 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_87 .empresa .unidade{color:#FFF;}
+.marca_87 .empresa .unidade a{color:#FFF;}
+.marca_87 .unidade a:hover{background:#072350;}
+.marca_87 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_87 .etiqueta{background-image:url(../imagens/marcas/marca_87_etiqueta.png);}
+.marca_87 .menu li a:hover{background:#072350;}
+.marca_87 .menu .selecionado{background:#072350; color:#FFF;}
+.marca_87 a.button:hover{background:#072350; color:#FFFFFF; border:1px solid #1f2051;}
+.marca_87 a.btMenuForm:hover {background:#072350; color:#FFFFFF; border:1px solid #1f2051; border-radius: 3px; float:left; display:block;}
+.marca_87 a.btMenuConteudo:hover {background:#072350; color:#ffffff; border: 1px solid #151645; border-radius: 3px; float:left; display:block;}
+.marca_87 .totalContainer{background:#072350;}
+.marca_87 #report th { background:#072350;}
+/* ----- Unimed Cuiaba ----- */
+.lista-89{ background:url(../imagens/marcas/marca_89_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_89,
+.areaAdmissao_89 thead tr th,
+.areaAdmissao_89 li,
+.areaAdmissao_89 ul{background-color: #2E8B57 !important;}
+.areaAdmissao_89 tr.even{background-color:	#0b9949;}
+.areaAdmissao_89 .menuConteudo a.btMenuConteudo:hover {background:#2E8B57; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_89 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_89 .totalContainer{background:#2E8B57;}
+.areaAdmissao_89 #report th { background:#2E8B57;}
+.areaAdmissao_89 .caixaTextoTomClaro {background-color:#2E8B57; color:#ffffff;}
+.areaAdmissao_89 .promptModal em {background-color:#2E8B57 color:#ffffff;}
+.marca_89 .empresa{background-image:url(../imagens/marcas/marca_89_topo.png); background-repeat: no-repeat; background-color: #1a8f62; background-position: center;}
+.marca_89 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_89 .empresa .unidade{color:#FFF;}
+.marca_89 .empresa .unidade a{color:#FFF;}
+.marca_89 .unidade a:hover{background:#2E8B57;}
+.marca_89 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_89 .etiqueta{background-image:url(../imagens/marcas/marca_89_etiqueta.png);}
+.marca_89 .menu li a:hover{background:#2E8B57;}
+.marca_89 a.button:hover{background:#2E8B57; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_89 a.btMenuForm:hover {background:#2E8B57; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_89 a.btMenuConteudo:hover {background:#2E8B57; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.marca_89 .totalContainer{background:#2E8B57;}
+.marca_89 #report th { background:#2E8B57;}
+/* ----- Antonello ----- */
+.lista-91{ background:url(../imagens/marcas/marca_91_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_91,
+.areaAdmissao_91 thead tr th,
+.areaAdmissao_91 li,
+.areaAdmissao_91 ul{background-color: #f27f42 !important;}
+.areaAdmissao_91 tr.even{background-color:	#f7712a;}
+.areaAdmissao_91 .menuConteudo a.btMenuConteudo:hover {background:#f27f42; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_91 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_91 .totalContainer{background:#f27f42;}
+.areaAdmissao_91 #report th { background:#f27f42;}
+.areaAdmissao_91 .caixaTextoTomClaro {background-color:#f27f42; color:#ffffff;}
+.areaAdmissao_91 .promptModal em {background-color:#f27f42 color:#ffffff;}
+.marca_91 .empresa{background-image:url(../imagens/marcas/marca_91_topo.png); background-repeat: no-repeat; background-color: #f2864b; background-position: center;}
+.marca_91 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_91 .empresa .unidade{color:#FFF;}
+.marca_91 .empresa .unidade a{color:#FFF;}
+.marca_91 .unidade a:hover{background:#f27f42;}
+.marca_91 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_91 .etiqueta{background-image:url(../imagens/marcas/marca_91_etiqueta.png);}
+.marca_91 .menu li a:hover{background:#f27f42;}
+.marca_91 a.button:hover{background:#f27f42; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_91 a.btMenuForm:hover {background:#f27f42; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_91 a.btMenuConteudo:hover {background:#f27f42; color:#ffffff; border: 1px solid #f7712a; border-radius: 3px; float:left; display:block;}
+.marca_91 .totalContainer{background:#f27f42;}
+.marca_91 #report th { background:#f27f42;}
+/* ----- Bacellar ----- */
+.lista-92{ background:url(../imagens/marcas/marca_92_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_92,
+.areaAdmissao_92 thead tr th,
+.areaAdmissao_92 li,
+.areaAdmissao_92 ul{background-color:	#6495ED;}
+.areaAdmissao_92 tr.even{background-color:	#6495ED;}
+.areaAdmissao_92 .caixaTextoTomClaro {background-color:#6495ED; color:#ffffff;}
+.areaAdmissao_92 .promptModal em {background-color:#6495ED; color:#ffffff;}
+.marca_92 .empresa{background-image:url(../imagens/marcas/marca_92_topo.png); background-repeat: no-repeat; background-color: #0b5fa3; background-position: center;}
+.marca_92 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_92 .empresa .unidade{color:#FFF;}
+.marca_92 .empresa .unidade a{color:#FFF;}
+.marca_92 .unidade a:hover{background:#5faae6;}
+.marca_92 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_92 .etiqueta{background-image:url(../imagens/marcas/marca_92_etiqueta.png);}
+.marca_92 .menu li a:hover{background:#6495ED;}
+.marca_92 .menu .selecionado{background:#6495ED; color:#FFF;}
+.marca_92 a.button:hover{background:#6495ED; color:#FFFFFF; border:1px solid #1f2051;}
+.marca_92 a.btMenuForm:hover {background:#6495ED; color:#FFFFFF; border:1px solid #1f2051; border-radius: 3px; float:left; display:block;}
+.marca_92 a.btMenuConteudo:hover {background:#6495ED; color:#ffffff; border: 1px solid #151645; border-radius: 3px; float:left; display:block;}
+.marca_92 .totalContainer{background:#6495ED;}
+.marca_92 #report th { background:#6495ED;}
+/* ----- CEC ----- */
+.lista-93{ background:url(../imagens/marcas/marca_93_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_93,
+.areaAdmissao_93 thead tr th,
+.areaAdmissao_93 li,
+.areaAdmissao_93 ul{background-color: #66CDAA !important;}
+.areaAdmissao_93 tr.even{background-color: #66CDAA;}
+.areaAdmissao_93 .menuConteudo a.btMenuConteudo:hover {background:#66CDAA; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_93 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_93 .totalContainer{background:#66CDAA;}
+.areaAdmissao_93 #report th { background:#66CDAA;}
+.areaAdmissao_93 .caixaTextoTomClaro {background-color:#66CDAA; color:#ffffff;}
+.areaAdmissao_93 .promptModal em {background-color:#66CDAA color:#ffffff;}
+.marca_93 .empresa{background-image:url(../imagens/marcas/marca_93_topo.png); background-repeat: no-repeat; background-color: #008f83; background-position: center;}
+.marca_93 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_93 .empresa .unidade{color:#FFF;}
+.marca_93 .empresa .unidade a{color:#FFF;}
+.marca_93 .unidade a:hover{background:#66CDAA;}
+.marca_93 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_93 .etiqueta{background-image:url(../imagens/marcas/marca_93_etiqueta.png);}
+.marca_93 .menu li a:hover{background:#66CDAA;}
+.marca_93 a.button:hover{background:#66CDAA; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_93 a.btMenuForm:hover {background:#66CDAA; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_93 a.btMenuConteudo:hover {background:#66CDAA; color:#ffffff; border: 1px solid #66CDAA; border-radius: 3px; float:left; display:block;}
+.marca_93 .totalContainer{background:#66CDAA;}
+.marca_93 #report th { background:#66CDAA;}
+/* ----- Exame Sul ----- */
+.lista-94{background:url(../imagens/marcas/marca_94_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_94,
+.areaAdmissao_94 thead tr th,
+.areaAdmissao_94 li,
+.areaAdmissao_94 ul{background-color:	 #c0153f;}
+.areaAdmissao_94 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_94 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_94 .promptModal em {background-color:#9b0b38; color:#ffffff;}
+.marca_94 .empresa{background-image:url(../imagens/marcas/marca_94_topo.png); background-repeat: no-repeat; background-color: #b81a41; background-position: center;}
+.marca_94 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_94 .empresa .unidade{color:#FFF;}
+.marca_94 .empresa .unidade a{color:#FFF;}
+.marca_94 .unidade a:hover{background:#5c0413;}
+.marca_94 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_94 .etiqueta{background-image:url(../imagens/marcas/marca_94_etiqueta.png);}
+.marca_94 .menu li a:hover{background:#c0153f;}
+.marca_94 .menu .selecionado{background:#c0153f; color:#FFF;}
+.marca_94 a.button:hover{background:#c0153f; color:#FFFFFF; border:1px solid #730f20;}
+.marca_94 a.btMenuForm:hover {background:#c0153f; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_94 a.btMenuConteudo:hover {background:#c0153f; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_94 .totalContainer{background:#c0153f;}
+.marca_94 #report th { background:#c0153f;}
+/* ----- Lunav ----- */
+.lista-95{ background:url(../imagens/marcas/marca_95_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_95,
+.areaAdmissao_95 thead tr th,
+.areaAdmissao_95 li,
+.areaAdmissao_95 ul{background-color: #3CB371 !important;}
+.areaAdmissao_95 tr.even{background-color:	#27ab62;}
+.areaAdmissao_95 .menuConteudo a.btMenuConteudo:hover {background:#2E8B57; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_95 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_95 .totalContainer{background:#3CB371;}
+.areaAdmissao_95 #report th { background:#3CB371;}
+.areaAdmissao_95 .caixaTextoTomClaro {background-color:#3CB371; color:#ffffff;}
+.areaAdmissao_95 .promptModal em {background-color:#3CB371 color:#ffffff;}
+.marca_95 .empresa{background-image:url(../imagens/marcas/marca_95_topo.png); background-repeat: no-repeat; background-color: #02b079; background-position: center;}
+.marca_95 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_95 .empresa .unidade{color:#FFF;}
+.marca_95 .empresa .unidade a{color:#FFF;}
+.marca_95 .unidade a:hover{background:#3CB371;}
+.marca_95 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_95 .etiqueta{background-image:url(../imagens/marcas/marca_95_etiqueta.png);}
+.marca_95 .menu li a:hover{background:#3CB371;}
+.marca_95 a.button:hover{background:#3CB371; color:#FFFFFF; border:1px solid #27ab62;}
+.marca_95 a.btMenuForm:hover {background:#3CB371; color:#FFFFFF; border:1px solid #27ab62; border-radius: 3px; float:left; display:block;}
+.marca_95 a.btMenuConteudo:hover {background:#3CB371; color:#ffffff; border: 1px solid #27ab62; border-radius: 3px; float:left; display:block;}
+.marca_95 .totalContainer{background:#3CB371;}
+.marca_95 #report th { background:#3CB371;}
+/* ----- Senhor dos Passos ----- */
+.lista-96{ background:url(../imagens/marcas/marca_96_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_96,
+.areaAdmissao_96 thead tr th,
+.areaAdmissao_96 li,
+.areaAdmissao_96 ul{background-color:	#0A3F71;}
+.areaAdmissao_96 tr.even{background-color:	#0A3F71;}
+.areaAdmissao_96 .caixaTextoTomClaro {background-color:#0A3F71; color:#ffffff;}
+.areaAdmissao_96 .promptModal em {background-color:#0A3F71; color:#ffffff;}
+.marca_96 .empresa{background-image:url(../imagens/marcas/marca_96_topo.png); background-repeat: no-repeat; background-color: #0564a3; background-position: center;}
+.marca_96 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_96 .empresa .unidade{color:#FFF;}
+.marca_96 .empresa .unidade a{color:#FFF;}
+.marca_96 .unidade a:hover{background:#5faae6;}
+.marca_96 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-claro.png);}
+.marca_96 .etiqueta{background-image:url(../imagens/marcas/marca_96_etiqueta.png);}
+.marca_96 .menu li a:hover{background:#0A3F71;}
+.marca_96 .menu .selecionado{background:#0A3F71; color:#FFF;}
+.marca_96 a.button:hover{background:#0A3F71; color:#FFFFFF; border:1px solid #1f2051;}
+.marca_96 a.btMenuForm:hover {background:#0A3F71; color:#FFFFFF; border:1px solid #1f2051; border-radius: 3px; float:left; display:block;}
+.marca_96 a.btMenuConteudo:hover {background:#0A3F71; color:#ffffff; border: 1px solid #151645; border-radius: 3px; float:left; display:block;}
+.marca_96 .totalContainer{background:#0A3F71;}
+.marca_96 #report th { background:#0A3F71;}
+/* -----christovao da gama  ----- */
+.lista-97{ background:url(../imagens/marcas/marca_97_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_97,
+.areaAdmissao_97 thead tr th,
+.areaAdmissao_97 li,
+.areaAdmissao_97 ul{background-color: #000080 !important;}
+.areaAdmissao_97 tr.even{background-color:	#0b9949;}
+.areaAdmissao_97 .menuConteudo a.btMenuConteudo:hover {background:#000080; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_97 a.btMenuConteudo:hover {background:#6a2e90; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_97 .totalContainer{background:#000080;}
+.areaAdmissao_97 #report th { background:#000080;}
+.areaAdmissao_97 .caixaTextoTomClaro {background-color:#000080; color:#ffffff;}
+.areaAdmissao_97 .promptModal em {background-color:#000080 color:#ffffff;}
+.marca_97 .empresa{background-image:url(../imagens/marcas/marca_97_topo.png); background-repeat: no-repeat; background-color: #00328a; background-position: center;}
+.marca_97 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul-escuro.png);}
+.marca_97 .empresa .unidade{color:#FFF;}
+.marca_97 .empresa .unidade a{color:#FFF;}
+.marca_97 .unidade a:hover{background:#000080;}
+.marca_97 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul-escuro.png);}
+.marca_97 .etiqueta{background-image:url(../imagens/marcas/marca_97_etiqueta.png);}
+.marca_97 .menu li a:hover{background:#000080;}
+.marca_97 a.button:hover{background:#000080; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_97 a.btMenuForm:hover {background:#000080; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_97 a.btMenuConteudo:hover {background:#000080; color:#ffffff; border: 1px solid #0b9949; border-radius: 3px; float:left; display:block;}
+.marca_97 .totalContainer{background:#000080;}
+.marca_97 #report th { background:#000080;}
+/* ----- Hospital da Bahia ----- */
+.lista-98{ background:url(../imagens/marcas/marca_98_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_98,
+.areaAdmissao_98 thead tr th,
+.areaAdmissao_98 li,
+.areaAdmissao_98 ul{background-color:	#191970 !important;}
+.areaAdmissao_98 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_98 .menuConteudo a.btMenuConteudo:hover {background:#191970; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_98 a.btMenuConteudo:hover {background:#191970; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_98 .totalContainer{background:#191970;}
+.areaAdmissao_98 #report th { background:#191970;}
+.areaAdmissao_98 .caixaTextoTomClaro {background-color:#191970; color:#ffffff;}
+.areaAdmissao_98 .promptModal em {background-color:#191970; color:#ffffff;}
+.marca_98 .empresa{background-image:url(../imagens/marcas/marca_98_topo.png); background-repeat: no-repeat; background-color: #192e73; background-position: center;}
+.marca_98 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_98 .empresa .unidade{color:#FFF;}
+.marca_98 .empresa .unidade a{color:#FFF;}
+.marca_98 .unidade a:hover{background:#7b582c;}
+.marca_98 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom2.png);}
+.marca_98 .etiqueta{background-image:url(../imagens/marcas/marca_98_etiqueta.png);}
+.marca_98 .menu li a:hover{background:#191970;}
+.marca_98 a.button:hover{background:#191970; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_98 a.btMenuForm:hover {background:#191970; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_98 a.btMenuConteudo:hover {background:#191970; color:#ffffff; border: 1px solid #7b582c; border-radius: 3px; float:left; display:block;}
+.marca_98 .totalContainer{background:#191970;}
+.marca_98 #report th { background:#191970;}
+/* ----- Hospital Santa Paula SADT ----- */
+.lista-100{ background:url(../imagens/marcas/marca_100_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_100,
+.areaAdmissao_100 thead tr th,
+.areaAdmissao_100 li,
+.areaAdmissao_100 ul{background-color:	#79c47e !important;}
+.areaAdmissao_100 tr.even{background-color:	#F7D7A8;}
+.areaAdmissao_100 .menuConteudo a.btMenuConteudo:hover {background:#00FA9A; color:#ffffff; border: 1px solid #02db88; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_100 a.btMenuConteudo:hover {background:#79c47e; color:#ffffff; border: 1px solid #02db88; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_100 .totalContainer{background:#79c47e;}
+.areaAdmissao_100 #report th { background:#79c47e;}
+.areaAdmissao_100 .caixaTextoTomClaro {background-color:#79c47e; color:#ffffff;}
+.areaAdmissao_100 .promptModal em {background-color:#79c47e; color:#ffffff;}
+.marca_100 .empresa{background-image:url(../imagens/marcas/marca_100_topo.png); background-repeat: no-repeat; background-color: #79c47e; background-position: center;}
+.marca_100 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_100 .empresa .unidade{color:#FFF;}
+.marca_100 .empresa .unidade a{color:#FFF;}
+.marca_100 .unidade a:hover{background:#02db88;}
+.marca_100 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_100 .etiqueta{background-image:url(../imagens/marcas/marca_100_etiqueta.png);}
+.marca_100 .menu li a:hover{background:#79c47e;}
+.marca_100 a.button:hover{background:#79c47e; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_100 a.btMenuForm:hover {background:#79c47e; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_100 a.btMenuConteudo:hover {background:#79c47e; color:#ffffff; border: 1px solid #02db88; border-radius: 3px; float:left; display:block;}
+.marca_100 .totalContainer{background:#79c47e;}
+.marca_100 #report th { background:#79c47e;}
+/* ----- Exame NB ----- */
+.lista-102{background:url(../imagens/marcas/marca_102_listalogin.png); display:block; width:140px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_102,
+.areaAdmissao_102 thead tr th,
+.areaAdmissao_102 li,
+.areaAdmissao_102 ul{background-color:	#c0153f;}
+.areaAdmissao_102 tr.even{background-color:	#F99FAB;}
+.areaAdmissao_102 .caixaTextoTomClaro {background-color:#F99FAB; color:#ffffff;}
+.areaAdmissao_102 .promptModal em {background-color:#9b0b38; color:#ffffff;}
+.marca_102 .empresa{background-image:url(../imagens/marcas/marca_102_topo.png); background-repeat: no-repeat; background-color: #c0153f; background-position: center;}
+.marca_102 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_102 .empresa .unidade{color:#FFF;}
+.marca_102 .empresa .unidade a{color:#FFF;}
+.marca_102 .unidade a:hover{background:#5c0413;}
+.marca_102 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-marrom.png);}
+.marca_102 .etiqueta{background-image:url(../imagens/marcas/marca_102_etiqueta.png);}
+.marca_102 .menu li a:hover{background:#c0153f;}
+.marca_102 .menu .selecionado{background:#c0153f; color:#FFF;}
+.marca_102 a.button:hover{background:#c0153f; color:#FFFFFF; border:1px solid #730f20;}
+.marca_102 a.btMenuForm:hover {background:#c0153f; color:#FFFFFF; border:1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_102 a.btMenuConteudo:hover {background:#c0153f; color:#ffffff; border: 1px solid #730f20; border-radius: 3px; float:left; display:block;}
+.marca_102 .totalContainer{background:#c0153f;}
+.marca_102 #report th { background:#c0153f;}
+/* ----- Lustosa ----- */
+.lista-103{ background:url(../imagens/marcas/marca_103_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_103,
+.areaAdmissao_103 thead tr th,
+.areaAdmissao_103 li,
+.areaAdmissao_103 ul{background-color:	#696969 !important;}
+.areaAdmissao_103 tr.even{background-color:	#d1cfcf;}
+.areaAdmissao_103 .menuConteudo a.btMenuConteudo:hover {background:#696969; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_103 a.btMenuConteudo:hover {background:#696969; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_103 .totalContainer{background:#696969;}
+.areaAdmissao_103 #report th {background:#696969;}
+.areaAdmissao_103 .caixaTextoTomClaro {background-color:#696969; color:#ffffff;}
+.areaAdmissao_103 .promptModal em {background-color:#696969; color:#ffffff;}
+.marca_103 .empresa{background-image:url(../imagens/marcas/marca_103_topo.png); background-repeat: no-repeat; background-color: #747578; background-position: center;}
+.marca_103 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_103 .empresa .unidade{color:#FFF;}
+.marca_103 .empresa .unidade a{color:#FFF;}
+.marca_103 .unidade a:hover{background:#525252;}
+.marca_103 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_103 .etiqueta{background-image:url(../imagens/marcas/marca_103_etiqueta.png);}
+.marca_103 .menu li a:hover{background:#696969;}
+.marca_103 a.button:hover{background:#696969; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_103 a.btMenuForm:hover {background:#696969; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_103 a.btMenuConteudo:hover {background:#696969; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.marca_103 .totalContainer{background:#696969;}
+.marca_103 #report th {background:#696969;}
+/* -----  Elcordis/Sao Marcos ----- */
+.lista-105{ background:url(../imagens/marcas/marca_105_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_105,
+.areaAdmissao_105 thead tr th,
+.areaAdmissao_105 li,
+.areaAdmissao_105 ul{background-color:	#CC5259 !important;}
+.areaAdmissao_105 tr.even{background-color:	#d1cfcf;}
+.areaAdmissao_105 .menuConteudo a.btMenuConteudo:hover {background:#CC5259; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_105 a.btMenuConteudo:hover {background:#CC5259; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_105 .totalContainer{background:#CC5259;}
+.areaAdmissao_105 #report th {background:#CC5259;}
+.areaAdmissao_105 .caixaTextoTomClaro {background-color:#CC5259; color:#ffffff;}
+.areaAdmissao_105 .promptModal em {background-color:#CC5259; color:#ffffff;}
+.marca_105 .empresa{background-image:url(../imagens/marcas/marca_105_topo.png); background-repeat: no-repeat; background-color: #b52b3c; background-position: center;}
+.marca_105 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_105 .empresa .unidade{color:#FFF;}
+.marca_105 .empresa .unidade a{color:#FFF;}
+.marca_105 .unidade a:hover{background:#CC5259;}
+.marca_105 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-verde.png);}
+.marca_105 .etiqueta{background-image:url(../imagens/marcas/marca_105_etiqueta.png);}
+.marca_105 .menu li a:hover{background:#CC5259;}
+.marca_105 a.button:hover{background:#CC5259; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_105 a.btMenuForm:hover {background:#CC5259; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_105 a.btMenuConteudo:hover {background:#CC5259; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.marca_105 .totalContainer{background:#CC5259;}
+.marca_105 #report th {background:#CC5259;}
+/* -----  Dairton Miranda ----- */
+.lista-106{ background:url(../imagens/marcas/marca_106_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_106,
+.areaAdmissao_106 thead tr th,
+.areaAdmissao_106 li,
+.areaAdmissao_106 ul{background-color: #09a696 !important;}
+.areaAdmissao_106 tr.even{background-color:	#d1cfcf;}
+.areaAdmissao_106 .menuConteudo a.btMenuConteudo:hover {background: #09a696; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_106 a.btMenuConteudo:hover {background: #09a696; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_106 .totalContainer{background: #09a696;}
+.areaAdmissao_106 #report th {background: #09a696;}
+.areaAdmissao_106 .caixaTextoTomClaro {background-color: #09a696; color:#ffffff;}
+.areaAdmissao_106 .promptModal em {background-color: #09a696; color:#ffffff;}
+.marca_106 .empresa{background-image:url(../imagens/marcas/marca_106_topo.png); background-repeat: no-repeat; background-color: #09a696; background-position: center;}
+.marca_106 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_106 .empresa .unidade{color:#FFF;}
+.marca_106 .empresa .unidade a{color:#FFF;}
+.marca_106 .unidade a:hover{background: #09a696;}
+.marca_106 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-azul.png);}
+.marca_106 .etiqueta{background-image:url(../imagens/marcas/marca_106_etiqueta.png);}
+.marca_106 .menu li a:hover{background: #09a696;}
+.marca_106 a.button:hover{background: #09a696; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_106 a.btMenuForm:hover {background: #09a696; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_106 a.btMenuConteudo:hover {background: #09a696; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.marca_106 .totalContainer{background: #09a696;}
+.marca_106 #report th {background: #09a696;}
+/* -----  Sao Marcos ----- */
+.lista-107{ background:url(../imagens/marcas/marca_107_listalogin.png); display:block; width:147px; height:50px; background-repeat:no-repeat;}
+#areaAdmissao.areaAdmissao_107,
+.areaAdmissao_107 thead tr th,
+.areaAdmissao_107 li,
+.areaAdmissao_107 ul{background-color: #a0242e !important;}
+.areaAdmissao_107 tr.even{background-color:	#d1cfcf;}
+.areaAdmissao_107 .menuConteudo a.btMenuConteudo:hover {background: #a0242e; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_107 a.btMenuConteudo:hover {background: #a0242e; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.areaAdmissao_107 .totalContainer{background: #a0242e;}
+.areaAdmissao_107 #report th {background: #a0242e;}
+.areaAdmissao_107 .caixaTextoTomClaro {background-color: #a0242e; color:#ffffff;}
+.areaAdmissao_107 .promptModal em {background-color: #a0242e; color:#ffffff;}
+.marca_107 .empresa{background-image:url(../imagens/marcas/marca_107_topo.png); background-repeat: no-repeat; background-color: #a0242e; background-position: center;}
+.marca_107 .empresa .dataTopo{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_107 .empresa .unidade{color:#FFF;}
+.marca_107 .empresa .unidade a{color:#FFF;}
+.marca_107 .unidade a:hover{background: #a0242e;}
+.marca_107 .empresa .unidade span{background-image:url(../imagens/marcas/icon-marcador-vermelho.png);}
+.marca_107 .etiqueta{background-image:url(../imagens/marcas/marca_107_etiqueta.png);}
+.marca_107 .menu li a:hover{background: #a0242e;}
+.marca_107 a.button:hover{background: #a0242e; color:#FFFFFF; border:1px solid #9e6b21;}
+.marca_107 a.btMenuForm:hover {background: #a0242e; color:#FFFFFF; border:1px solid #9e6b21; border-radius: 3px; float:left; display:block;}
+.marca_107 a.btMenuConteudo:hover {background: #a0242e; color:#ffffff; border: 1px solid #525252; border-radius: 3px; float:left; display:block;}
+.marca_107 .totalContainer{background: #a0242e;}
+.marca_107 #report th {background: #a0242e;}

@@ -1,0 +1,28 @@
+.bootstrap-tagsinput .tag {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        display: inline-block;
+        padding: 4px 6px;
+        color: #555;
+        vertical-align: middle;
+        border-radius: 4px;
+        max-width: 100%;
+        line-height: 5px;
+        cursor: text;
+}
+
+.bootstrap-tagsinput {
+    display: none;
+}
+
+.bootstrap-tagsinput input {
+    display: none;
+}
+
+.div-numero-guia-span {
+    font-weight: bold;
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #eee;
+}

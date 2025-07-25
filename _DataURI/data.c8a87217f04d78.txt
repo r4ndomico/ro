@@ -1,0 +1,1 @@
+chrome-extension://aepdhbcjfkpncgbmlllcaloniioihlma/assets/edreader-main.js

@@ -1,0 +1,84 @@
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+#tabelaExamesAutorizados th {
+    background-color: green !important;
+    color: white;
+    text-align: center !important;
+}
+
+#tabelaExamesNaoAutorizados th {
+    background-color: red !important;
+    color: white;
+    text-align: center !important;
+    table-layout: fixed;
+}
+
+#tabelaExamesAutorizados td {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+#tabelaExamesAutorizados tbody span {
+  font-size: 12px;
+}
+
+#tabelaExamesNaoAutorizados tbody span {
+  font-size: 12px;
+}
+
+#tabelaExamesNaoAutorizados img {
+  cursor: pointer;
+}
+
+.dialog-autorizador table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.dialog-autorizador table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dialog-autorizador table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dialog-autorizador tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.dialog-autorizador .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dialog-autorizador .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
