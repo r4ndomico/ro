@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("148","0",[{amostraDtRef:null,amostraHrRef:null,amostraNova:"857892527678",amostraQntEtiquetas:null,amostraSetor:null,amostraTipo:null,cip:null,complemento:null,dataAtendimento:null,dataValidacao:null,dayLab:null,exame:null,fap:null,leito:null,login:null,lote:"SEM LOTE",material:null,nomePaciente:null,numeroAmostra:null,origem:null,pedido:null,sequencialAdmissao:null,sequencialAmostra:null,sequencialExame:null,setorRecipiente:null,tipoRecipiente:null,unidadeAtendimento:null,unidadeRealizacao:null,validado:null,visita:null}]);
+})();
+//#DWR-END#

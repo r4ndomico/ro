@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("13","0",{afinidade:1,atendeLaboratorio:"0",bairro:"Centro",bloqueiaImpressora:"N",cep:"20040009",cgc:"61486650004251",codigoCnes:"3383059",codigoEms:"10",codigoEtiquetaPosto:"0",codigoFoccus:null,codigoSap:"D181",complemento:null,confColeta:"1",confPesoAltura:null,controleEstacao:null,ddd:"21",diretorioImagem:null,empresa:"16",enderecoLaudo:"@",enviaDesblFilaColeta:null,enviaSmsLaudoPronto:null,estado:"RJ",fax:"@",fonteProtocolo:"1",grupoAdmissao:"04",horarioEntregaFim:"190000",horarioEntregaInicio:"070000",horarioSabadoFim:"130000",horarioSabadoInicio:"070000",hospitalAreaTecnica:null,impCarteiroAdm:"0",impEtqEspelho:null,impressoraCartao:"@",imprimeCartaoCip:"0",imprimeEtiquetaRecepcao:null,imprimeNotaFiscal:"0",imprimeRps:"2",infoHospExaAdm:0,informatizado:"1",inscricaoEstadual:null,integraCareStream:1,integradoImageQuest:1,integradoMedWorks:1,integradoMultiMed:0,internet:null,laudoHtml:"0",liberacaoAutomatica:null,listaComoChegar:null,listaMeioEnvio:null,listaTelefones:null,locPosto:"@",logradouro:"Av. Rio Branco",maquinaImagem:null,megaStore:null,meioResDefault:null,mnemonico:"010",municipio:"Rio de Janeiro",nome:"Bronstein - Centro I - Cinelandia",nomeLaudo:null,numero:"257",numeroMunicipioFiscal:"105",numeroMunicipioFiscalAC:"9999",possuiMaquinaSul:"0",prazoNovo:null,propaganda:"@",protocoloPreImpressao:"1",razaoSocial:null,recebeDisquete:"",recebeLaudo:"N",regiao:"9",responsavel:"Jucirene Almeida Pereira",roboColeta:null,roboUrl:null,servidorPrincipal:"lsfps11",sistemaTotem:null,solToken:false,solicitaGrafico:"0",status:"1",telefone:"@",telefoneLaudo:"(21) 22278080",tempoIntervaloFilaColeta:130000,timeZone:null,tipoPosto:"P",tipoUnidade:"1",unidadeRealizacaoExame:"MRJ",utilSics:null,utilizaMobilizacaoGuia:"S",utilizaMotion:"1",utilizaPcPreAdm:0});
+})();
+//#DWR-END#

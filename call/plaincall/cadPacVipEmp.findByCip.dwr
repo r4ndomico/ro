@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("26","0",{afinidade:null,amostraImediataSede:null,beneficio:null,cip:null,cobraColetaDomic:null,cobraLaudoRdi:null,cobraTaxaExpress:null,descricaoMotivo:null,empresa:null,histCortesia:null,motivo:null,nome:null,observacao:null});
+})();
+//#DWR-END#

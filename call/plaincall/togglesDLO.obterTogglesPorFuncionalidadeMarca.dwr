@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("11","0",{codigoMarca:"16",funcionalidade:"PROTOCOLO_A4",id:500,status:false});
+})();
+//#DWR-END#

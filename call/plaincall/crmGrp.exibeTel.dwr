@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("80","0","<p> Este m&eacute;dico n&atilde;o possui telefones cadastrados <\/p>");
+})();
+//#DWR-END#

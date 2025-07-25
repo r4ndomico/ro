@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("89","0",[{convenio:"Br-amilfunc1",dataAtendimentoUltimaVisita:"01\/07\/2025",dataSolicitacao:null,matricAssociado:"093815612",plano:"1112 - AMIL BRONZE ID RJ MAIS - N 75 - AMIL - EMP",unidade:"010",visita:"10"},{convenio:"Br-partd",dataAtendimentoUltimaVisita:"27\/07\/2025",dataSolicitacao:null,matricAssociado:null,plano:null,unidade:"010",visita:"9"},{convenio:"Br-partd",dataAtendimentoUltimaVisita:"21\/06\/2025",dataSolicitacao:null,matricAssociado:null,plano:null,unidade:"010",visita:"8"},{convenio:"Br-dasafunc",dataAtendimentoUltimaVisita:"01\/11\/2024",dataSolicitacao:null,matricAssociado:"088090429",plano:"1034-AMIL IDG BASICO-N400-AMIL PL EMP",unidade:"010",visita:"7"},{convenio:"Br-partc",dataAtendimentoUltimaVisita:"30\/11\/2024",dataSolicitacao:null,matricAssociado:null,plano:null,unidade:"010",visita:"6"},{convenio:"Br-partc",dataAtendimentoUltimaVisita:"20\/09\/2024",dataSolicitacao:null,matricAssociado:null,plano:null,unidade:"010",visita:"5"},{convenio:"Br-dasafunc",dataAtendimentoUltimaVisita:"14\/05\/2024",dataSolicitacao:null,matricAssociado:"088090429",plano:"1034-AMIL IDG BASICO-N400-AMIL PL EMP",unidade:"204",visita:"4"},{convenio:"Br-dasafunc",dataAtendimentoUltimaVisita:"30\/01\/2024",dataSolicitacao:null,matricAssociado:"117955",plano:"DASAFUNC COLABORADOR",unidade:"204",visita:"3"},{convenio:"Br-dasafunc",dataAtendimentoUltimaVisita:"23\/12\/2023",dataSolicitacao:null,matricAssociado:"117955",plano:"DASAFUNC COLABORADOR",unidade:"204",visita:"2"},{convenio:"Br-dasafunc",dataAtendimentoUltimaVisita:"04\/10\/2023",dataSolicitacao:null,matricAssociado:"086453535",plano:"DASAFUNC COLABORADOR",unidade:"204",visita:"1"}]);
+})();
+//#DWR-END#

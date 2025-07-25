@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("140","0",{afinidade:"",campoMultiplo:null,codigo:"HSA",convenio:null,dtReferencia:"",linkquest:null,material:null,msgPreReqConvenio:{afinidade:"",campoMultiplo:"",codigo:"HSA",convenio:"Br-amil100200",dtReferencia:null,linkquest:null,material:null,msgPreReqConvenio:null,nomeCompleto:null,recipiente:null,seqValor:[],sequencia:null,setor:null,status:0,unidade:null,unidadeAtendimento:null,valor:null},nomeCompleto:null,recipiente:null,seqValor:[],sequencia:null,setor:null,status:0,unidade:"MRJ",unidadeAtendimento:null,valor:null});
+})();
+//#DWR-END#

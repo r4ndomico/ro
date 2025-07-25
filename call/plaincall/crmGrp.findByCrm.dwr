@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("78","0",{afinidade:1,bairro:null,celular:null,cep:null,clientePref:null,cnpjClinica:null,complemento:null,conselho:null,crm:"RJ-CRM-521114948",ddd:null,especialidade:null,especialidades:["01"],estado:"RJ",fax:null,faxes:[],grupoDado:20,internet:null,logradouro:null,medVip:"N",medicoNaoPermitido:"0",municipio:null,nome:"Paula Zanella Caus",numeroLogradouro:null,pais:"Brasil",sexo:"F",situacaoCad:"1",statusMed:"1",telefone:null,telefones:[null],uf:null});
+})();
+//#DWR-END#

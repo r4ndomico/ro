@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("8","0",{coberturaEspecialList:[{codTermo:"01",termo:"Gestante"},{codTermo:"02",termo:"Pre-operatorio"},{codTermo:"03",termo:"Pos-operatorio"}],regimeAtendimentoList:[{codTermo:"01",termo:"Ambulatorial"},{codTermo:"02",termo:"Domiciliar"},{codTermo:"03",termo:"Internacao"},{codTermo:"04",termo:"Pronto-socorro"},{codTermo:"05",termo:"Telesaude"}],saudeOcupacionalList:[{codTermo:"01",termo:"Admissional"},{codTermo:"02",termo:"Demissional"},{codTermo:"03",termo:"Periodico"},{codTermo:"04",termo:"Retorno ao trabalho"},{codTermo:"05",termo:"Mudanca de funcao"},{codTermo:"06",termo:"Promocao a saude"}]});
+})();
+//#DWR-END#

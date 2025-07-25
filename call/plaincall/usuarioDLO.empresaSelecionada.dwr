@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[1];
+dwr.engine.remote.handleCallback("8","0",null);
+})();
+//#DWR-END#

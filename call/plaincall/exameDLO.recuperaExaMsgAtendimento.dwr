@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("142","0",{afinidade:"",campoMultiplo:"",codigo:"HSA",convenio:null,dtReferencia:"",linkquest:null,material:null,msgPreReqConvenio:{afinidade:"",campoMultiplo:"",codigo:"HSA",convenio:null,dtReferencia:null,linkquest:null,material:null,msgPreReqConvenio:null,nomeCompleto:null,recipiente:null,seqValor:[],sequencia:null,setor:null,status:0,unidade:null,unidadeAtendimento:null,valor:null},nomeCompleto:null,recipiente:null,seqValor:[],sequencia:null,setor:null,status:0,unidade:"MRJ",unidadeAtendimento:null,valor:null});
+})();
+//#DWR-END#

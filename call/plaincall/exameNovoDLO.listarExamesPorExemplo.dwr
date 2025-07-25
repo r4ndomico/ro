@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("135","0",[{codigo:"HSA",descricao:"HEMOGRAMA COMPLETO",sinonimos:null},{codigo:"HSACSA",descricao:"TESTE DE HEMOLISE ",sinonimos:null}]);
+})();
+//#DWR-END#

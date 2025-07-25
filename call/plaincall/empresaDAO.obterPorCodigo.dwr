@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("3","0",{admAgenda:1,afinidade:1,agrupaConvenioGrupo:0,bloqueiaCriacaoCRM:1,codigo:"16",corClara:null,corFonte:null,corMedia:null,credencialLabet:null,divisaoEMS:"03",exibeCrmMatMed:0,exibeInfoRelNovaColeta:0,exibePedidoExterno:null,exigeEscol:null,exigeGest:null,filaAtend:0,impSenhaProtocolo:null,nome:"Diagnosticos da America S.A - Bronstein",origemDasa:"1",permiteTrocaUnid:null,prefixoCarga:"BR-",removePrefCS:null,removePrefMW:null,removeSufCS:null,removeSufMW:null,responsavel:null,sementeMotion:"85",site:"www.bronstein.com.br",tipoEscalonamento:null,toleranciaMob:0,url:"www.bronstein.com.br",utilizaEmSaldo:null,utilizaProgress:"1"});
+})();
+//#DWR-END#

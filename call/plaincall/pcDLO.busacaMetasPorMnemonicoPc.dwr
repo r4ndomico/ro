@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[1];
+dwr.engine.remote.handleCallback("6","0",{metaAteOntem:0,metaAteOntemT2:"00:00",metaDiaria:0,metaDiariaT2:"00:00",metaMensal:0,metaMensalT2:"00:00",metaOntem:0,metaOntemT2:"00:00"});
+})();
+//#DWR-END#

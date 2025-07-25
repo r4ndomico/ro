@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("77","0",[{crm:"RJ-CRM-521114948",dataAtendimento:"01072025",nomeMedico:"Paula Zanella Caus"},{crm:"MG-CRM-80786",dataAtendimento:"01112024",nomeMedico:"Cintia Silva Cardoso"},{crm:"RJ-CRM-1148109",dataAtendimento:"14052024",nomeMedico:"Alexandre Gabriel Garcez Monteiro da Silva"},{crm:"DF-CRM-28556",dataAtendimento:"30012024",nomeMedico:"Fernanda de Abreu Rodrigues Murta Nobre"},{crm:"RJ-CRM-521167413",dataAtendimento:"23122023",nomeMedico:"Felipe Augusto Lucas da Silva"},{crm:"PE-CRM-23968",dataAtendimento:"04102023",nomeMedico:"Bruna Melo Holanda Cavalcanti"}]);
+})();
+//#DWR-END#

@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("96","0","3004-1050 (capitais e regioes metropolitanas)\n0800-706-1663 (demais localidades)\nAtendimento de segunda a sexta, das 7h as 19h\nSite: https:\/\/credenciado.amil.com.br\nCodigo Credenciado: 10397248\nLogin e senha proprio de cada unidade. Cada coordenador possui um\nlogin proprio para as suas unidades. Favor verificar com a sua\ncoordenacao o login e senha para a sua unidade de atuacao\n\n------------------------------------------------------------------------------\n***NECESSARIO APRESENTACAO DE RELATORIO MEDICO PARA OS EXAMES***\n\nCODIGO ALPHA EXAME DESCRIAO DO EXAME\nTUSS\n40312224 TANDEMSA TRIAGEM DIST. METABOLICOS - PAPEL FILTRO\n40321029 MCADSA MCAD - PAPEL FILTRO\n\n1 - Documentos necessarios:\n1.1. Pedido medico;\n1.2. Carteira do convenio e Elegibilidade do site da Amil \n1.3. Documento de identidade obrigatorio.\n\n\n2- Informacoes Basicas:\n2.1. Unidade tem guia: NAO\n2.2. Aceita receituario comum: SIM.\n2.3. Aceita copia \/ fax de pedido: SIM\n2.4. Aceita pedido DIGITALIZADO? SIM\n2.5. Validade do pedido medico: 90 dias\n2.6. Aceita pedido medico sem data: SIM\n2.7. Obrigatorio carimbo e assinatura do medico: SIM\n2.8. Aceita pedido medico de outra especialidade: SIM - DENTISTA\n2.9. Aceita pedido medico impresso: SIM\n2.10. Aceita pedido marcado com X: SIM\n2.11. Aceita pedido medico na guia de outro convenio: SIM, carimbada, datada e assinada pelo medico.\n2.12. Credenciado para exames ocupacionais: NAO\n2.13. Cobre Taxa de Coleta Domiciliar: NAO\n2.14. Aceita pedido medico de NUTRICIONISTA: NAO\n\n\n\n\n");
+})();
+//#DWR-END#

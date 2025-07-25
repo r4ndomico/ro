@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("59","0",[{admOrigem:"GLIESE",afinidade:1,assinatura:"",checkIn:null,cip:"7680341613",codigoAgenda:"",codigoInternoLaboratorio:"",colConsultorio:null,data:"01072025",dataEtiqueta:"",dataHora:"20250701 130056",dataHoraAltAdm:"",dataHoraInicio:"20250701 130056",dataPreAdm:"",empresa:"16",flagPreAdm:"",horaEtiqueta:"",idMultimed:"",laboratorio:"null",prazoEntrega:null,protGercon:null,refHistorica:"",regHospital:"",status:"",t2Zero:false,tipoPacHospital:"",unidadeAtendimento:"010",unidadeAtendimentoAdmissao:"010",visita:10}]);
+})();
+//#DWR-END#

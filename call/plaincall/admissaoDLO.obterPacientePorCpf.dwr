@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("16","0",[{afinidade:1,agdCdpi:null,bairro:"Pavuna",celular:"964264246",celularCadastado:false,cep:"21535010",cip:7680341613,cipNova:null,cipResponsavel:null,codigoOrigem:null,complemento:"A Casa 3",cor:null,cpf:"17747435746",cpfResponsavel:null,dataNascimento:"29\/03\/1997",ddd:"21",descricaoVip:null,doctor:false,dtNascimentoResponsavel:null,dtUltimaVisita:"01\/07\/2025",email:"gusmaodaniel@outlook.com",estado:"RJ",estadoCivil:null,estadoValidadoRf:"v",fax:null,faxes:null,flaVip:null,flagDal:null,flagVip:null,legacy:false,lockCipNova:null,logradouro:"Rua Ibiruba",motivoEmailNaoInformado:null,municipio:"Rio de Janeiro",nacionalidade:null,naturalidade:null,nome:"Daniel de Gusmao Marcelino",nomeMae:null,nomePai:null,nomeResponsavel:null,nomeSocial:null,numero:"356A",orgaoEmissor:"DIC\/DETRAN",orgaoEmissorResponsavel:null,pais:"Brasil",passaporteResponsavel:null,passport:null,primeiraVisIgualHoje:false,qtdVisitas:6,registro:"300534393",responsavel:"O Proprio",rgResponsavel:null,rne:null,rneResponsavel:null,senhaInternet:null,sexo:"M",sexoResponsavel:null,status:null,telefone:null,telefones:[],tipoDocumento:null,tipoResponsavel:null,transgenero:null,twitter:null,validadoReceita:null}]);
+})();
+//#DWR-END#

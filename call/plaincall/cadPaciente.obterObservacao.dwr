@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("19","0","ALTURA: 185cm \u2022 PESO: 64KG@|@F177474357@|@20240514@|@092622");
+})();
+//#DWR-END#

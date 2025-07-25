@@ -1,0 +1,9 @@
+//#DWR-INSERT
+//#DWR-REPLY
+//#DWR-START#
+(function(){
+if(!window.dwr)return;
+var dwr=window.dwr._[2];
+dwr.engine.remote.handleCallback("2","0",[{codigo:"FOLSA",descricao:"ACIDO FOLICO"},{codigo:"ACUSA",descricao:"ACIDO URICO"},{codigo:"AUR",descricao:"ANTIBIOGRAMA AUTOMATIZADO"},{codigo:"CASA",descricao:"CALCIO"},{codigo:"CRSA",descricao:"CREATININA"},{codigo:"EASUR",descricao:"EAS"},{codigo:"FRTSA",descricao:"FERRITINA"},{codigo:"FESA",descricao:"FERRO"},{codigo:"GGTSA",descricao:"GGT"},{codigo:"GLGSA",descricao:"GLICOSE"},{codigo:"HBGSA",descricao:"HEMOGLOBINA GLICADA"},{codigo:"HSA",descricao:"HEMOGRAMA COMPLETO"},{codigo:"HEPASA",descricao:"HEPATOGRAMA"},{codigo:"HEPAESA",descricao:"HEPATOGRAMA COM ELETROFORESE"},{codigo:"INSA",descricao:"INSULINA"},{codigo:"MGSA",descricao:"MAGNESIO"},{codigo:"LGCSA",descricao:"PERFIL LIPIDICO"},{codigo:"KSA",descricao:"POTASSIO"},{codigo:"PCRUSSA",descricao:"PROTEINA C REATIVA ULTRA-SENSIVEL"},{codigo:"NASA",descricao:"SODIO"},{codigo:"TESTOSA",descricao:"TESTOSTERONA"},{codigo:"TGOSA",descricao:"TGO"},{codigo:"TGPSA",descricao:"TGP"},{codigo:"TPOSA",descricao:"TPO - ANTIPEROX TIROIDE"},{codigo:"TPOSA",descricao:"TPO - ANTIPEROXIDASE TIROIDEANA"},{codigo:"TSHSA",descricao:"TSH"},{codigo:"T4LSA",descricao:"T4 LIVRE"},{codigo:"USA",descricao:"UREIA"},{codigo:"CUR",descricao:"URINOCULTURA AUTOMATIZADA "},{codigo:"B12SA",descricao:"VITAMINA B12"}]);
+})();
+//#DWR-END#
